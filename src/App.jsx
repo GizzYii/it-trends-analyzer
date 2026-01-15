@@ -293,7 +293,7 @@ const App = () => {
 
       {/* Sidebar */}
       <aside className={`
-        fixed inset-y-0 left-0 z-30 lg:relative
+        fixed inset-y-0 left-0 z-30 lg:relative overflow-hidden
         ${isSidebarOpen ? 'w-72 translate-x-0' : 'w-0 lg:w-20 -translate-x-full lg:translate-x-0'} 
         bg-[#1e293b] border-r border-slate-700 transition-all duration-300 flex flex-col
       `}>
@@ -325,7 +325,10 @@ const App = () => {
           {CATEGORIES.map((cat) => (
             <button
               key={cat.id}
-              onClick={() => setSelectedCategory(cat.id)}
+              onClick={() => {
+                setSelectedCategory(cat.id);
+                if (window.innerWidth < 1024) setSidebarOpen(false);
+              }}
               className={`w-full flex items-center gap-4 p-3 rounded-xl transition-all duration-200 group ${selectedCategory === cat.id
                 ? 'bg-blue-600/10 text-blue-400 border border-blue-500/20'
                 : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
@@ -362,56 +365,61 @@ const App = () => {
             </div>
           </div>
 
-          <div className="flex w-full lg:w-auto gap-3 items-center">
-            {/* Language Toggle */}
-            <div className="bg-[#1e293b] p-1 rounded-xl border border-slate-700 flex items-center">
-              <button
-                onClick={() => setLang("tr")}
-                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${lang === "tr" ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
-                  }`}
-              >
-                TR
-              </button>
-              <button
-                onClick={() => setLang("en")}
-                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${lang === "en" ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
-                  }`}
-              >
-                EN
-              </button>
+          <div className="flex flex-col lg:flex-row w-full lg:w-auto gap-3 lg:items-center">
+
+            <div className="flex w-full lg:w-auto gap-3 justify-between lg:justify-start">
+              {/* Language Toggle */}
+              <div className="bg-[#1e293b] p-1 rounded-xl border border-slate-700 flex items-center">
+                <button
+                  onClick={() => setLang("tr")}
+                  className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${lang === "tr" ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
+                    }`}
+                >
+                  TR
+                </button>
+                <button
+                  onClick={() => setLang("en")}
+                  className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${lang === "en" ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
+                    }`}
+                >
+                  EN
+                </button>
+              </div>
+
+              {/* Region Toggle */}
+              <div className="bg-[#1e293b] p-1 rounded-xl border border-slate-700 flex items-center">
+                <button
+                  onClick={() => setSelectedRegion("Global")}
+                  className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${selectedRegion === "Global" ? 'bg-blue-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
+                    }`}
+                >
+                  <Globe size={16} /> {t.regions.global}
+                </button>
+                <button
+                  onClick={() => setSelectedRegion("TR")}
+                  className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${selectedRegion === "TR" ? 'bg-red-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
+                    }`}
+                >
+                  <MapPin size={16} /> {t.regions.tr}
+                </button>
+              </div>
             </div>
 
-            {/* Region Toggle */}
-            <div className="bg-[#1e293b] p-1 rounded-xl border border-slate-700 flex items-center">
-              <button
-                onClick={() => setSelectedRegion("Global")}
-                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${selectedRegion === "Global" ? 'bg-blue-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
-                  }`}
-              >
-                <Globe size={16} /> {t.regions.global}
-              </button>
-              <button
-                onClick={() => setSelectedRegion("TR")}
-                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${selectedRegion === "TR" ? 'bg-red-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
-                  }`}
-              >
-                <MapPin size={16} /> {t.regions.tr}
+            <div className="flex w-full lg:w-auto gap-3 flex-1">
+              <div className="relative flex-1 lg:w-60">
+                <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" size={18} />
+                <input
+                  type="text"
+                  placeholder={t.header.searchPlaceholder}
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="w-full bg-[#1e293b] border border-slate-700 rounded-2xl pl-12 pr-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all text-sm shadow-inner"
+                />
+              </div>
+              <button className="bg-slate-800 hover:bg-slate-700 text-white p-3 rounded-2xl border border-slate-700 transition shadow-lg shrink-0">
+                <Filter size={20} />
               </button>
             </div>
-
-            <div className="relative flex-1 lg:w-60">
-              <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" size={18} />
-              <input
-                type="text"
-                placeholder={t.header.searchPlaceholder}
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full bg-[#1e293b] border border-slate-700 rounded-2xl pl-12 pr-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all text-sm shadow-inner"
-              />
-            </div>
-            <button className="bg-slate-800 hover:bg-slate-700 text-white p-3 rounded-2xl border border-slate-700 transition shadow-lg shrink-0">
-              <Filter size={20} />
-            </button>
           </div>
         </header>
 
@@ -447,8 +455,16 @@ const App = () => {
                   <XAxis dataKey="year" stroke="#64748b" axisLine={false} tickLine={false} dy={10} />
                   <YAxis stroke="#64748b" axisLine={false} tickLine={false} dx={-10} />
                   <Tooltip
-                    contentStyle={{ backgroundColor: '#0f172a', border: '1px solid #334155', borderRadius: '16px', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.5)' }}
-                    itemStyle={{ fontSize: '12px', fontWeight: '600' }}
+                    contentStyle={{
+                      backgroundColor: '#0f172a',
+                      border: '1px solid #334155',
+                      borderRadius: '16px',
+                      boxShadow: '0 10px 15px -3px rgba(0,0,0,0.5)',
+                      fontSize: '11px',
+                      maxHeight: '200px',
+                      overflowY: 'auto'
+                    }}
+                    itemStyle={{ fontSize: '11px', fontWeight: '600', padding: '1px 0' }}
                   />
                   <Legend iconType="circle" wrapperStyle={{ paddingTop: '20px' }} />
                   {skillsToDisplay.map((skill, idx) => (
@@ -512,7 +528,7 @@ const App = () => {
             </div>
             <div>
               <p className="text-sm font-semibold text-white">Veri Kaynağı Hakkında</p>
-              <p className="text-xs text-slate-400">Analizler LinkedIn, GitHub Trends ve Stack Overflow anket verileri temel alınarak Node.js motorumuzla işlenmektedir.</p>
+              <p className="text-xs text-slate-400">Veriler GitHub Actions ve Mock Data kullanılarak simüle edilmiştir.</p>
             </div>
           </div>
           <div className="flex gap-3">
