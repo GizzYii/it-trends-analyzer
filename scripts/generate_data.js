@@ -7,7 +7,7 @@ const __dirname = path.dirname(__filename);
 
 const DATA_FILE_PATH = path.join(__dirname, '../src/data/trends.json');
 
-// Restore Profession-Based Categories + New Additions
+// Consolidated Categories
 const CATEGORIES = {
     "Frontend": [
         "React", "Vue.js", "Angular", "Svelte", "Next.js", "Tailwind CSS", "HTML/CSS", "TypeScript"

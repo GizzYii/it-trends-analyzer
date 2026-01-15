@@ -6,23 +6,107 @@ import {
 import {
   LayoutDashboard, TrendingUp, Layers, Calendar, Info,
   Search, Menu, X, Filter, ChevronRight, Globe, MapPin,
-  Code, Server, Smartphone, Terminal, Database, ShieldCheck, BrainCircuit, Monitor
+  Code, Server, Smartphone, Terminal, Database, ShieldCheck, BrainCircuit, Monitor, Languages
 } from 'lucide-react';
 
 // --- GENİŞLETİLMİŞ TEKNOLOJİ SÖZLÜĞÜ VE VERİ SETİ ---
 import trendsData from './data/trends.json';
 
+// --- TRANSLATION DICTIONARY ---
+const TRANSLATIONS = {
+  tr: {
+    sidebar: {
+      title: "IT Trendleri",
+      subtitle: "Piyasa Analizi",
+      categories: "Kategoriler",
+      all: "Genel Bakış",
+      frontend: "Frontend",
+      backend: "Backend",
+      mobile: "Mobil Geliştirme",
+      devops: "DevOps & Bulut",
+      test: "Test / QA",
+      data: "Veri & YZ",
+      database: "Veritabanı",
+      tools: "Araçlar & IDE",
+      os: "İşletim Sistemleri"
+    },
+    header: {
+      title: "Sektörel Trend Analizi",
+      subtitle: "Yazılım dünyasında en çok talep edilen uzmanlıklar.",
+      searchPlaceholder: "Yetenek ara..."
+    },
+    stats: {
+      analyzedJobs: "Analiz Edilen İlan",
+      fastestRising: "En Hızlı Yükselen",
+      trendVelocity: "Trend İvmesi",
+      region: "Bölge",
+      analyzing: "Hesaplanıyor..."
+    },
+    charts: {
+      growthTrends: "Büyüme Trendleri",
+      yearlyAnalysis: "YILLIK ANALİZ",
+      prediction: "TAHMİN v.1",
+      topSkills: "İlk 8 Yetenek",
+      jobs: "İlan"
+    },
+    regions: {
+      global: "Global",
+      tr: "Türkiye"
+    }
+  },
+  en: {
+    sidebar: {
+      title: "IT Trends",
+      subtitle: "Market Analyzer",
+      categories: "Categories",
+      all: "Overview",
+      frontend: "Frontend",
+      backend: "Backend",
+      mobile: "Mobile Dev",
+      devops: "DevOps & Cloud",
+      test: "Test / QA",
+      data: "Data & AI",
+      database: "Database",
+      tools: "Tools & IDE",
+      os: "Operating Systems"
+    },
+    header: {
+      title: "Sector Trend Analysis",
+      subtitle: "Most in-demand specializations in the software world.",
+      searchPlaceholder: "Search skills..."
+    },
+    stats: {
+      analyzedJobs: "Analyzed Jobs",
+      fastestRising: "Fastest Rising",
+      trendVelocity: "Trend Velocity",
+      region: "Region",
+      analyzing: "Calculating..."
+    },
+    charts: {
+      growthTrends: "Growth Trends",
+      yearlyAnalysis: "YEARLY ANALYSIS",
+      prediction: "PREDICTION v.1",
+      topSkills: "Top 8 Skills",
+      jobs: "Jobs"
+    },
+    regions: {
+      global: "Global",
+      tr: "Turkey"
+    }
+  }
+};
+
 const CATEGORIES = [
-  { id: "Hepsi", label: "Genel Bakış", icon: <LayoutDashboard size={18} /> },
-  { id: "Frontend", label: "Frontend", icon: <Layers size={18} /> },
-  { id: "Backend", label: "Backend", icon: <Server size={18} /> },
-  { id: "Mobile", label: "Mobile Dev", icon: <Smartphone size={18} /> },
-  { id: "DevOps", label: "DevOps & Cloud", icon: <Terminal size={18} /> },
-  { id: "Test", label: "Test / QA", icon: <ShieldCheck size={18} /> },
-  { id: "Data", label: "Data & AI", icon: <BrainCircuit size={18} /> },
-  { id: "Database", label: "Veritabanı", icon: <Database size={18} /> },
-  { id: "Tools", label: "Araçlar & IDE", icon: <Code size={18} /> },
-  { id: "OS", label: "İşletim Sistemleri", icon: <Monitor size={18} /> }
+  { id: "Hepsi", key: "all", icon: <LayoutDashboard size={18} /> },
+  { id: "Frontend", key: "frontend", icon: <Layers size={18} /> },
+  { id: "Backend", key: "backend", icon: <Server size={18} /> },
+  { id: "Mobile", key: "mobile", icon: <Smartphone size={18} /> },
+  { id: "DevOps", key: "devops", icon: <Terminal size={18} /> },
+  { id: "Test", key: "test", icon: <ShieldCheck size={18} /> },
+  { id: "Data", key: "data", icon: <BrainCircuit size={18} /> },
+  { id: "Database", key: "database", icon: <Database size={18} /> },
+  { id: "Tools", key: "tools", icon: <Code size={18} /> },
+  { id: "OS", key: "os", icon: <Monitor size={18} /> }
 ];
 
 const COLORS = [
@@ -34,13 +118,15 @@ const COLORS = [
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState("Hepsi");
   const [selectedRegion, setSelectedRegion] = useState("TR"); // Default to Turkey for realism context
+  const [lang, setLang] = useState("tr"); // 'tr' or 'en'
   const [isSidebarOpen, setSidebarOpen] = useState(window.innerWidth > 1024);
   const [searchTerm, setSearchTerm] = useState("");
 
+  const t = TRANSLATIONS[lang]; // Current translation object
   // Use the imported data
   const data = trendsData;
 
-  // Mobil uyumluluk için ekran boyutu değişimini dinle
+  // Listen for screen size changes for mobile responsiveness
   React.useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 1024) {
@@ -53,7 +139,7 @@ const App = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Filtreleme Mantığı
+  // Filtering Logic
   const filteredData = useMemo(() => {
     let filtered = data.filter(item => item.region === selectedRegion); // Region Filter
 
@@ -66,39 +152,39 @@ const App = () => {
     return filtered;
   }, [selectedCategory, searchTerm, selectedRegion, data]);
 
-  // En Popüler 10 Yeteneği Bulma (Genel Bakış İçin)
+  // Find Top 10 Skills (For Overview)
   const top10Skills = useMemo(() => {
     if (selectedCategory !== "Hepsi") return null;
 
     const totals = {};
     filteredData.forEach(d => {
-      // Sadece en son yılın verisine göre veya toplama göre sıralayabiliriz.
-      // Karmaşayı önlemek için en güncel yıldaki (2026) en popülerleri alalım.
+      // We can sort by the latest year's data or by total.
+      // To avoid clutter, we pick the most popular ones in the latest year (2026).
       if (d.year === 2026) {
         totals[d.skill] = (totals[d.skill] || 0) + d.count;
       }
     });
 
-    // Eğer 2026 datası yoksa (filtre vs) tamamına bak
+    // If no 2026 data exists (due to filtering etc.), look at all data
     if (Object.keys(totals).length === 0) {
       filteredData.forEach(d => totals[d.skill] = (totals[d.skill] || 0) + d.count);
     }
 
     return Object.entries(totals)
       .sort((a, b) => b[1] - a[1])
-      .slice(0, 10) // İLK 10
+      .slice(0, 10) // TOP 10
       .map(entry => entry[0]);
   }, [filteredData, selectedCategory]);
 
-  // Zaman Serisi Formatlama
+  // Time Series Formatting
   const chartData = useMemo(() => {
     const years = [...new Set(data.map(d => d.year))].sort();
     return years.map(year => {
       const entry = { year };
 
-      // Hangi skilleri göstereceğiz?
-      // Eğer "Hepsi" seçiliyse SADECE Top 10 skill'i göster.
-      // Eğer kategori seçiliyse o kategorideki filtreli skilleri göster.
+      // Which skills to show?
+      // If "All" is selected, ONLY show Top 10 skills.
+      // If a category is selected, show filtered skills in that category.
       const skillsToShow = top10Skills ? top10Skills : null;
 
       filteredData.filter(d => d.year === year).forEach(d => {
@@ -114,7 +200,7 @@ const App = () => {
     });
   }, [filteredData, data, top10Skills]);
 
-  // Ekranda çizilecek skill listesi (Line ve Legend için)
+  // List of skills to display (for Lines and Legend)
   const skillsToDisplay = useMemo(() => {
     if (top10Skills) return top10Skills;
     const skills = new Set();
@@ -122,26 +208,26 @@ const App = () => {
     return Array.from(skills);
   }, [top10Skills, filteredData]);
 
-  // Skill Dağılımı ve Yüzde Hesabı (Bar Chart)
+  // Skill Distribution and Percentage Calculation (Bar Chart)
   const skillStats = useMemo(() => {
-    // Sadece son yılı (2026) baz alarak güncel popülariteyi gösterelim
-    // Eğer tüm yılları toplarsak eski datalar yanıltabilir.
-    // Ancak kullanıcı "Hepsi" seçerse genel toplama bakarız,
-    // Genelde "Trend" analizinde son veriler önemlidir.
-    // Burada basitlik adına mevcut filtrelenen verilerin toplamını alıyoruz 
-    // (Zaten filteredData filtrelenmiş durumda)
+    // Only use the latest year (2026) to show current popularity
+    // Aggregating all years might produce misleading data.
+    // However, if the user selects "All", we look at the general total.
+    // Generally, in "Trend" analysis, the latest data is important.
+    // Here, for simplicity, we take the totals of the currently filtered data
+    // (filteredData is already filtered)
 
-    // Daha doğru bir "Snapshot" için sadece son yılı alabiliriz veya tüm yılların ortalaması/toplamı.
-    // Kullanıcı talebi: "Tablo okumaya gerek kalmasın".
-    // Filtrelenen veri setindeki toplamları kullanıyoruz.
+    // For a more accurate "Snapshot", we could take only the last year or the average/total of all years.
+    // User request: "No need to read tables".
+    // We use totals from the filtered dataset.
     const totals = {};
     filteredData.forEach(d => {
-      if (d.year === 2026) { // Öncelik son verilerde olsun (Opsiyonel)
+      if (d.year === 2026) { // Priority on latest data (Optional)
         totals[d.skill] = (totals[d.skill] || 0) + d.count;
       }
     });
 
-    // Eğer filtre sonucu boşsa (veya 2026 filtrelenmişse), tüm veriyi kullanalım
+    // If filter result is empty (or 2026 is filtered out), use all data
     if (Object.keys(totals).length === 0) {
       filteredData.forEach(d => {
         totals[d.skill] = (totals[d.skill] || 0) + d.count;
@@ -159,13 +245,13 @@ const App = () => {
       .sort((a, b) => b.value - a.value);
   }, [filteredData]);
 
-  // İstatistik Hesaplamaları (Dynamic)
+  // Statistic Calculations (Dynamic)
   const stats = useMemo(() => {
-    // 1. Toplam Analiz Edilen İlan (Tüm Yıllar Toplamı)
+    // 1. Total Analyzed Jobs (Sum of all years)
     const totalJobs = filteredData.reduce((acc, curr) => acc + curr.count, 0);
 
-    // 2. En Hızlı Yükselen (2025 -> 2026 büyümesi)
-    // Sadece mevcut filtredeki skiller arasında
+    // 2. Fastest Rising (Growth from 2025 -> 2026)
+    // Only among skills in the current filter
     const growthRates = {};
     const data2025 = filteredData.filter(d => d.year === 2025);
     const data2026 = filteredData.filter(d => d.year === 2026);
@@ -178,21 +264,21 @@ const App = () => {
     });
 
     const bestGrowth = Object.entries(growthRates).sort((a, b) => b[1] - a[1])[0];
-    const fastestRising = bestGrowth ? bestGrowth[0] : "Analiz Ediliyor...";
+    const fastestRising = bestGrowth ? bestGrowth[0] : t.stats.analyzing;
     const fastestRate = bestGrowth ? `+${bestGrowth[1].toFixed(1)}%` : "-";
 
-    // 3. Yıllık Büyüme (Genel Hacim)
+    // 3. Yearly Growth (Total Volume)
     const count2022 = filteredData.filter(d => d.year === 2022).reduce((a, b) => a + b.count, 0);
     const count2026 = filteredData.filter(d => d.year === 2026).reduce((a, b) => a + b.count, 0);
     const yearlyGrowth = count2022 > 0 ? (((count2026 - count2022) / count2022) * 100).toFixed(1) : 0;
 
     return [
-      { label: "Toplam Veri", val: totalJobs.toLocaleString(), color: "from-blue-500/20 to-indigo-500/20", text: "text-blue-400" },
-      { label: "En Hızlı Yükselen", val: fastestRising, color: "from-emerald-500/20 to-teal-500/20", text: "text-emerald-400" },
-      { label: "Trend İvmesi", val: fastestRate, color: "from-amber-500/20 to-orange-500/20", text: "text-amber-400" }, // Büyüme yerine En Hızlı olanın oranı
-      { label: "Bölge", val: selectedRegion === "TR" ? "Türkiye" : "Global", color: "from-purple-500/20 to-pink-500/20", text: "text-purple-400" }
+      { label: t.stats.analyzedJobs, val: totalJobs.toLocaleString(), color: "from-blue-500/20 to-indigo-500/20", text: "text-blue-400" },
+      { label: t.stats.fastestRising, val: fastestRising, color: "from-emerald-500/20 to-teal-500/20", text: "text-emerald-400" },
+      { label: t.stats.trendVelocity, val: fastestRate, color: "from-amber-500/20 to-orange-500/20", text: "text-amber-400" }, // Instead of growth, the rate of the fastest one
+      { label: t.stats.region, val: selectedRegion === "TR" ? t.regions.tr : t.regions.global, color: "from-purple-500/20 to-pink-500/20", text: "text-purple-400" }
     ];
-  }, [filteredData, selectedRegion]);
+  }, [filteredData, selectedRegion, t]);
 
   return (
     <div className="min-h-screen bg-[#0f172a] text-slate-200 flex font-sans overflow-hidden relative">
@@ -218,8 +304,8 @@ const App = () => {
             </div>
             {isSidebarOpen && (
               <div className="whitespace-nowrap transition-opacity duration-300">
-                <span className="font-bold text-xl tracking-tight text-white block">IT Trends</span>
-                <span className="text-[10px] text-slate-500 uppercase tracking-widest font-semibold">Market Analyzer</span>
+                <span className="font-bold text-xl tracking-tight text-white block">{t.sidebar.title}</span>
+                <span className="text-[10px] text-slate-500 uppercase tracking-widest font-semibold">{t.sidebar.subtitle}</span>
               </div>
             )}
           </div>
@@ -234,7 +320,7 @@ const App = () => {
 
         <nav className="flex-1 mt-6 px-4 space-y-1 overflow-y-auto custom-scrollbar overflow-x-hidden">
           <p className={`text-[10px] font-bold text-slate-500 uppercase mb-4 px-2 transition-opacity duration-200 ${!isSidebarOpen && 'lg:text-center opacity-0 lg:opacity-100'}`}>
-            {isSidebarOpen ? "Kategoriler" : "•••"}
+            {isSidebarOpen ? t.sidebar.categories : "•••"}
           </p>
           {CATEGORIES.map((cat) => (
             <button
@@ -248,7 +334,7 @@ const App = () => {
               <div className={`${selectedCategory === cat.id ? 'text-blue-400' : 'text-slate-500 group-hover:text-slate-300'}`}>
                 {cat.icon}
               </div>
-              {isSidebarOpen && <span className="font-medium">{cat.label}</span>}
+              {isSidebarOpen && <span className="font-medium">{t.sidebar[cat.key]}</span>}
             </button>
           ))}
         </nav>
@@ -270,13 +356,31 @@ const App = () => {
             )}
             <div>
               <h1 className="text-2xl lg:text-4xl font-extrabold text-white tracking-tight flex items-center gap-3 flex-wrap">
-                Sektörel Trend Analizi <span className="text-xs lg:text-sm font-normal bg-blue-500/10 text-blue-400 px-2 py-0.5 lg:px-3 lg:py-1 rounded-full border border-blue-500/20">v2.1</span>
+                {t.header.title} <span className="text-xs lg:text-sm font-normal bg-blue-500/10 text-blue-400 px-2 py-0.5 lg:px-3 lg:py-1 rounded-full border border-blue-500/20">v2.1</span>
               </h1>
-              <p className="text-slate-400 mt-2 text-sm lg:text-lg">Yazılım dünyasında en çok talep edilen uzmanlıklar.</p>
+              <p className="text-slate-400 mt-2 text-sm lg:text-lg">{t.header.subtitle}</p>
             </div>
           </div>
 
           <div className="flex w-full lg:w-auto gap-3 items-center">
+            {/* Language Toggle */}
+            <div className="bg-[#1e293b] p-1 rounded-xl border border-slate-700 flex items-center">
+              <button
+                onClick={() => setLang("tr")}
+                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${lang === "tr" ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
+                  }`}
+              >
+                TR
+              </button>
+              <button
+                onClick={() => setLang("en")}
+                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${lang === "en" ? 'bg-indigo-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
+                  }`}
+              >
+                EN
+              </button>
+            </div>
+
             {/* Region Toggle */}
             <div className="bg-[#1e293b] p-1 rounded-xl border border-slate-700 flex items-center">
               <button
@@ -284,14 +388,14 @@ const App = () => {
                 className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${selectedRegion === "Global" ? 'bg-blue-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
                   }`}
               >
-                <Globe size={16} /> Global
+                <Globe size={16} /> {t.regions.global}
               </button>
               <button
                 onClick={() => setSelectedRegion("TR")}
                 className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-all ${selectedRegion === "TR" ? 'bg-red-600 text-white shadow-lg' : 'text-slate-400 hover:text-white'
                   }`}
               >
-                <MapPin size={16} /> Türkiye
+                <MapPin size={16} /> {t.regions.tr}
               </button>
             </div>
 
@@ -299,7 +403,7 @@ const App = () => {
               <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" size={18} />
               <input
                 type="text"
-                placeholder="Yetenek ara..."
+                placeholder={t.header.searchPlaceholder}
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full bg-[#1e293b] border border-slate-700 rounded-2xl pl-12 pr-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all text-sm shadow-inner"
@@ -329,11 +433,11 @@ const App = () => {
           <div className="xl:col-span-2 bg-[#1e293b]/50 backdrop-blur-md p-4 lg:p-8 rounded-3xl border border-slate-700/50 shadow-xl">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
               <h3 className="text-lg lg:text-xl font-bold text-white flex items-center gap-3">
-                <TrendingUp className="text-blue-500" /> Büyüme Trendleri
+                <TrendingUp className="text-blue-500" /> {t.charts.growthTrends}
               </h3>
               <div className="flex gap-2 text-[10px] font-bold">
-                <span className="bg-blue-500/20 text-blue-400 px-2 py-1 rounded">YILLIK ANALİZ</span>
-                <span className="bg-slate-700 text-slate-400 px-2 py-1 rounded uppercase tracking-tighter">PREDICTION v.1</span>
+                <span className="bg-blue-500/20 text-blue-400 px-2 py-1 rounded">{t.charts.yearlyAnalysis}</span>
+                <span className="bg-slate-700 text-slate-400 px-2 py-1 rounded uppercase tracking-tighter">{t.charts.prediction}</span>
               </div>
             </div>
             <div className="h-[300px] lg:h-[450px]">
@@ -368,7 +472,7 @@ const App = () => {
           <div className="flex flex-col gap-8">
             <div className="bg-[#1e293b]/50 backdrop-blur-md p-8 rounded-3xl border border-slate-700/50 shadow-xl flex-1">
               <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-3">
-                <Layers className="text-emerald-500" /> İlk 8 Yetenek
+                <Layers className="text-emerald-500" /> {t.charts.topSkills}
               </h3>
               <div className="h-[300px] lg:h-[380px]">
                 <ResponsiveContainer width="100%" height="100%">
@@ -378,7 +482,7 @@ const App = () => {
                     <Tooltip
                       cursor={{ fill: 'rgba(255,255,255,0.05)' }}
                       contentStyle={{ backgroundColor: '#0f172a', border: 'none', borderRadius: '12px' }}
-                      formatter={(value, name, props) => [`${value} İlan (%${props.payload.percent})`, name]}
+                      formatter={(value, name, props) => [`${value} ${t.charts.jobs} (%${props.payload.percent})`, name]}
                     />
                     <Bar dataKey="value" radius={[0, 8, 8, 0]} barSize={20}>
                       {skillStats.map((entry, index) => (
