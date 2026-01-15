@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "generate-data": "node scripts/generate_data.js"
+    "generate-data": "node scripts/generate_data.js",
+    "start": "vite preview"
   },
   "dependencies": {
     "lucide-react": "^0.562.0",
