@@ -8,6 +8,9 @@
 **[English Below⬇️]**
 
 ## 🇹🇷 Proje Hakkında
+
+https://it-trends-analyzer-n6dg.onrender.com/
+
 Bu proje, yazılım dünyasındaki popüler teknolojilerin (Diller, Framework'ler, Araçlar) yıllara göre değişimini ve bölgesel dağılımını analiz eden modern bir **Dashboard** uygulamasıdır. 
 
 **Amaç:** Geliştiricilerin ve yöneticilerin piyasa trendlerini (Global ve Türkiye özelinde) takip etmesini kolaylaştırmak.
@@ -47,6 +50,8 @@ Projeyi yerel ortamınızda çalıştırmak için:
 This project is a modern **Dashboard** application that analyzes the evolution and regional distribution of popular technologies (Languages, Frameworks, Tools) in the software world.
 
 **Goal:** To help developers and managers track market trends (Global and Turkey specifics) easily.
+
+ https://it-trends-analyzer-n6dg.onrender.com/
 
 ### ✨ Features
 *   **🌍 Regional Analysis Mode**: Switch between **Global** and **Turkey** data. Turkey mode simulates local market dynamics (higher emphasis on .NET, Java, Angular etc.).
