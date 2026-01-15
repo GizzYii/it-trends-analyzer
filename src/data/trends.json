@@ -1,58 +1,10 @@
 [
   {
-    "id": 1,
-    "year": 2022,
-    "skill": "React",
-    "category": "Frontend",
-    "count": 206,
-    "region": "Global"
-  },
-  {
-    "id": 10,
-    "year": 2022,
-    "skill": "Python",
-    "category": "Backend",
-    "count": 202,
-    "region": "Global"
-  },
-  {
-    "id": 29,
-    "year": 2022,
-    "skill": "Docker",
-    "category": "DevOps",
-    "count": 184,
-    "region": "Global"
-  },
-  {
-    "id": 8,
-    "year": 2022,
-    "skill": "TypeScript",
-    "category": "Frontend",
-    "count": 181,
-    "region": "Global"
-  },
-  {
     "id": 11,
     "year": 2022,
     "skill": "Java",
     "category": "Backend",
-    "count": 143,
-    "region": "Global"
-  },
-  {
-    "id": 39,
-    "year": 2022,
-    "skill": "Python",
-    "category": "Data",
-    "count": 137,
-    "region": "Global"
-  },
-  {
-    "id": 9,
-    "year": 2022,
-    "skill": "Node.js",
-    "category": "Backend",
-    "count": 121,
+    "count": 187,
     "region": "Global"
   },
   {
@@ -60,103 +12,87 @@
     "year": 2022,
     "skill": "SQL",
     "category": "Data",
+    "count": 174,
+    "region": "Global"
+  },
+  {
+    "id": 9,
+    "year": 2022,
+    "skill": "Node.js",
+    "category": "Backend",
+    "count": 171,
+    "region": "Global"
+  },
+  {
+    "id": 10,
+    "year": 2022,
+    "skill": "Python",
+    "category": "Backend",
+    "count": 169,
+    "region": "Global"
+  },
+  {
+    "id": 1,
+    "year": 2022,
+    "skill": "React",
+    "category": "Frontend",
+    "count": 150,
+    "region": "Global"
+  },
+  {
+    "id": 29,
+    "year": 2022,
+    "skill": "Docker",
+    "category": "DevOps",
+    "count": 114,
+    "region": "Global"
+  },
+  {
+    "id": 23,
+    "year": 2022,
+    "skill": "Swift",
+    "category": "Mobile",
+    "count": 106,
+    "region": "Global"
+  },
+  {
+    "id": 5,
+    "year": 2022,
+    "skill": "Next.js",
+    "category": "Frontend",
+    "count": 100,
+    "region": "Global"
+  },
+  {
+    "id": 31,
+    "year": 2022,
+    "skill": "AWS",
+    "category": "DevOps",
+    "count": 98,
+    "region": "Global"
+  },
+  {
+    "id": 46,
+    "year": 2022,
+    "skill": "PowerBI",
+    "category": "Data",
+    "count": 98,
+    "region": "Global"
+  },
+  {
+    "id": 8,
+    "year": 2022,
+    "skill": "TypeScript",
+    "category": "Frontend",
     "count": 96,
     "region": "Global"
   },
   {
-    "id": 13,
+    "id": 50,
     "year": 2022,
-    "skill": "Go",
-    "category": "Backend",
-    "count": 95,
-    "region": "Global"
-  },
-  {
-    "id": 57,
-    "year": 2022,
-    "skill": "MongoDB",
-    "category": "Database",
-    "count": 95,
-    "region": "Global"
-  },
-  {
-    "id": 4,
-    "year": 2022,
-    "skill": "Svelte",
-    "category": "Frontend",
-    "count": 93,
-    "region": "Global"
-  },
-  {
-    "id": 36,
-    "year": 2022,
-    "skill": "Jenkins",
-    "category": "DevOps",
-    "count": 92,
-    "region": "Global"
-  },
-  {
-    "id": 62,
-    "year": 2022,
-    "skill": "SQLite",
-    "category": "Database",
-    "count": 92,
-    "region": "Global"
-  },
-  {
-    "id": 21,
-    "year": 2022,
-    "skill": "Flutter",
-    "category": "Mobile",
-    "count": 91,
-    "region": "Global"
-  },
-  {
-    "id": 42,
-    "year": 2022,
-    "skill": "TensorFlow",
-    "category": "Data",
-    "count": 91,
-    "region": "Global"
-  },
-  {
-    "id": 2,
-    "year": 2022,
-    "skill": "Vue.js",
-    "category": "Frontend",
-    "count": 87,
-    "region": "Global"
-  },
-  {
-    "id": 43,
-    "year": 2022,
-    "skill": "PyTorch",
-    "category": "Data",
-    "count": 87,
-    "region": "Global"
-  },
-  {
-    "id": 7,
-    "year": 2022,
-    "skill": "HTML/CSS",
-    "category": "Frontend",
-    "count": 86,
-    "region": "Global"
-  },
-  {
-    "id": 49,
-    "year": 2022,
-    "skill": "OpenAI API",
-    "category": "Data",
-    "count": 86,
-    "region": "Global"
-  },
-  {
-    "id": 6,
-    "year": 2022,
-    "skill": "Tailwind CSS",
-    "category": "Frontend",
-    "count": 85,
+    "skill": "Selenium",
+    "category": "Test",
+    "count": 96,
     "region": "Global"
   },
   {
@@ -164,54 +100,118 @@
     "year": 2022,
     "skill": "PHP",
     "category": "Backend",
-    "count": 84,
+    "count": 89,
     "region": "Global"
   },
   {
-    "id": 48,
+    "id": 25,
     "year": 2022,
-    "skill": "R",
-    "category": "Data",
-    "count": 84,
+    "skill": "Android",
+    "category": "Mobile",
+    "count": 88,
     "region": "Global"
   },
   {
-    "id": 17,
+    "id": 62,
     "year": 2022,
-    "skill": ".NET Core",
-    "category": "Backend",
-    "count": 81,
+    "skill": "SQLite",
+    "category": "Database",
+    "count": 88,
     "region": "Global"
   },
   {
-    "id": 63,
+    "id": 55,
     "year": 2022,
-    "skill": "VS Code",
+    "skill": "Appium",
+    "category": "Test",
+    "count": 87,
+    "region": "Global"
+  },
+  {
+    "id": 34,
+    "year": 2022,
+    "skill": "Terraform",
+    "category": "DevOps",
+    "count": 86,
+    "region": "Global"
+  },
+  {
+    "id": 60,
+    "year": 2022,
+    "skill": "Elasticsearch",
+    "category": "Database",
+    "count": 86,
+    "region": "Global"
+  },
+  {
+    "id": 65,
+    "year": 2022,
+    "skill": "Git",
     "category": "Tools",
-    "count": 81,
+    "count": 86,
     "region": "Global"
   },
   {
-    "id": 15,
+    "id": 3,
     "year": 2022,
-    "skill": "Ruby",
-    "category": "Backend",
+    "skill": "Angular",
+    "category": "Frontend",
+    "count": 84,
+    "region": "Global"
+  },
+  {
+    "id": 68,
+    "year": 2022,
+    "skill": "Postman",
+    "category": "Tools",
+    "count": 83,
+    "region": "Global"
+  },
+  {
+    "id": 57,
+    "year": 2022,
+    "skill": "MongoDB",
+    "category": "Database",
+    "count": 82,
+    "region": "Global"
+  },
+  {
+    "id": 47,
+    "year": 2022,
+    "skill": "Tableau",
+    "category": "Data",
     "count": 80,
     "region": "Global"
   },
   {
-    "id": 12,
+    "id": 26,
     "year": 2022,
-    "skill": "C#",
-    "category": "Backend",
-    "count": 79,
+    "skill": "iOS",
+    "category": "Mobile",
+    "count": 78,
     "region": "Global"
   },
   {
-    "id": 16,
+    "id": 38,
     "year": 2022,
-    "skill": "Spring Boot",
-    "category": "Backend",
+    "skill": "Linux",
+    "category": "DevOps",
+    "count": 78,
+    "region": "Global"
+  },
+  {
+    "id": 54,
+    "year": 2022,
+    "skill": "JUnit",
+    "category": "Test",
+    "count": 78,
+    "region": "Global"
+  },
+  {
+    "id": 58,
+    "year": 2022,
+    "skill": "MySQL",
+    "category": "Database",
     "count": 78,
     "region": "Global"
   },
@@ -220,94 +220,142 @@
     "year": 2022,
     "skill": "Pandas",
     "category": "Data",
-    "count": 78,
+    "count": 77,
     "region": "Global"
   },
   {
-    "id": 32,
+    "id": 71,
     "year": 2022,
-    "skill": "Azure",
-    "category": "DevOps",
+    "skill": "MacOS",
+    "category": "OS",
     "count": 76,
     "region": "Global"
   },
   {
-    "id": 5,
+    "id": 56,
     "year": 2022,
-    "skill": "Next.js",
-    "category": "Frontend",
+    "skill": "PostgreSQL",
+    "category": "Database",
     "count": 75,
     "region": "Global"
   },
   {
-    "id": 31,
+    "id": 17,
     "year": 2022,
-    "skill": "AWS",
-    "category": "DevOps",
-    "count": 75,
-    "region": "Global"
-  },
-  {
-    "id": 18,
-    "year": 2022,
-    "skill": "Django",
+    "skill": ".NET Core",
     "category": "Backend",
-    "count": 71,
+    "count": 74,
     "region": "Global"
   },
   {
-    "id": 46,
+    "id": 39,
     "year": 2022,
-    "skill": "PowerBI",
+    "skill": "Python",
     "category": "Data",
+    "count": 74,
+    "region": "Global"
+  },
+  {
+    "id": 48,
+    "year": 2022,
+    "skill": "R",
+    "category": "Data",
+    "count": 72,
+    "region": "Global"
+  },
+  {
+    "id": 37,
+    "year": 2022,
+    "skill": "GitHub Actions",
+    "category": "DevOps",
     "count": 71,
     "region": "Global"
   },
   {
-    "id": 26,
+    "id": 36,
     "year": 2022,
-    "skill": "iOS",
-    "category": "Mobile",
+    "skill": "Jenkins",
+    "category": "DevOps",
     "count": 70,
     "region": "Global"
   },
   {
-    "id": 30,
+    "id": 66,
     "year": 2022,
-    "skill": "Kubernetes",
-    "category": "DevOps",
-    "count": 68,
-    "region": "Global"
-  },
-  {
-    "id": 65,
-    "year": 2022,
-    "skill": "Git",
+    "skill": "Jira",
     "category": "Tools",
-    "count": 68,
+    "count": 70,
     "region": "Global"
   },
   {
-    "id": 47,
+    "id": 67,
     "year": 2022,
-    "skill": "Tableau",
-    "category": "Data",
+    "skill": "Visual Studio",
+    "category": "Tools",
+    "count": 70,
+    "region": "Global"
+  },
+  {
+    "id": 59,
+    "year": 2022,
+    "skill": "Redis",
+    "category": "Database",
+    "count": 69,
+    "region": "Global"
+  },
+  {
+    "id": 22,
+    "year": 2022,
+    "skill": "React Native",
+    "category": "Mobile",
+    "count": 67,
+    "region": "Global"
+  },
+  {
+    "id": 69,
+    "year": 2022,
+    "skill": "Figma",
+    "category": "Tools",
+    "count": 67,
+    "region": "Global"
+  },
+  {
+    "id": 12,
+    "year": 2022,
+    "skill": "C#",
+    "category": "Backend",
+    "count": 66,
+    "region": "Global"
+  },
+  {
+    "id": 27,
+    "year": 2022,
+    "skill": "Dart",
+    "category": "Mobile",
+    "count": 66,
+    "region": "Global"
+  },
+  {
+    "id": 63,
+    "year": 2022,
+    "skill": "VS Code",
+    "category": "Tools",
     "count": 65,
     "region": "Global"
   },
   {
-    "id": 74,
+    "id": 24,
     "year": 2022,
-    "skill": "Red Hat",
-    "category": "OS",
+    "skill": "Kotlin",
+    "category": "Mobile",
     "count": 64,
     "region": "Global"
   },
   {
-    "id": 53,
+    "id": 15,
     "year": 2022,
-    "skill": "Jest",
-    "category": "Test",
+    "skill": "Ruby",
+    "category": "Backend",
     "count": 63,
     "region": "Global"
   },
@@ -320,67 +368,11 @@
     "region": "Global"
   },
   {
-    "id": 38,
+    "id": 73,
     "year": 2022,
-    "skill": "Linux",
-    "category": "DevOps",
-    "count": 62,
-    "region": "Global"
-  },
-  {
-    "id": 3,
-    "year": 2022,
-    "skill": "Angular",
-    "category": "Frontend",
-    "count": 61,
-    "region": "Global"
-  },
-  {
-    "id": 58,
-    "year": 2022,
-    "skill": "MySQL",
-    "category": "Database",
-    "count": 61,
-    "region": "Global"
-  },
-  {
-    "id": 37,
-    "year": 2022,
-    "skill": "GitHub Actions",
-    "category": "DevOps",
-    "count": 60,
-    "region": "Global"
-  },
-  {
-    "id": 71,
-    "year": 2022,
-    "skill": "MacOS",
+    "skill": "CentOS",
     "category": "OS",
     "count": 59,
-    "region": "Global"
-  },
-  {
-    "id": 60,
-    "year": 2022,
-    "skill": "Elasticsearch",
-    "category": "Database",
-    "count": 57,
-    "region": "Global"
-  },
-  {
-    "id": 68,
-    "year": 2022,
-    "skill": "Postman",
-    "category": "Tools",
-    "count": 56,
-    "region": "Global"
-  },
-  {
-    "id": 44,
-    "year": 2022,
-    "skill": "Spark",
-    "category": "Data",
-    "count": 54,
     "region": "Global"
   },
   {
@@ -388,183 +380,7 @@
     "year": 2022,
     "skill": "FastAPI",
     "category": "Backend",
-    "count": 51,
-    "region": "Global"
-  },
-  {
-    "id": 52,
-    "year": 2022,
-    "skill": "Playwright",
-    "category": "Test",
-    "count": 51,
-    "region": "Global"
-  },
-  {
-    "id": 55,
-    "year": 2022,
-    "skill": "Appium",
-    "category": "Test",
-    "count": 48,
-    "region": "Global"
-  },
-  {
-    "id": 69,
-    "year": 2022,
-    "skill": "Figma",
-    "category": "Tools",
-    "count": 47,
-    "region": "Global"
-  },
-  {
-    "id": 64,
-    "year": 2022,
-    "skill": "IntelliJ IDEA",
-    "category": "Tools",
-    "count": 46,
-    "region": "Global"
-  },
-  {
-    "id": 24,
-    "year": 2022,
-    "skill": "Kotlin",
-    "category": "Mobile",
-    "count": 45,
-    "region": "Global"
-  },
-  {
-    "id": 33,
-    "year": 2022,
-    "skill": "GCP",
-    "category": "DevOps",
-    "count": 45,
-    "region": "Global"
-  },
-  {
-    "id": 70,
-    "year": 2022,
-    "skill": "Windows",
-    "category": "OS",
-    "count": 45,
-    "region": "Global"
-  },
-  {
-    "id": 22,
-    "year": 2022,
-    "skill": "React Native",
-    "category": "Mobile",
-    "count": 44,
-    "region": "Global"
-  },
-  {
-    "id": 59,
-    "year": 2022,
-    "skill": "Redis",
-    "category": "Database",
-    "count": 43,
-    "region": "Global"
-  },
-  {
-    "id": 72,
-    "year": 2022,
-    "skill": "Ubuntu",
-    "category": "OS",
-    "count": 43,
-    "region": "Global"
-  },
-  {
-    "id": 50,
-    "year": 2022,
-    "skill": "Selenium",
-    "category": "Test",
-    "count": 42,
-    "region": "Global"
-  },
-  {
-    "id": 54,
-    "year": 2022,
-    "skill": "JUnit",
-    "category": "Test",
-    "count": 41,
-    "region": "Global"
-  },
-  {
-    "id": 45,
-    "year": 2022,
-    "skill": "Hadoop",
-    "category": "Data",
-    "count": 39,
-    "region": "Global"
-  },
-  {
-    "id": 35,
-    "year": 2022,
-    "skill": "Ansible",
-    "category": "DevOps",
-    "count": 37,
-    "region": "Global"
-  },
-  {
-    "id": 56,
-    "year": 2022,
-    "skill": "PostgreSQL",
-    "category": "Database",
-    "count": 35,
-    "region": "Global"
-  },
-  {
-    "id": 67,
-    "year": 2022,
-    "skill": "Visual Studio",
-    "category": "Tools",
-    "count": 35,
-    "region": "Global"
-  },
-  {
-    "id": 27,
-    "year": 2022,
-    "skill": "Dart",
-    "category": "Mobile",
-    "count": 34,
-    "region": "Global"
-  },
-  {
-    "id": 23,
-    "year": 2022,
-    "skill": "Swift",
-    "category": "Mobile",
-    "count": 33,
-    "region": "Global"
-  },
-  {
-    "id": 61,
-    "year": 2022,
-    "skill": "Cassandra",
-    "category": "Database",
-    "count": 28,
-    "region": "Global"
-  },
-  {
-    "id": 66,
-    "year": 2022,
-    "skill": "Jira",
-    "category": "Tools",
-    "count": 28,
-    "region": "Global"
-  },
-  {
-    "id": 34,
-    "year": 2022,
-    "skill": "Terraform",
-    "category": "DevOps",
-    "count": 24,
-    "region": "Global"
-  },
-  {
-    "id": 73,
-    "year": 2022,
-    "skill": "CentOS",
-    "category": "OS",
-    "count": 24,
+    "count": 57,
     "region": "Global"
   },
   {
@@ -572,15 +388,95 @@
     "year": 2022,
     "skill": "NestJS",
     "category": "Backend",
-    "count": 22,
+    "count": 56,
     "region": "Global"
   },
   {
-    "id": 25,
+    "id": 18,
     "year": 2022,
-    "skill": "Android",
-    "category": "Mobile",
-    "count": 22,
+    "skill": "Django",
+    "category": "Backend",
+    "count": 55,
+    "region": "Global"
+  },
+  {
+    "id": 45,
+    "year": 2022,
+    "skill": "Hadoop",
+    "category": "Data",
+    "count": 55,
+    "region": "Global"
+  },
+  {
+    "id": 53,
+    "year": 2022,
+    "skill": "Jest",
+    "category": "Test",
+    "count": 55,
+    "region": "Global"
+  },
+  {
+    "id": 72,
+    "year": 2022,
+    "skill": "Ubuntu",
+    "category": "OS",
+    "count": 54,
+    "region": "Global"
+  },
+  {
+    "id": 2,
+    "year": 2022,
+    "skill": "Vue.js",
+    "category": "Frontend",
+    "count": 53,
+    "region": "Global"
+  },
+  {
+    "id": 4,
+    "year": 2022,
+    "skill": "Svelte",
+    "category": "Frontend",
+    "count": 49,
+    "region": "Global"
+  },
+  {
+    "id": 52,
+    "year": 2022,
+    "skill": "Playwright",
+    "category": "Test",
+    "count": 47,
+    "region": "Global"
+  },
+  {
+    "id": 6,
+    "year": 2022,
+    "skill": "Tailwind CSS",
+    "category": "Frontend",
+    "count": 43,
+    "region": "Global"
+  },
+  {
+    "id": 42,
+    "year": 2022,
+    "skill": "TensorFlow",
+    "category": "Data",
+    "count": 43,
+    "region": "Global"
+  },
+  {
+    "id": 64,
+    "year": 2022,
+    "skill": "IntelliJ IDEA",
+    "category": "Tools",
+    "count": 41,
+    "region": "Global"
+  },
+  {
+    "id": 32,
+    "year": 2022,
+    "skill": "Azure",
+    "category": "DevOps",
+    "count": 34,
     "region": "Global"
   },
   {
@@ -588,55 +484,111 @@
     "year": 2022,
     "skill": "Cypress",
     "category": "Test",
-    "count": 19,
+    "count": 30,
     "region": "Global"
   },
   {
-    "id": 113,
-    "year": 2023,
-    "skill": "Python",
-    "category": "Data",
-    "count": 245,
-    "region": "Global"
-  },
-  {
-    "id": 82,
-    "year": 2023,
-    "skill": "TypeScript",
+    "id": 7,
+    "year": 2022,
+    "skill": "HTML/CSS",
     "category": "Frontend",
-    "count": 216,
+    "count": 29,
     "region": "Global"
   },
   {
-    "id": 84,
-    "year": 2023,
-    "skill": "Python",
-    "category": "Backend",
-    "count": 204,
+    "id": 35,
+    "year": 2022,
+    "skill": "Ansible",
+    "category": "DevOps",
+    "count": 29,
     "region": "Global"
   },
   {
-    "id": 83,
-    "year": 2023,
-    "skill": "Node.js",
-    "category": "Backend",
-    "count": 150,
-    "region": "Global"
-  },
-  {
-    "id": 85,
-    "year": 2023,
-    "skill": "Java",
-    "category": "Backend",
-    "count": 143,
-    "region": "Global"
-  },
-  {
-    "id": 114,
-    "year": 2023,
-    "skill": "SQL",
+    "id": 43,
+    "year": 2022,
+    "skill": "PyTorch",
     "category": "Data",
-    "count": 122,
+    "count": 29,
+    "region": "Global"
+  },
+  {
+    "id": 30,
+    "year": 2022,
+    "skill": "Kubernetes",
+    "category": "DevOps",
+    "count": 27,
+    "region": "Global"
+  },
+  {
+    "id": 70,
+    "year": 2022,
+    "skill": "Windows",
+    "category": "OS",
+    "count": 26,
+    "region": "Global"
+  },
+  {
+    "id": 33,
+    "year": 2022,
+    "skill": "GCP",
+    "category": "DevOps",
+    "count": 25,
+    "region": "Global"
+  },
+  {
+    "id": 49,
+    "year": 2022,
+    "skill": "OpenAI API",
+    "category": "Data",
+    "count": 24,
+    "region": "Global"
+  },
+  {
+    "id": 61,
+    "year": 2022,
+    "skill": "Cassandra",
+    "category": "Database",
+    "count": 24,
+    "region": "Global"
+  },
+  {
+    "id": 74,
+    "year": 2022,
+    "skill": "Red Hat",
+    "category": "OS",
+    "count": 24,
+    "region": "Global"
+  },
+  {
+    "id": 13,
+    "year": 2022,
+    "skill": "Go",
+    "category": "Backend",
+    "count": 22,
+    "region": "Global"
+  },
+  {
+    "id": 16,
+    "year": 2022,
+    "skill": "Spring Boot",
+    "category": "Backend",
+    "count": 21,
+    "region": "Global"
+  },
+  {
+    "id": 21,
+    "year": 2022,
+    "skill": "Flutter",
+    "category": "Mobile",
+    "count": 20,
+    "region": "Global"
+  },
+  {
+    "id": 44,
+    "year": 2022,
+    "skill": "Spark",
+    "category": "Data",
+    "count": 20,
     "region": "Global"
   },
   {
@@ -644,31 +596,23 @@
     "year": 2023,
     "skill": "Docker",
     "category": "DevOps",
-    "count": 118,
+    "count": 218,
     "region": "Global"
   },
   {
-    "id": 125,
+    "id": 114,
     "year": 2023,
-    "skill": "Cypress",
-    "category": "Test",
-    "count": 116,
-    "region": "Global"
-  },
-  {
-    "id": 117,
-    "year": 2023,
-    "skill": "PyTorch",
+    "skill": "SQL",
     "category": "Data",
-    "count": 115,
+    "count": 191,
     "region": "Global"
   },
   {
-    "id": 144,
+    "id": 113,
     "year": 2023,
-    "skill": "Windows",
-    "category": "OS",
-    "count": 111,
+    "skill": "Python",
+    "category": "Data",
+    "count": 178,
     "region": "Global"
   },
   {
@@ -676,79 +620,23 @@
     "year": 2023,
     "skill": "React",
     "category": "Frontend",
-    "count": 102,
+    "count": 160,
     "region": "Global"
   },
   {
-    "id": 107,
+    "id": 82,
     "year": 2023,
-    "skill": "GCP",
-    "category": "DevOps",
-    "count": 102,
+    "skill": "TypeScript",
+    "category": "Frontend",
+    "count": 140,
     "region": "Global"
   },
   {
-    "id": 105,
+    "id": 83,
     "year": 2023,
-    "skill": "AWS",
-    "category": "DevOps",
-    "count": 101,
-    "region": "Global"
-  },
-  {
-    "id": 96,
-    "year": 2023,
-    "skill": "React Native",
-    "category": "Mobile",
-    "count": 98,
-    "region": "Global"
-  },
-  {
-    "id": 135,
-    "year": 2023,
-    "skill": "Cassandra",
-    "category": "Database",
-    "count": 98,
-    "region": "Global"
-  },
-  {
-    "id": 115,
-    "year": 2023,
-    "skill": "Pandas",
-    "category": "Data",
-    "count": 97,
-    "region": "Global"
-  },
-  {
-    "id": 128,
-    "year": 2023,
-    "skill": "JUnit",
-    "category": "Test",
-    "count": 91,
-    "region": "Global"
-  },
-  {
-    "id": 132,
-    "year": 2023,
-    "skill": "MySQL",
-    "category": "Database",
-    "count": 89,
-    "region": "Global"
-  },
-  {
-    "id": 138,
-    "year": 2023,
-    "skill": "IntelliJ IDEA",
-    "category": "Tools",
-    "count": 89,
-    "region": "Global"
-  },
-  {
-    "id": 143,
-    "year": 2023,
-    "skill": "Figma",
-    "category": "Tools",
-    "count": 88,
+    "skill": "Node.js",
+    "category": "Backend",
+    "count": 131,
     "region": "Global"
   },
   {
@@ -756,223 +644,7 @@
     "year": 2023,
     "skill": "Go",
     "category": "Backend",
-    "count": 85,
-    "region": "Global"
-  },
-  {
-    "id": 76,
-    "year": 2023,
-    "skill": "Vue.js",
-    "category": "Frontend",
-    "count": 84,
-    "region": "Global"
-  },
-  {
-    "id": 81,
-    "year": 2023,
-    "skill": "HTML/CSS",
-    "category": "Frontend",
-    "count": 82,
-    "region": "Global"
-  },
-  {
-    "id": 141,
-    "year": 2023,
-    "skill": "Visual Studio",
-    "category": "Tools",
-    "count": 82,
-    "region": "Global"
-  },
-  {
-    "id": 92,
-    "year": 2023,
-    "skill": "Django",
-    "category": "Backend",
-    "count": 80,
-    "region": "Global"
-  },
-  {
-    "id": 91,
-    "year": 2023,
-    "skill": ".NET Core",
-    "category": "Backend",
-    "count": 77,
-    "region": "Global"
-  },
-  {
-    "id": 123,
-    "year": 2023,
-    "skill": "OpenAI API",
-    "category": "Data",
-    "count": 77,
-    "region": "Global"
-  },
-  {
-    "id": 99,
-    "year": 2023,
-    "skill": "Android",
-    "category": "Mobile",
-    "count": 76,
-    "region": "Global"
-  },
-  {
-    "id": 122,
-    "year": 2023,
-    "skill": "R",
-    "category": "Data",
-    "count": 71,
-    "region": "Global"
-  },
-  {
-    "id": 140,
-    "year": 2023,
-    "skill": "Jira",
-    "category": "Tools",
-    "count": 70,
-    "region": "Global"
-  },
-  {
-    "id": 142,
-    "year": 2023,
-    "skill": "Postman",
-    "category": "Tools",
-    "count": 70,
-    "region": "Global"
-  },
-  {
-    "id": 136,
-    "year": 2023,
-    "skill": "SQLite",
-    "category": "Database",
-    "count": 69,
-    "region": "Global"
-  },
-  {
-    "id": 100,
-    "year": 2023,
-    "skill": "iOS",
-    "category": "Mobile",
-    "count": 68,
-    "region": "Global"
-  },
-  {
-    "id": 121,
-    "year": 2023,
-    "skill": "Tableau",
-    "category": "Data",
-    "count": 67,
-    "region": "Global"
-  },
-  {
-    "id": 94,
-    "year": 2023,
-    "skill": "NestJS",
-    "category": "Backend",
-    "count": 63,
-    "region": "Global"
-  },
-  {
-    "id": 97,
-    "year": 2023,
-    "skill": "Swift",
-    "category": "Mobile",
-    "count": 63,
-    "region": "Global"
-  },
-  {
-    "id": 112,
-    "year": 2023,
-    "skill": "Linux",
-    "category": "DevOps",
-    "count": 62,
-    "region": "Global"
-  },
-  {
-    "id": 124,
-    "year": 2023,
-    "skill": "Selenium",
-    "category": "Test",
-    "count": 61,
-    "region": "Global"
-  },
-  {
-    "id": 145,
-    "year": 2023,
-    "skill": "MacOS",
-    "category": "OS",
-    "count": 61,
-    "region": "Global"
-  },
-  {
-    "id": 148,
-    "year": 2023,
-    "skill": "Red Hat",
-    "category": "OS",
-    "count": 60,
-    "region": "Global"
-  },
-  {
-    "id": 146,
-    "year": 2023,
-    "skill": "Ubuntu",
-    "category": "OS",
-    "count": 59,
-    "region": "Global"
-  },
-  {
-    "id": 116,
-    "year": 2023,
-    "skill": "TensorFlow",
-    "category": "Data",
-    "count": 58,
-    "region": "Global"
-  },
-  {
-    "id": 89,
-    "year": 2023,
-    "skill": "Ruby",
-    "category": "Backend",
-    "count": 56,
-    "region": "Global"
-  },
-  {
-    "id": 131,
-    "year": 2023,
-    "skill": "MongoDB",
-    "category": "Database",
-    "count": 56,
-    "region": "Global"
-  },
-  {
-    "id": 120,
-    "year": 2023,
-    "skill": "PowerBI",
-    "category": "Data",
-    "count": 54,
-    "region": "Global"
-  },
-  {
-    "id": 102,
-    "year": 2023,
-    "skill": "Objective-C",
-    "category": "Mobile",
-    "count": 53,
-    "region": "Global"
-  },
-  {
-    "id": 119,
-    "year": 2023,
-    "skill": "Hadoop",
-    "category": "Data",
-    "count": 53,
-    "region": "Global"
-  },
-  {
-    "id": 86,
-    "year": 2023,
-    "skill": "C#",
-    "category": "Backend",
-    "count": 50,
+    "count": 119,
     "region": "Global"
   },
   {
@@ -980,191 +652,15 @@
     "year": 2023,
     "skill": "Spark",
     "category": "Data",
-    "count": 50,
+    "count": 113,
     "region": "Global"
   },
   {
-    "id": 90,
+    "id": 96,
     "year": 2023,
-    "skill": "Spring Boot",
-    "category": "Backend",
-    "count": 49,
-    "region": "Global"
-  },
-  {
-    "id": 126,
-    "year": 2023,
-    "skill": "Playwright",
-    "category": "Test",
-    "count": 49,
-    "region": "Global"
-  },
-  {
-    "id": 111,
-    "year": 2023,
-    "skill": "GitHub Actions",
-    "category": "DevOps",
-    "count": 47,
-    "region": "Global"
-  },
-  {
-    "id": 104,
-    "year": 2023,
-    "skill": "Kubernetes",
-    "category": "DevOps",
-    "count": 44,
-    "region": "Global"
-  },
-  {
-    "id": 147,
-    "year": 2023,
-    "skill": "CentOS",
-    "category": "OS",
-    "count": 42,
-    "region": "Global"
-  },
-  {
-    "id": 127,
-    "year": 2023,
-    "skill": "Jest",
-    "category": "Test",
-    "count": 41,
-    "region": "Global"
-  },
-  {
-    "id": 78,
-    "year": 2023,
-    "skill": "Svelte",
-    "category": "Frontend",
-    "count": 39,
-    "region": "Global"
-  },
-  {
-    "id": 130,
-    "year": 2023,
-    "skill": "PostgreSQL",
-    "category": "Database",
-    "count": 39,
-    "region": "Global"
-  },
-  {
-    "id": 93,
-    "year": 2023,
-    "skill": "FastAPI",
-    "category": "Backend",
-    "count": 37,
-    "region": "Global"
-  },
-  {
-    "id": 79,
-    "year": 2023,
-    "skill": "Next.js",
-    "category": "Frontend",
-    "count": 34,
-    "region": "Global"
-  },
-  {
-    "id": 80,
-    "year": 2023,
-    "skill": "Tailwind CSS",
-    "category": "Frontend",
-    "count": 33,
-    "region": "Global"
-  },
-  {
-    "id": 88,
-    "year": 2023,
-    "skill": "PHP",
-    "category": "Backend",
-    "count": 33,
-    "region": "Global"
-  },
-  {
-    "id": 110,
-    "year": 2023,
-    "skill": "Jenkins",
-    "category": "DevOps",
-    "count": 33,
-    "region": "Global"
-  },
-  {
-    "id": 77,
-    "year": 2023,
-    "skill": "Angular",
-    "category": "Frontend",
-    "count": 31,
-    "region": "Global"
-  },
-  {
-    "id": 108,
-    "year": 2023,
-    "skill": "Terraform",
-    "category": "DevOps",
-    "count": 31,
-    "region": "Global"
-  },
-  {
-    "id": 137,
-    "year": 2023,
-    "skill": "VS Code",
-    "category": "Tools",
-    "count": 30,
-    "region": "Global"
-  },
-  {
-    "id": 139,
-    "year": 2023,
-    "skill": "Git",
-    "category": "Tools",
-    "count": 30,
-    "region": "Global"
-  },
-  {
-    "id": 101,
-    "year": 2023,
-    "skill": "Dart",
+    "skill": "React Native",
     "category": "Mobile",
-    "count": 29,
-    "region": "Global"
-  },
-  {
-    "id": 106,
-    "year": 2023,
-    "skill": "Azure",
-    "category": "DevOps",
-    "count": 29,
-    "region": "Global"
-  },
-  {
-    "id": 134,
-    "year": 2023,
-    "skill": "Elasticsearch",
-    "category": "Database",
-    "count": 24,
-    "region": "Global"
-  },
-  {
-    "id": 95,
-    "year": 2023,
-    "skill": "Flutter",
-    "category": "Mobile",
-    "count": 23,
-    "region": "Global"
-  },
-  {
-    "id": 109,
-    "year": 2023,
-    "skill": "Ansible",
-    "category": "DevOps",
-    "count": 23,
-    "region": "Global"
-  },
-  {
-    "id": 133,
-    "year": 2023,
-    "skill": "Redis",
-    "category": "Database",
-    "count": 23,
+    "count": 106,
     "region": "Global"
   },
   {
@@ -1172,7 +668,119 @@
     "year": 2023,
     "skill": "Kotlin",
     "category": "Mobile",
-    "count": 22,
+    "count": 106,
+    "region": "Global"
+  },
+  {
+    "id": 101,
+    "year": 2023,
+    "skill": "Dart",
+    "category": "Mobile",
+    "count": 105,
+    "region": "Global"
+  },
+  {
+    "id": 146,
+    "year": 2023,
+    "skill": "Ubuntu",
+    "category": "OS",
+    "count": 105,
+    "region": "Global"
+  },
+  {
+    "id": 137,
+    "year": 2023,
+    "skill": "VS Code",
+    "category": "Tools",
+    "count": 104,
+    "region": "Global"
+  },
+  {
+    "id": 116,
+    "year": 2023,
+    "skill": "TensorFlow",
+    "category": "Data",
+    "count": 103,
+    "region": "Global"
+  },
+  {
+    "id": 105,
+    "year": 2023,
+    "skill": "AWS",
+    "category": "DevOps",
+    "count": 102,
+    "region": "Global"
+  },
+  {
+    "id": 139,
+    "year": 2023,
+    "skill": "Git",
+    "category": "Tools",
+    "count": 101,
+    "region": "Global"
+  },
+  {
+    "id": 94,
+    "year": 2023,
+    "skill": "NestJS",
+    "category": "Backend",
+    "count": 99,
+    "region": "Global"
+  },
+  {
+    "id": 95,
+    "year": 2023,
+    "skill": "Flutter",
+    "category": "Mobile",
+    "count": 96,
+    "region": "Global"
+  },
+  {
+    "id": 84,
+    "year": 2023,
+    "skill": "Python",
+    "category": "Backend",
+    "count": 95,
+    "region": "Global"
+  },
+  {
+    "id": 106,
+    "year": 2023,
+    "skill": "Azure",
+    "category": "DevOps",
+    "count": 93,
+    "region": "Global"
+  },
+  {
+    "id": 92,
+    "year": 2023,
+    "skill": "Django",
+    "category": "Backend",
+    "count": 92,
+    "region": "Global"
+  },
+  {
+    "id": 120,
+    "year": 2023,
+    "skill": "PowerBI",
+    "category": "Data",
+    "count": 92,
+    "region": "Global"
+  },
+  {
+    "id": 128,
+    "year": 2023,
+    "skill": "JUnit",
+    "category": "Test",
+    "count": 92,
+    "region": "Global"
+  },
+  {
+    "id": 104,
+    "year": 2023,
+    "skill": "Kubernetes",
+    "category": "DevOps",
+    "count": 91,
     "region": "Global"
   },
   {
@@ -1180,63 +788,399 @@
     "year": 2023,
     "skill": "Appium",
     "category": "Test",
-    "count": 22,
+    "count": 88,
     "region": "Global"
   },
   {
-    "id": 149,
-    "year": 2024,
-    "skill": "React",
-    "category": "Frontend",
-    "count": 238,
+    "id": 138,
+    "year": 2023,
+    "skill": "IntelliJ IDEA",
+    "category": "Tools",
+    "count": 88,
     "region": "Global"
   },
   {
-    "id": 179,
-    "year": 2024,
-    "skill": "AWS",
-    "category": "DevOps",
-    "count": 238,
+    "id": 144,
+    "year": 2023,
+    "skill": "Windows",
+    "category": "OS",
+    "count": 88,
     "region": "Global"
   },
   {
-    "id": 159,
-    "year": 2024,
+    "id": 126,
+    "year": 2023,
+    "skill": "Playwright",
+    "category": "Test",
+    "count": 86,
+    "region": "Global"
+  },
+  {
+    "id": 97,
+    "year": 2023,
+    "skill": "Swift",
+    "category": "Mobile",
+    "count": 84,
+    "region": "Global"
+  },
+  {
+    "id": 145,
+    "year": 2023,
+    "skill": "MacOS",
+    "category": "OS",
+    "count": 84,
+    "region": "Global"
+  },
+  {
+    "id": 123,
+    "year": 2023,
+    "skill": "OpenAI API",
+    "category": "Data",
+    "count": 82,
+    "region": "Global"
+  },
+  {
+    "id": 85,
+    "year": 2023,
     "skill": "Java",
     "category": "Backend",
-    "count": 219,
+    "count": 80,
     "region": "Global"
   },
   {
-    "id": 177,
-    "year": 2024,
-    "skill": "Docker",
+    "id": 127,
+    "year": 2023,
+    "skill": "Jest",
+    "category": "Test",
+    "count": 79,
+    "region": "Global"
+  },
+  {
+    "id": 93,
+    "year": 2023,
+    "skill": "FastAPI",
+    "category": "Backend",
+    "count": 76,
+    "region": "Global"
+  },
+  {
+    "id": 130,
+    "year": 2023,
+    "skill": "PostgreSQL",
+    "category": "Database",
+    "count": 76,
+    "region": "Global"
+  },
+  {
+    "id": 142,
+    "year": 2023,
+    "skill": "Postman",
+    "category": "Tools",
+    "count": 76,
+    "region": "Global"
+  },
+  {
+    "id": 100,
+    "year": 2023,
+    "skill": "iOS",
+    "category": "Mobile",
+    "count": 74,
+    "region": "Global"
+  },
+  {
+    "id": 122,
+    "year": 2023,
+    "skill": "R",
+    "category": "Data",
+    "count": 73,
+    "region": "Global"
+  },
+  {
+    "id": 108,
+    "year": 2023,
+    "skill": "Terraform",
     "category": "DevOps",
-    "count": 208,
+    "count": 71,
     "region": "Global"
   },
   {
-    "id": 187,
-    "year": 2024,
-    "skill": "Python",
-    "category": "Data",
-    "count": 196,
+    "id": 107,
+    "year": 2023,
+    "skill": "GCP",
+    "category": "DevOps",
+    "count": 70,
     "region": "Global"
   },
   {
-    "id": 188,
-    "year": 2024,
-    "skill": "SQL",
-    "category": "Data",
-    "count": 143,
+    "id": 148,
+    "year": 2023,
+    "skill": "Red Hat",
+    "category": "OS",
+    "count": 70,
     "region": "Global"
   },
   {
-    "id": 156,
-    "year": 2024,
-    "skill": "TypeScript",
+    "id": 79,
+    "year": 2023,
+    "skill": "Next.js",
     "category": "Frontend",
-    "count": 139,
+    "count": 67,
+    "region": "Global"
+  },
+  {
+    "id": 117,
+    "year": 2023,
+    "skill": "PyTorch",
+    "category": "Data",
+    "count": 67,
+    "region": "Global"
+  },
+  {
+    "id": 102,
+    "year": 2023,
+    "skill": "Objective-C",
+    "category": "Mobile",
+    "count": 66,
+    "region": "Global"
+  },
+  {
+    "id": 132,
+    "year": 2023,
+    "skill": "MySQL",
+    "category": "Database",
+    "count": 65,
+    "region": "Global"
+  },
+  {
+    "id": 134,
+    "year": 2023,
+    "skill": "Elasticsearch",
+    "category": "Database",
+    "count": 62,
+    "region": "Global"
+  },
+  {
+    "id": 77,
+    "year": 2023,
+    "skill": "Angular",
+    "category": "Frontend",
+    "count": 61,
+    "region": "Global"
+  },
+  {
+    "id": 112,
+    "year": 2023,
+    "skill": "Linux",
+    "category": "DevOps",
+    "count": 59,
+    "region": "Global"
+  },
+  {
+    "id": 125,
+    "year": 2023,
+    "skill": "Cypress",
+    "category": "Test",
+    "count": 59,
+    "region": "Global"
+  },
+  {
+    "id": 109,
+    "year": 2023,
+    "skill": "Ansible",
+    "category": "DevOps",
+    "count": 57,
+    "region": "Global"
+  },
+  {
+    "id": 119,
+    "year": 2023,
+    "skill": "Hadoop",
+    "category": "Data",
+    "count": 57,
+    "region": "Global"
+  },
+  {
+    "id": 88,
+    "year": 2023,
+    "skill": "PHP",
+    "category": "Backend",
+    "count": 56,
+    "region": "Global"
+  },
+  {
+    "id": 80,
+    "year": 2023,
+    "skill": "Tailwind CSS",
+    "category": "Frontend",
+    "count": 54,
+    "region": "Global"
+  },
+  {
+    "id": 111,
+    "year": 2023,
+    "skill": "GitHub Actions",
+    "category": "DevOps",
+    "count": 51,
+    "region": "Global"
+  },
+  {
+    "id": 143,
+    "year": 2023,
+    "skill": "Figma",
+    "category": "Tools",
+    "count": 51,
+    "region": "Global"
+  },
+  {
+    "id": 124,
+    "year": 2023,
+    "skill": "Selenium",
+    "category": "Test",
+    "count": 50,
+    "region": "Global"
+  },
+  {
+    "id": 99,
+    "year": 2023,
+    "skill": "Android",
+    "category": "Mobile",
+    "count": 49,
+    "region": "Global"
+  },
+  {
+    "id": 140,
+    "year": 2023,
+    "skill": "Jira",
+    "category": "Tools",
+    "count": 47,
+    "region": "Global"
+  },
+  {
+    "id": 81,
+    "year": 2023,
+    "skill": "HTML/CSS",
+    "category": "Frontend",
+    "count": 46,
+    "region": "Global"
+  },
+  {
+    "id": 91,
+    "year": 2023,
+    "skill": ".NET Core",
+    "category": "Backend",
+    "count": 46,
+    "region": "Global"
+  },
+  {
+    "id": 115,
+    "year": 2023,
+    "skill": "Pandas",
+    "category": "Data",
+    "count": 46,
+    "region": "Global"
+  },
+  {
+    "id": 121,
+    "year": 2023,
+    "skill": "Tableau",
+    "category": "Data",
+    "count": 45,
+    "region": "Global"
+  },
+  {
+    "id": 76,
+    "year": 2023,
+    "skill": "Vue.js",
+    "category": "Frontend",
+    "count": 43,
+    "region": "Global"
+  },
+  {
+    "id": 89,
+    "year": 2023,
+    "skill": "Ruby",
+    "category": "Backend",
+    "count": 40,
+    "region": "Global"
+  },
+  {
+    "id": 110,
+    "year": 2023,
+    "skill": "Jenkins",
+    "category": "DevOps",
+    "count": 39,
+    "region": "Global"
+  },
+  {
+    "id": 90,
+    "year": 2023,
+    "skill": "Spring Boot",
+    "category": "Backend",
+    "count": 37,
+    "region": "Global"
+  },
+  {
+    "id": 131,
+    "year": 2023,
+    "skill": "MongoDB",
+    "category": "Database",
+    "count": 37,
+    "region": "Global"
+  },
+  {
+    "id": 135,
+    "year": 2023,
+    "skill": "Cassandra",
+    "category": "Database",
+    "count": 37,
+    "region": "Global"
+  },
+  {
+    "id": 136,
+    "year": 2023,
+    "skill": "SQLite",
+    "category": "Database",
+    "count": 37,
+    "region": "Global"
+  },
+  {
+    "id": 147,
+    "year": 2023,
+    "skill": "CentOS",
+    "category": "OS",
+    "count": 33,
+    "region": "Global"
+  },
+  {
+    "id": 133,
+    "year": 2023,
+    "skill": "Redis",
+    "category": "Database",
+    "count": 32,
+    "region": "Global"
+  },
+  {
+    "id": 86,
+    "year": 2023,
+    "skill": "C#",
+    "category": "Backend",
+    "count": 29,
+    "region": "Global"
+  },
+  {
+    "id": 78,
+    "year": 2023,
+    "skill": "Svelte",
+    "category": "Frontend",
+    "count": 28,
+    "region": "Global"
+  },
+  {
+    "id": 141,
+    "year": 2023,
+    "skill": "Visual Studio",
+    "category": "Tools",
+    "count": 27,
     "region": "Global"
   },
   {
@@ -1244,183 +1188,63 @@
     "year": 2024,
     "skill": "Python",
     "category": "Backend",
-    "count": 129,
+    "count": 266,
     "region": "Global"
   },
   {
-    "id": 157,
+    "id": 188,
     "year": 2024,
-    "skill": "Node.js",
-    "category": "Backend",
-    "count": 121,
-    "region": "Global"
-  },
-  {
-    "id": 154,
-    "year": 2024,
-    "skill": "Tailwind CSS",
-    "category": "Frontend",
-    "count": 119,
-    "region": "Global"
-  },
-  {
-    "id": 202,
-    "year": 2024,
-    "skill": "JUnit",
-    "category": "Test",
-    "count": 114,
-    "region": "Global"
-  },
-  {
-    "id": 213,
-    "year": 2024,
-    "skill": "Git",
-    "category": "Tools",
-    "count": 113,
-    "region": "Global"
-  },
-  {
-    "id": 150,
-    "year": 2024,
-    "skill": "Vue.js",
-    "category": "Frontend",
-    "count": 112,
-    "region": "Global"
-  },
-  {
-    "id": 204,
-    "year": 2024,
-    "skill": "PostgreSQL",
-    "category": "Database",
-    "count": 111,
-    "region": "Global"
-  },
-  {
-    "id": 190,
-    "year": 2024,
-    "skill": "TensorFlow",
+    "skill": "SQL",
     "category": "Data",
-    "count": 110,
+    "count": 203,
     "region": "Global"
   },
   {
-    "id": 198,
+    "id": 156,
     "year": 2024,
-    "skill": "Selenium",
-    "category": "Test",
-    "count": 107,
-    "region": "Global"
-  },
-  {
-    "id": 218,
-    "year": 2024,
-    "skill": "Windows",
-    "category": "OS",
-    "count": 104,
-    "region": "Global"
-  },
-  {
-    "id": 201,
-    "year": 2024,
-    "skill": "Jest",
-    "category": "Test",
-    "count": 101,
-    "region": "Global"
-  },
-  {
-    "id": 151,
-    "year": 2024,
-    "skill": "Angular",
+    "skill": "TypeScript",
     "category": "Frontend",
-    "count": 100,
+    "count": 190,
     "region": "Global"
   },
   {
-    "id": 160,
+    "id": 159,
     "year": 2024,
-    "skill": "C#",
+    "skill": "Java",
     "category": "Backend",
-    "count": 100,
+    "count": 183,
     "region": "Global"
   },
   {
-    "id": 173,
+    "id": 187,
     "year": 2024,
-    "skill": "Android",
-    "category": "Mobile",
-    "count": 99,
+    "skill": "Python",
+    "category": "Data",
+    "count": 180,
     "region": "Global"
   },
   {
-    "id": 164,
+    "id": 161,
     "year": 2024,
-    "skill": "Spring Boot",
+    "skill": "Go",
     "category": "Backend",
-    "count": 89,
+    "count": 146,
     "region": "Global"
   },
   {
-    "id": 186,
+    "id": 179,
     "year": 2024,
-    "skill": "Linux",
+    "skill": "AWS",
     "category": "DevOps",
-    "count": 89,
+    "count": 128,
     "region": "Global"
   },
   {
-    "id": 168,
+    "id": 149,
     "year": 2024,
-    "skill": "NestJS",
-    "category": "Backend",
-    "count": 87,
-    "region": "Global"
-  },
-  {
-    "id": 175,
-    "year": 2024,
-    "skill": "Dart",
-    "category": "Mobile",
-    "count": 85,
-    "region": "Global"
-  },
-  {
-    "id": 219,
-    "year": 2024,
-    "skill": "MacOS",
-    "category": "OS",
-    "count": 85,
-    "region": "Global"
-  },
-  {
-    "id": 189,
-    "year": 2024,
-    "skill": "Pandas",
-    "category": "Data",
-    "count": 84,
-    "region": "Global"
-  },
-  {
-    "id": 211,
-    "year": 2024,
-    "skill": "VS Code",
-    "category": "Tools",
-    "count": 84,
-    "region": "Global"
-  },
-  {
-    "id": 185,
-    "year": 2024,
-    "skill": "GitHub Actions",
-    "category": "DevOps",
-    "count": 82,
-    "region": "Global"
-  },
-  {
-    "id": 191,
-    "year": 2024,
-    "skill": "PyTorch",
-    "category": "Data",
-    "count": 82,
+    "skill": "React",
+    "category": "Frontend",
+    "count": 124,
     "region": "Global"
   },
   {
@@ -1428,6 +1252,174 @@
     "year": 2024,
     "skill": "Spark",
     "category": "Data",
+    "count": 111,
+    "region": "Global"
+  },
+  {
+    "id": 157,
+    "year": 2024,
+    "skill": "Node.js",
+    "category": "Backend",
+    "count": 110,
+    "region": "Global"
+  },
+  {
+    "id": 189,
+    "year": 2024,
+    "skill": "Pandas",
+    "category": "Data",
+    "count": 110,
+    "region": "Global"
+  },
+  {
+    "id": 169,
+    "year": 2024,
+    "skill": "Flutter",
+    "category": "Mobile",
+    "count": 108,
+    "region": "Global"
+  },
+  {
+    "id": 197,
+    "year": 2024,
+    "skill": "OpenAI API",
+    "category": "Data",
+    "count": 107,
+    "region": "Global"
+  },
+  {
+    "id": 170,
+    "year": 2024,
+    "skill": "React Native",
+    "category": "Mobile",
+    "count": 106,
+    "region": "Global"
+  },
+  {
+    "id": 190,
+    "year": 2024,
+    "skill": "TensorFlow",
+    "category": "Data",
+    "count": 104,
+    "region": "Global"
+  },
+  {
+    "id": 209,
+    "year": 2024,
+    "skill": "Cassandra",
+    "category": "Database",
+    "count": 104,
+    "region": "Global"
+  },
+  {
+    "id": 178,
+    "year": 2024,
+    "skill": "Kubernetes",
+    "category": "DevOps",
+    "count": 103,
+    "region": "Global"
+  },
+  {
+    "id": 219,
+    "year": 2024,
+    "skill": "MacOS",
+    "category": "OS",
+    "count": 99,
+    "region": "Global"
+  },
+  {
+    "id": 175,
+    "year": 2024,
+    "skill": "Dart",
+    "category": "Mobile",
+    "count": 96,
+    "region": "Global"
+  },
+  {
+    "id": 204,
+    "year": 2024,
+    "skill": "PostgreSQL",
+    "category": "Database",
+    "count": 95,
+    "region": "Global"
+  },
+  {
+    "id": 193,
+    "year": 2024,
+    "skill": "Hadoop",
+    "category": "Data",
+    "count": 93,
+    "region": "Global"
+  },
+  {
+    "id": 177,
+    "year": 2024,
+    "skill": "Docker",
+    "category": "DevOps",
+    "count": 90,
+    "region": "Global"
+  },
+  {
+    "id": 218,
+    "year": 2024,
+    "skill": "Windows",
+    "category": "OS",
+    "count": 87,
+    "region": "Global"
+  },
+  {
+    "id": 152,
+    "year": 2024,
+    "skill": "Svelte",
+    "category": "Frontend",
+    "count": 86,
+    "region": "Global"
+  },
+  {
+    "id": 203,
+    "year": 2024,
+    "skill": "Appium",
+    "category": "Test",
+    "count": 86,
+    "region": "Global"
+  },
+  {
+    "id": 171,
+    "year": 2024,
+    "skill": "Swift",
+    "category": "Mobile",
+    "count": 84,
+    "region": "Global"
+  },
+  {
+    "id": 196,
+    "year": 2024,
+    "skill": "R",
+    "category": "Data",
+    "count": 84,
+    "region": "Global"
+  },
+  {
+    "id": 221,
+    "year": 2024,
+    "skill": "CentOS",
+    "category": "OS",
+    "count": 84,
+    "region": "Global"
+  },
+  {
+    "id": 183,
+    "year": 2024,
+    "skill": "Ansible",
+    "category": "DevOps",
+    "count": 83,
+    "region": "Global"
+  },
+  {
+    "id": 199,
+    "year": 2024,
+    "skill": "Cypress",
+    "category": "Test",
     "count": 82,
     "region": "Global"
   },
@@ -1440,67 +1432,11 @@
     "region": "Global"
   },
   {
-    "id": 216,
+    "id": 184,
     "year": 2024,
-    "skill": "Postman",
-    "category": "Tools",
-    "count": 78,
-    "region": "Global"
-  },
-  {
-    "id": 222,
-    "year": 2024,
-    "skill": "Red Hat",
-    "category": "OS",
-    "count": 78,
-    "region": "Global"
-  },
-  {
-    "id": 206,
-    "year": 2024,
-    "skill": "MySQL",
-    "category": "Database",
-    "count": 76,
-    "region": "Global"
-  },
-  {
-    "id": 214,
-    "year": 2024,
-    "skill": "Jira",
-    "category": "Tools",
-    "count": 76,
-    "region": "Global"
-  },
-  {
-    "id": 171,
-    "year": 2024,
-    "skill": "Swift",
-    "category": "Mobile",
-    "count": 73,
-    "region": "Global"
-  },
-  {
-    "id": 182,
-    "year": 2024,
-    "skill": "Terraform",
+    "skill": "Jenkins",
     "category": "DevOps",
-    "count": 73,
-    "region": "Global"
-  },
-  {
-    "id": 195,
-    "year": 2024,
-    "skill": "Tableau",
-    "category": "Data",
-    "count": 73,
-    "region": "Global"
-  },
-  {
-    "id": 166,
-    "year": 2024,
-    "skill": "Django",
-    "category": "Backend",
-    "count": 69,
+    "count": 79,
     "region": "Global"
   },
   {
@@ -1508,79 +1444,55 @@
     "year": 2024,
     "skill": "Figma",
     "category": "Tools",
-    "count": 67,
+    "count": 78,
     "region": "Global"
   },
   {
-    "id": 163,
+    "id": 194,
     "year": 2024,
-    "skill": "Ruby",
+    "skill": "PowerBI",
+    "category": "Data",
+    "count": 77,
+    "region": "Global"
+  },
+  {
+    "id": 212,
+    "year": 2024,
+    "skill": "IntelliJ IDEA",
+    "category": "Tools",
+    "count": 74,
+    "region": "Global"
+  },
+  {
+    "id": 165,
+    "year": 2024,
+    "skill": ".NET Core",
     "category": "Backend",
-    "count": 66,
+    "count": 73,
     "region": "Global"
   },
   {
-    "id": 162,
+    "id": 201,
     "year": 2024,
-    "skill": "PHP",
-    "category": "Backend",
-    "count": 62,
-    "region": "Global"
-  },
-  {
-    "id": 169,
-    "year": 2024,
-    "skill": "Flutter",
-    "category": "Mobile",
-    "count": 62,
-    "region": "Global"
-  },
-  {
-    "id": 221,
-    "year": 2024,
-    "skill": "CentOS",
-    "category": "OS",
-    "count": 62,
-    "region": "Global"
-  },
-  {
-    "id": 183,
-    "year": 2024,
-    "skill": "Ansible",
-    "category": "DevOps",
-    "count": 58,
-    "region": "Global"
-  },
-  {
-    "id": 184,
-    "year": 2024,
-    "skill": "Jenkins",
-    "category": "DevOps",
-    "count": 57,
-    "region": "Global"
-  },
-  {
-    "id": 210,
-    "year": 2024,
-    "skill": "SQLite",
-    "category": "Database",
-    "count": 55,
-    "region": "Global"
-  },
-  {
-    "id": 207,
-    "year": 2024,
-    "skill": "Redis",
-    "category": "Database",
-    "count": 54,
-    "region": "Global"
-  },
-  {
-    "id": 199,
-    "year": 2024,
-    "skill": "Cypress",
+    "skill": "Jest",
     "category": "Test",
-    "count": 53,
+    "count": 71,
+    "region": "Global"
+  },
+  {
+    "id": 176,
+    "year": 2024,
+    "skill": "Objective-C",
+    "category": "Mobile",
+    "count": 70,
+    "region": "Global"
+  },
+  {
+    "id": 186,
+    "year": 2024,
+    "skill": "Linux",
+    "category": "DevOps",
+    "count": 69,
     "region": "Global"
   },
   {
@@ -1588,15 +1500,111 @@
     "year": 2024,
     "skill": "HTML/CSS",
     "category": "Frontend",
+    "count": 66,
+    "region": "Global"
+  },
+  {
+    "id": 153,
+    "year": 2024,
+    "skill": "Next.js",
+    "category": "Frontend",
+    "count": 63,
+    "region": "Global"
+  },
+  {
+    "id": 213,
+    "year": 2024,
+    "skill": "Git",
+    "category": "Tools",
+    "count": 62,
+    "region": "Global"
+  },
+  {
+    "id": 215,
+    "year": 2024,
+    "skill": "Visual Studio",
+    "category": "Tools",
+    "count": 62,
+    "region": "Global"
+  },
+  {
+    "id": 182,
+    "year": 2024,
+    "skill": "Terraform",
+    "category": "DevOps",
+    "count": 61,
+    "region": "Global"
+  },
+  {
+    "id": 214,
+    "year": 2024,
+    "skill": "Jira",
+    "category": "Tools",
+    "count": 61,
+    "region": "Global"
+  },
+  {
+    "id": 166,
+    "year": 2024,
+    "skill": "Django",
+    "category": "Backend",
+    "count": 60,
+    "region": "Global"
+  },
+  {
+    "id": 180,
+    "year": 2024,
+    "skill": "Azure",
+    "category": "DevOps",
+    "count": 56,
+    "region": "Global"
+  },
+  {
+    "id": 211,
+    "year": 2024,
+    "skill": "VS Code",
+    "category": "Tools",
+    "count": 55,
+    "region": "Global"
+  },
+  {
+    "id": 150,
+    "year": 2024,
+    "skill": "Vue.js",
+    "category": "Frontend",
     "count": 52,
     "region": "Global"
   },
   {
-    "id": 170,
+    "id": 163,
     "year": 2024,
-    "skill": "React Native",
+    "skill": "Ruby",
+    "category": "Backend",
+    "count": 51,
+    "region": "Global"
+  },
+  {
+    "id": 172,
+    "year": 2024,
+    "skill": "Kotlin",
     "category": "Mobile",
     "count": 51,
+    "region": "Global"
+  },
+  {
+    "id": 205,
+    "year": 2024,
+    "skill": "MongoDB",
+    "category": "Database",
+    "count": 51,
+    "region": "Global"
+  },
+  {
+    "id": 207,
+    "year": 2024,
+    "skill": "Redis",
+    "category": "Database",
+    "count": 50,
     "region": "Global"
   },
   {
@@ -1608,27 +1616,59 @@
     "region": "Global"
   },
   {
-    "id": 153,
+    "id": 206,
     "year": 2024,
-    "skill": "Next.js",
-    "category": "Frontend",
-    "count": 47,
+    "skill": "MySQL",
+    "category": "Database",
+    "count": 48,
     "region": "Global"
   },
   {
-    "id": 212,
+    "id": 198,
     "year": 2024,
-    "skill": "IntelliJ IDEA",
-    "category": "Tools",
-    "count": 47,
-    "region": "Global"
-  },
-  {
-    "id": 172,
-    "year": 2024,
-    "skill": "Kotlin",
-    "category": "Mobile",
+    "skill": "Selenium",
+    "category": "Test",
     "count": 46,
+    "region": "Global"
+  },
+  {
+    "id": 195,
+    "year": 2024,
+    "skill": "Tableau",
+    "category": "Data",
+    "count": 41,
+    "region": "Global"
+  },
+  {
+    "id": 210,
+    "year": 2024,
+    "skill": "SQLite",
+    "category": "Database",
+    "count": 41,
+    "region": "Global"
+  },
+  {
+    "id": 200,
+    "year": 2024,
+    "skill": "Playwright",
+    "category": "Test",
+    "count": 40,
+    "region": "Global"
+  },
+  {
+    "id": 154,
+    "year": 2024,
+    "skill": "Tailwind CSS",
+    "category": "Frontend",
+    "count": 39,
+    "region": "Global"
+  },
+  {
+    "id": 168,
+    "year": 2024,
+    "skill": "NestJS",
+    "category": "Backend",
+    "count": 37,
     "region": "Global"
   },
   {
@@ -1636,55 +1676,55 @@
     "year": 2024,
     "skill": "GCP",
     "category": "DevOps",
-    "count": 45,
+    "count": 37,
     "region": "Global"
   },
   {
-    "id": 165,
+    "id": 162,
     "year": 2024,
-    "skill": ".NET Core",
+    "skill": "PHP",
     "category": "Backend",
-    "count": 44,
+    "count": 36,
     "region": "Global"
   },
   {
-    "id": 196,
+    "id": 202,
     "year": 2024,
-    "skill": "R",
-    "category": "Data",
-    "count": 44,
+    "skill": "JUnit",
+    "category": "Test",
+    "count": 36,
     "region": "Global"
   },
   {
-    "id": 215,
+    "id": 216,
     "year": 2024,
-    "skill": "Visual Studio",
+    "skill": "Postman",
     "category": "Tools",
-    "count": 42,
+    "count": 35,
     "region": "Global"
   },
   {
-    "id": 178,
+    "id": 191,
     "year": 2024,
-    "skill": "Kubernetes",
-    "category": "DevOps",
-    "count": 41,
-    "region": "Global"
-  },
-  {
-    "id": 161,
-    "year": 2024,
-    "skill": "Go",
-    "category": "Backend",
-    "count": 40,
-    "region": "Global"
-  },
-  {
-    "id": 194,
-    "year": 2024,
-    "skill": "PowerBI",
+    "skill": "PyTorch",
     "category": "Data",
-    "count": 40,
+    "count": 30,
+    "region": "Global"
+  },
+  {
+    "id": 160,
+    "year": 2024,
+    "skill": "C#",
+    "category": "Backend",
+    "count": 29,
+    "region": "Global"
+  },
+  {
+    "id": 173,
+    "year": 2024,
+    "skill": "Android",
+    "category": "Mobile",
+    "count": 29,
     "region": "Global"
   },
   {
@@ -1692,39 +1732,7 @@
     "year": 2024,
     "skill": "Elasticsearch",
     "category": "Database",
-    "count": 39,
-    "region": "Global"
-  },
-  {
-    "id": 152,
-    "year": 2024,
-    "skill": "Svelte",
-    "category": "Frontend",
-    "count": 37,
-    "region": "Global"
-  },
-  {
-    "id": 197,
-    "year": 2024,
-    "skill": "OpenAI API",
-    "category": "Data",
-    "count": 32,
-    "region": "Global"
-  },
-  {
-    "id": 176,
-    "year": 2024,
-    "skill": "Objective-C",
-    "category": "Mobile",
-    "count": 31,
-    "region": "Global"
-  },
-  {
-    "id": 180,
-    "year": 2024,
-    "skill": "Azure",
-    "category": "DevOps",
-    "count": 31,
+    "count": 29,
     "region": "Global"
   },
   {
@@ -1736,67 +1744,35 @@
     "region": "Global"
   },
   {
-    "id": 193,
+    "id": 151,
     "year": 2024,
-    "skill": "Hadoop",
-    "category": "Data",
-    "count": 27,
+    "skill": "Angular",
+    "category": "Frontend",
+    "count": 28,
     "region": "Global"
   },
   {
-    "id": 203,
+    "id": 185,
     "year": 2024,
-    "skill": "Appium",
-    "category": "Test",
-    "count": 27,
-    "region": "Global"
-  },
-  {
-    "id": 205,
-    "year": 2024,
-    "skill": "MongoDB",
-    "category": "Database",
-    "count": 27,
-    "region": "Global"
-  },
-  {
-    "id": 200,
-    "year": 2024,
-    "skill": "Playwright",
-    "category": "Test",
-    "count": 24,
-    "region": "Global"
-  },
-  {
-    "id": 209,
-    "year": 2024,
-    "skill": "Cassandra",
-    "category": "Database",
-    "count": 23,
-    "region": "Global"
-  },
-  {
-    "id": 232,
-    "year": 2025,
-    "skill": "Python",
-    "category": "Backend",
-    "count": 309,
-    "region": "Global"
-  },
-  {
-    "id": 262,
-    "year": 2025,
-    "skill": "SQL",
-    "category": "Data",
-    "count": 248,
-    "region": "Global"
-  },
-  {
-    "id": 253,
-    "year": 2025,
-    "skill": "AWS",
+    "skill": "GitHub Actions",
     "category": "DevOps",
-    "count": 239,
+    "count": 28,
+    "region": "Global"
+  },
+  {
+    "id": 164,
+    "year": 2024,
+    "skill": "Spring Boot",
+    "category": "Backend",
+    "count": 27,
+    "region": "Global"
+  },
+  {
+    "id": 222,
+    "year": 2024,
+    "skill": "Red Hat",
+    "category": "OS",
+    "count": 27,
     "region": "Global"
   },
   {
@@ -1804,31 +1780,7 @@
     "year": 2025,
     "skill": "TypeScript",
     "category": "Frontend",
-    "count": 224,
-    "region": "Global"
-  },
-  {
-    "id": 231,
-    "year": 2025,
-    "skill": "Node.js",
-    "category": "Backend",
-    "count": 216,
-    "region": "Global"
-  },
-  {
-    "id": 251,
-    "year": 2025,
-    "skill": "Docker",
-    "category": "DevOps",
-    "count": 201,
-    "region": "Global"
-  },
-  {
-    "id": 261,
-    "year": 2025,
-    "skill": "Python",
-    "category": "Data",
-    "count": 187,
+    "count": 298,
     "region": "Global"
   },
   {
@@ -1836,31 +1788,31 @@
     "year": 2025,
     "skill": "React",
     "category": "Frontend",
-    "count": 159,
+    "count": 250,
     "region": "Global"
   },
   {
-    "id": 233,
+    "id": 231,
     "year": 2025,
-    "skill": "Java",
+    "skill": "Node.js",
     "category": "Backend",
-    "count": 141,
+    "count": 235,
     "region": "Global"
   },
   {
-    "id": 228,
+    "id": 251,
     "year": 2025,
-    "skill": "Tailwind CSS",
-    "category": "Frontend",
-    "count": 138,
+    "skill": "Docker",
+    "category": "DevOps",
+    "count": 189,
     "region": "Global"
   },
   {
-    "id": 271,
+    "id": 232,
     "year": 2025,
-    "skill": "OpenAI API",
-    "category": "Data",
-    "count": 137,
+    "skill": "Python",
+    "category": "Backend",
+    "count": 185,
     "region": "Global"
   },
   {
@@ -1868,31 +1820,31 @@
     "year": 2025,
     "skill": "Flutter",
     "category": "Mobile",
-    "count": 130,
+    "count": 171,
     "region": "Global"
   },
   {
-    "id": 234,
+    "id": 261,
     "year": 2025,
-    "skill": "C#",
-    "category": "Backend",
-    "count": 120,
-    "region": "Global"
-  },
-  {
-    "id": 269,
-    "year": 2025,
-    "skill": "Tableau",
+    "skill": "Python",
     "category": "Data",
-    "count": 118,
+    "count": 145,
     "region": "Global"
   },
   {
-    "id": 280,
+    "id": 252,
     "year": 2025,
-    "skill": "MySQL",
-    "category": "Database",
-    "count": 116,
+    "skill": "Kubernetes",
+    "category": "DevOps",
+    "count": 139,
+    "region": "Global"
+  },
+  {
+    "id": 253,
+    "year": 2025,
+    "skill": "AWS",
+    "category": "DevOps",
+    "count": 127,
     "region": "Global"
   },
   {
@@ -1900,95 +1852,71 @@
     "year": 2025,
     "skill": "Redis",
     "category": "Database",
-    "count": 115,
+    "count": 125,
     "region": "Global"
   },
   {
-    "id": 226,
+    "id": 280,
     "year": 2025,
-    "skill": "Svelte",
-    "category": "Frontend",
+    "skill": "MySQL",
+    "category": "Database",
+    "count": 124,
+    "region": "Global"
+  },
+  {
+    "id": 273,
+    "year": 2025,
+    "skill": "Cypress",
+    "category": "Test",
+    "count": 119,
+    "region": "Global"
+  },
+  {
+    "id": 270,
+    "year": 2025,
+    "skill": "R",
+    "category": "Data",
+    "count": 117,
+    "region": "Global"
+  },
+  {
+    "id": 293,
+    "year": 2025,
+    "skill": "MacOS",
+    "category": "OS",
+    "count": 116,
+    "region": "Global"
+  },
+  {
+    "id": 233,
+    "year": 2025,
+    "skill": "Java",
+    "category": "Backend",
     "count": 114,
     "region": "Global"
   },
   {
-    "id": 278,
+    "id": 290,
     "year": 2025,
-    "skill": "PostgreSQL",
-    "category": "Database",
-    "count": 111,
+    "skill": "Postman",
+    "category": "Tools",
+    "count": 108,
     "region": "Global"
   },
   {
-    "id": 254,
+    "id": 264,
     "year": 2025,
-    "skill": "Azure",
-    "category": "DevOps",
-    "count": 110,
+    "skill": "TensorFlow",
+    "category": "Data",
+    "count": 106,
     "region": "Global"
   },
   {
-    "id": 276,
+    "id": 272,
     "year": 2025,
-    "skill": "JUnit",
+    "skill": "Selenium",
     "category": "Test",
     "count": 105,
-    "region": "Global"
-  },
-  {
-    "id": 259,
-    "year": 2025,
-    "skill": "GitHub Actions",
-    "category": "DevOps",
-    "count": 102,
-    "region": "Global"
-  },
-  {
-    "id": 258,
-    "year": 2025,
-    "skill": "Jenkins",
-    "category": "DevOps",
-    "count": 101,
-    "region": "Global"
-  },
-  {
-    "id": 296,
-    "year": 2025,
-    "skill": "Red Hat",
-    "category": "OS",
-    "count": 101,
-    "region": "Global"
-  },
-  {
-    "id": 241,
-    "year": 2025,
-    "skill": "FastAPI",
-    "category": "Backend",
-    "count": 100,
-    "region": "Global"
-  },
-  {
-    "id": 239,
-    "year": 2025,
-    "skill": ".NET Core",
-    "category": "Backend",
-    "count": 99,
-    "region": "Global"
-  },
-  {
-    "id": 240,
-    "year": 2025,
-    "skill": "Django",
-    "category": "Backend",
-    "count": 99,
-    "region": "Global"
-  },
-  {
-    "id": 263,
-    "year": 2025,
-    "skill": "Pandas",
-    "category": "Data",
-    "count": 99,
     "region": "Global"
   },
   {
@@ -1996,21 +1924,61 @@
     "year": 2025,
     "skill": "CentOS",
     "category": "OS",
+    "count": 104,
+    "region": "Global"
+  },
+  {
+    "id": 235,
+    "year": 2025,
+    "skill": "Go",
+    "category": "Backend",
+    "count": 103,
+    "region": "Global"
+  },
+  {
+    "id": 241,
+    "year": 2025,
+    "skill": "FastAPI",
+    "category": "Backend",
+    "count": 102,
+    "region": "Global"
+  },
+  {
+    "id": 246,
+    "year": 2025,
+    "skill": "Kotlin",
+    "category": "Mobile",
     "count": 99,
     "region": "Global"
   },
   {
-    "id": 292,
+    "id": 236,
     "year": 2025,
-    "skill": "Windows",
-    "category": "OS",
+    "skill": "PHP",
+    "category": "Backend",
+    "count": 98,
+    "region": "Global"
+  },
+  {
+    "id": 279,
+    "year": 2025,
+    "skill": "MongoDB",
+    "category": "Database",
     "count": 97,
     "region": "Global"
   },
   {
-    "id": 289,
+    "id": 238,
     "year": 2025,
-    "skill": "Visual Studio",
+    "skill": "Spring Boot",
+    "category": "Backend",
+    "count": 96,
+    "region": "Global"
+  },
+  {
+    "id": 287,
+    "year": 2025,
+    "skill": "Git",
     "category": "Tools",
     "count": 96,
     "region": "Global"
@@ -2020,63 +1988,23 @@
     "year": 2025,
     "skill": "NestJS",
     "category": "Backend",
-    "count": 92,
+    "count": 95,
     "region": "Global"
   },
   {
-    "id": 246,
+    "id": 256,
     "year": 2025,
-    "skill": "Kotlin",
-    "category": "Mobile",
-    "count": 89,
-    "region": "Global"
-  },
-  {
-    "id": 268,
-    "year": 2025,
-    "skill": "PowerBI",
-    "category": "Data",
-    "count": 87,
-    "region": "Global"
-  },
-  {
-    "id": 274,
-    "year": 2025,
-    "skill": "Playwright",
-    "category": "Test",
-    "count": 86,
-    "region": "Global"
-  },
-  {
-    "id": 288,
-    "year": 2025,
-    "skill": "Jira",
-    "category": "Tools",
-    "count": 86,
-    "region": "Global"
-  },
-  {
-    "id": 257,
-    "year": 2025,
-    "skill": "Ansible",
+    "skill": "Terraform",
     "category": "DevOps",
-    "count": 80,
+    "count": 94,
     "region": "Global"
   },
   {
-    "id": 272,
+    "id": 262,
     "year": 2025,
-    "skill": "Selenium",
-    "category": "Test",
-    "count": 78,
-    "region": "Global"
-  },
-  {
-    "id": 291,
-    "year": 2025,
-    "skill": "Figma",
-    "category": "Tools",
-    "count": 78,
+    "skill": "SQL",
+    "category": "Data",
+    "count": 93,
     "region": "Global"
   },
   {
@@ -2084,31 +2012,103 @@
     "year": 2025,
     "skill": "React Native",
     "category": "Mobile",
-    "count": 77,
+    "count": 92,
     "region": "Global"
   },
   {
-    "id": 287,
+    "id": 228,
     "year": 2025,
-    "skill": "Git",
+    "skill": "Tailwind CSS",
+    "category": "Frontend",
+    "count": 91,
+    "region": "Global"
+  },
+  {
+    "id": 289,
+    "year": 2025,
+    "skill": "Visual Studio",
     "category": "Tools",
-    "count": 77,
+    "count": 91,
     "region": "Global"
   },
   {
-    "id": 277,
+    "id": 237,
     "year": 2025,
-    "skill": "Appium",
+    "skill": "Ruby",
+    "category": "Backend",
+    "count": 89,
+    "region": "Global"
+  },
+  {
+    "id": 257,
+    "year": 2025,
+    "skill": "Ansible",
+    "category": "DevOps",
+    "count": 89,
+    "region": "Global"
+  },
+  {
+    "id": 286,
+    "year": 2025,
+    "skill": "IntelliJ IDEA",
+    "category": "Tools",
+    "count": 89,
+    "region": "Global"
+  },
+  {
+    "id": 259,
+    "year": 2025,
+    "skill": "GitHub Actions",
+    "category": "DevOps",
+    "count": 86,
+    "region": "Global"
+  },
+  {
+    "id": 254,
+    "year": 2025,
+    "skill": "Azure",
+    "category": "DevOps",
+    "count": 84,
+    "region": "Global"
+  },
+  {
+    "id": 275,
+    "year": 2025,
+    "skill": "Jest",
     "category": "Test",
+    "count": 83,
+    "region": "Global"
+  },
+  {
+    "id": 258,
+    "year": 2025,
+    "skill": "Jenkins",
+    "category": "DevOps",
+    "count": 82,
+    "region": "Global"
+  },
+  {
+    "id": 240,
+    "year": 2025,
+    "skill": "Django",
+    "category": "Backend",
     "count": 76,
     "region": "Global"
   },
   {
-    "id": 284,
+    "id": 269,
     "year": 2025,
-    "skill": "SQLite",
-    "category": "Database",
-    "count": 76,
+    "skill": "Tableau",
+    "category": "Data",
+    "count": 74,
+    "region": "Global"
+  },
+  {
+    "id": 268,
+    "year": 2025,
+    "skill": "PowerBI",
+    "category": "Data",
+    "count": 72,
     "region": "Global"
   },
   {
@@ -2120,11 +2120,11 @@
     "region": "Global"
   },
   {
-    "id": 265,
+    "id": 227,
     "year": 2025,
-    "skill": "PyTorch",
-    "category": "Data",
-    "count": 67,
+    "skill": "Next.js",
+    "category": "Frontend",
+    "count": 69,
     "region": "Global"
   },
   {
@@ -2132,103 +2132,7 @@
     "year": 2025,
     "skill": "Hadoop",
     "category": "Data",
-    "count": 66,
-    "region": "Global"
-  },
-  {
-    "id": 290,
-    "year": 2025,
-    "skill": "Postman",
-    "category": "Tools",
-    "count": 66,
-    "region": "Global"
-  },
-  {
-    "id": 283,
-    "year": 2025,
-    "skill": "Cassandra",
-    "category": "Database",
-    "count": 64,
-    "region": "Global"
-  },
-  {
-    "id": 238,
-    "year": 2025,
-    "skill": "Spring Boot",
-    "category": "Backend",
-    "count": 63,
-    "region": "Global"
-  },
-  {
-    "id": 224,
-    "year": 2025,
-    "skill": "Vue.js",
-    "category": "Frontend",
-    "count": 61,
-    "region": "Global"
-  },
-  {
-    "id": 252,
-    "year": 2025,
-    "skill": "Kubernetes",
-    "category": "DevOps",
-    "count": 61,
-    "region": "Global"
-  },
-  {
-    "id": 225,
-    "year": 2025,
-    "skill": "Angular",
-    "category": "Frontend",
-    "count": 60,
-    "region": "Global"
-  },
-  {
-    "id": 236,
-    "year": 2025,
-    "skill": "PHP",
-    "category": "Backend",
-    "count": 60,
-    "region": "Global"
-  },
-  {
-    "id": 255,
-    "year": 2025,
-    "skill": "GCP",
-    "category": "DevOps",
-    "count": 60,
-    "region": "Global"
-  },
-  {
-    "id": 285,
-    "year": 2025,
-    "skill": "VS Code",
-    "category": "Tools",
-    "count": 60,
-    "region": "Global"
-  },
-  {
-    "id": 294,
-    "year": 2025,
-    "skill": "Ubuntu",
-    "category": "OS",
-    "count": 57,
-    "region": "Global"
-  },
-  {
-    "id": 293,
-    "year": 2025,
-    "skill": "MacOS",
-    "category": "OS",
-    "count": 54,
-    "region": "Global"
-  },
-  {
-    "id": 227,
-    "year": 2025,
-    "skill": "Next.js",
-    "category": "Frontend",
-    "count": 53,
+    "count": 67,
     "region": "Global"
   },
   {
@@ -2236,31 +2140,15 @@
     "year": 2025,
     "skill": "Android",
     "category": "Mobile",
-    "count": 53,
+    "count": 65,
     "region": "Global"
   },
   {
-    "id": 270,
+    "id": 226,
     "year": 2025,
-    "skill": "R",
-    "category": "Data",
-    "count": 51,
-    "region": "Global"
-  },
-  {
-    "id": 256,
-    "year": 2025,
-    "skill": "Terraform",
-    "category": "DevOps",
-    "count": 47,
-    "region": "Global"
-  },
-  {
-    "id": 264,
-    "year": 2025,
-    "skill": "TensorFlow",
-    "category": "Data",
-    "count": 47,
+    "skill": "Svelte",
+    "category": "Frontend",
+    "count": 63,
     "region": "Global"
   },
   {
@@ -2268,23 +2156,47 @@
     "year": 2025,
     "skill": "Dart",
     "category": "Mobile",
-    "count": 43,
+    "count": 60,
     "region": "Global"
   },
   {
-    "id": 279,
+    "id": 277,
     "year": 2025,
-    "skill": "MongoDB",
+    "skill": "Appium",
+    "category": "Test",
+    "count": 60,
+    "region": "Global"
+  },
+  {
+    "id": 278,
+    "year": 2025,
+    "skill": "PostgreSQL",
     "category": "Database",
-    "count": 41,
+    "count": 58,
     "region": "Global"
   },
   {
-    "id": 235,
+    "id": 224,
     "year": 2025,
-    "skill": "Go",
+    "skill": "Vue.js",
+    "category": "Frontend",
+    "count": 57,
+    "region": "Global"
+  },
+  {
+    "id": 234,
+    "year": 2025,
+    "skill": "C#",
     "category": "Backend",
-    "count": 39,
+    "count": 57,
+    "region": "Global"
+  },
+  {
+    "id": 284,
+    "year": 2025,
+    "skill": "SQLite",
+    "category": "Database",
+    "count": 56,
     "region": "Global"
   },
   {
@@ -2292,39 +2204,23 @@
     "year": 2025,
     "skill": "Objective-C",
     "category": "Mobile",
-    "count": 38,
+    "count": 53,
     "region": "Global"
   },
   {
-    "id": 248,
+    "id": 285,
     "year": 2025,
-    "skill": "iOS",
-    "category": "Mobile",
-    "count": 37,
-    "region": "Global"
-  },
-  {
-    "id": 260,
-    "year": 2025,
-    "skill": "Linux",
-    "category": "DevOps",
-    "count": 35,
-    "region": "Global"
-  },
-  {
-    "id": 286,
-    "year": 2025,
-    "skill": "IntelliJ IDEA",
+    "skill": "VS Code",
     "category": "Tools",
-    "count": 35,
+    "count": 50,
     "region": "Global"
   },
   {
-    "id": 266,
+    "id": 283,
     "year": 2025,
-    "skill": "Spark",
-    "category": "Data",
-    "count": 34,
+    "skill": "Cassandra",
+    "category": "Database",
+    "count": 47,
     "region": "Global"
   },
   {
@@ -2332,23 +2228,55 @@
     "year": 2025,
     "skill": "Swift",
     "category": "Mobile",
-    "count": 32,
+    "count": 46,
     "region": "Global"
   },
   {
-    "id": 237,
+    "id": 239,
     "year": 2025,
-    "skill": "Ruby",
+    "skill": ".NET Core",
     "category": "Backend",
-    "count": 31,
+    "count": 45,
     "region": "Global"
   },
   {
-    "id": 273,
+    "id": 248,
     "year": 2025,
-    "skill": "Cypress",
+    "skill": "iOS",
+    "category": "Mobile",
+    "count": 45,
+    "region": "Global"
+  },
+  {
+    "id": 271,
+    "year": 2025,
+    "skill": "OpenAI API",
+    "category": "Data",
+    "count": 45,
+    "region": "Global"
+  },
+  {
+    "id": 294,
+    "year": 2025,
+    "skill": "Ubuntu",
+    "category": "OS",
+    "count": 45,
+    "region": "Global"
+  },
+  {
+    "id": 225,
+    "year": 2025,
+    "skill": "Angular",
+    "category": "Frontend",
+    "count": 42,
+    "region": "Global"
+  },
+  {
+    "id": 276,
+    "year": 2025,
+    "skill": "JUnit",
     "category": "Test",
-    "count": 30,
+    "count": 40,
     "region": "Global"
   },
   {
@@ -2356,55 +2284,87 @@
     "year": 2025,
     "skill": "HTML/CSS",
     "category": "Frontend",
-    "count": 27,
+    "count": 36,
     "region": "Global"
   },
   {
-    "id": 275,
+    "id": 266,
     "year": 2025,
-    "skill": "Jest",
-    "category": "Test",
+    "skill": "Spark",
+    "category": "Data",
+    "count": 36,
+    "region": "Global"
+  },
+  {
+    "id": 291,
+    "year": 2025,
+    "skill": "Figma",
+    "category": "Tools",
+    "count": 34,
+    "region": "Global"
+  },
+  {
+    "id": 292,
+    "year": 2025,
+    "skill": "Windows",
+    "category": "OS",
+    "count": 34,
+    "region": "Global"
+  },
+  {
+    "id": 296,
+    "year": 2025,
+    "skill": "Red Hat",
+    "category": "OS",
+    "count": 34,
+    "region": "Global"
+  },
+  {
+    "id": 255,
+    "year": 2025,
+    "skill": "GCP",
+    "category": "DevOps",
+    "count": 33,
+    "region": "Global"
+  },
+  {
+    "id": 265,
+    "year": 2025,
+    "skill": "PyTorch",
+    "category": "Data",
+    "count": 33,
+    "region": "Global"
+  },
+  {
+    "id": 288,
+    "year": 2025,
+    "skill": "Jira",
+    "category": "Tools",
+    "count": 31,
+    "region": "Global"
+  },
+  {
+    "id": 263,
+    "year": 2025,
+    "skill": "Pandas",
+    "category": "Data",
+    "count": 28,
+    "region": "Global"
+  },
+  {
+    "id": 260,
+    "year": 2025,
+    "skill": "Linux",
+    "category": "DevOps",
     "count": 27,
     "region": "Global"
   },
   {
-    "id": 304,
-    "year": 2026,
-    "skill": "TypeScript",
-    "category": "Frontend",
-    "count": 350,
-    "region": "Global"
-  },
-  {
-    "id": 297,
-    "year": 2026,
-    "skill": "React",
-    "category": "Frontend",
-    "count": 291,
-    "region": "Global"
-  },
-  {
-    "id": 307,
-    "year": 2026,
-    "skill": "Java",
-    "category": "Backend",
-    "count": 278,
-    "region": "Global"
-  },
-  {
-    "id": 325,
-    "year": 2026,
-    "skill": "Docker",
-    "category": "DevOps",
-    "count": 270,
-    "region": "Global"
-  },
-  {
-    "id": 306,
-    "year": 2026,
-    "skill": "Python",
-    "category": "Backend",
-    "count": 253,
+    "id": 274,
+    "year": 2025,
+    "skill": "Playwright",
+    "category": "Test",
+    "count": 24,
     "region": "Global"
   },
   {
@@ -2412,7 +2372,7 @@
     "year": 2026,
     "skill": "Python",
     "category": "Data",
-    "count": 228,
+    "count": 366,
     "region": "Global"
   },
   {
@@ -2420,23 +2380,15 @@
     "year": 2026,
     "skill": "AWS",
     "category": "DevOps",
-    "count": 192,
+    "count": 235,
     "region": "Global"
   },
   {
-    "id": 305,
+    "id": 306,
     "year": 2026,
-    "skill": "Node.js",
+    "skill": "Python",
     "category": "Backend",
-    "count": 188,
-    "region": "Global"
-  },
-  {
-    "id": 301,
-    "year": 2026,
-    "skill": "Next.js",
-    "category": "Frontend",
-    "count": 179,
+    "count": 209,
     "region": "Global"
   },
   {
@@ -2444,167 +2396,7 @@
     "year": 2026,
     "skill": "Kubernetes",
     "category": "DevOps",
-    "count": 167,
-    "region": "Global"
-  },
-  {
-    "id": 316,
-    "year": 2026,
-    "skill": "NestJS",
-    "category": "Backend",
-    "count": 140,
-    "region": "Global"
-  },
-  {
-    "id": 312,
-    "year": 2026,
-    "skill": "Spring Boot",
-    "category": "Backend",
-    "count": 135,
-    "region": "Global"
-  },
-  {
-    "id": 337,
-    "year": 2026,
-    "skill": "Pandas",
-    "category": "Data",
-    "count": 133,
-    "region": "Global"
-  },
-  {
-    "id": 342,
-    "year": 2026,
-    "skill": "PowerBI",
-    "category": "Data",
-    "count": 133,
-    "region": "Global"
-  },
-  {
-    "id": 362,
-    "year": 2026,
-    "skill": "Jira",
-    "category": "Tools",
-    "count": 128,
-    "region": "Global"
-  },
-  {
-    "id": 331,
-    "year": 2026,
-    "skill": "Ansible",
-    "category": "DevOps",
-    "count": 126,
-    "region": "Global"
-  },
-  {
-    "id": 332,
-    "year": 2026,
-    "skill": "Jenkins",
-    "category": "DevOps",
-    "count": 126,
-    "region": "Global"
-  },
-  {
-    "id": 341,
-    "year": 2026,
-    "skill": "Hadoop",
-    "category": "Data",
-    "count": 123,
-    "region": "Global"
-  },
-  {
-    "id": 358,
-    "year": 2026,
-    "skill": "SQLite",
-    "category": "Database",
-    "count": 121,
-    "region": "Global"
-  },
-  {
-    "id": 369,
-    "year": 2026,
-    "skill": "CentOS",
-    "category": "OS",
-    "count": 120,
-    "region": "Global"
-  },
-  {
-    "id": 363,
-    "year": 2026,
-    "skill": "Visual Studio",
-    "category": "Tools",
-    "count": 119,
-    "region": "Global"
-  },
-  {
-    "id": 303,
-    "year": 2026,
-    "skill": "HTML/CSS",
-    "category": "Frontend",
-    "count": 118,
-    "region": "Global"
-  },
-  {
-    "id": 357,
-    "year": 2026,
-    "skill": "Cassandra",
-    "category": "Database",
-    "count": 116,
-    "region": "Global"
-  },
-  {
-    "id": 309,
-    "year": 2026,
-    "skill": "Go",
-    "category": "Backend",
-    "count": 115,
-    "region": "Global"
-  },
-  {
-    "id": 361,
-    "year": 2026,
-    "skill": "Git",
-    "category": "Tools",
-    "count": 115,
-    "region": "Global"
-  },
-  {
-    "id": 343,
-    "year": 2026,
-    "skill": "Tableau",
-    "category": "Data",
-    "count": 113,
-    "region": "Global"
-  },
-  {
-    "id": 313,
-    "year": 2026,
-    "skill": ".NET Core",
-    "category": "Backend",
-    "count": 110,
-    "region": "Global"
-  },
-  {
-    "id": 322,
-    "year": 2026,
-    "skill": "iOS",
-    "category": "Mobile",
-    "count": 109,
-    "region": "Global"
-  },
-  {
-    "id": 320,
-    "year": 2026,
-    "skill": "Kotlin",
-    "category": "Mobile",
-    "count": 107,
-    "region": "Global"
-  },
-  {
-    "id": 329,
-    "year": 2026,
-    "skill": "GCP",
-    "category": "DevOps",
-    "count": 104,
+    "count": 181,
     "region": "Global"
   },
   {
@@ -2612,95 +2404,15 @@
     "year": 2026,
     "skill": "SQL",
     "category": "Data",
-    "count": 102,
+    "count": 177,
     "region": "Global"
   },
   {
-    "id": 354,
+    "id": 325,
     "year": 2026,
-    "skill": "MySQL",
-    "category": "Database",
-    "count": 102,
-    "region": "Global"
-  },
-  {
-    "id": 359,
-    "year": 2026,
-    "skill": "VS Code",
-    "category": "Tools",
-    "count": 101,
-    "region": "Global"
-  },
-  {
-    "id": 365,
-    "year": 2026,
-    "skill": "Figma",
-    "category": "Tools",
-    "count": 97,
-    "region": "Global"
-  },
-  {
-    "id": 355,
-    "year": 2026,
-    "skill": "Redis",
-    "category": "Database",
-    "count": 94,
-    "region": "Global"
-  },
-  {
-    "id": 340,
-    "year": 2026,
-    "skill": "Spark",
-    "category": "Data",
-    "count": 93,
-    "region": "Global"
-  },
-  {
-    "id": 347,
-    "year": 2026,
-    "skill": "Cypress",
-    "category": "Test",
-    "count": 92,
-    "region": "Global"
-  },
-  {
-    "id": 360,
-    "year": 2026,
-    "skill": "IntelliJ IDEA",
-    "category": "Tools",
-    "count": 91,
-    "region": "Global"
-  },
-  {
-    "id": 319,
-    "year": 2026,
-    "skill": "Swift",
-    "category": "Mobile",
-    "count": 90,
-    "region": "Global"
-  },
-  {
-    "id": 366,
-    "year": 2026,
-    "skill": "Windows",
-    "category": "OS",
-    "count": 89,
-    "region": "Global"
-  },
-  {
-    "id": 338,
-    "year": 2026,
-    "skill": "TensorFlow",
-    "category": "Data",
-    "count": 88,
-    "region": "Global"
-  },
-  {
-    "id": 314,
-    "year": 2026,
-    "skill": "Django",
-    "category": "Backend",
-    "count": 87,
+    "skill": "Docker",
+    "category": "DevOps",
+    "count": 159,
     "region": "Global"
   },
   {
@@ -2708,15 +2420,15 @@
     "year": 2026,
     "skill": "PyTorch",
     "category": "Data",
-    "count": 87,
+    "count": 159,
     "region": "Global"
   },
   {
-    "id": 300,
+    "id": 304,
     "year": 2026,
-    "skill": "Svelte",
+    "skill": "TypeScript",
     "category": "Frontend",
-    "count": 85,
+    "count": 148,
     "region": "Global"
   },
   {
@@ -2724,127 +2436,7 @@
     "year": 2026,
     "skill": "OpenAI API",
     "category": "Data",
-    "count": 84,
-    "region": "Global"
-  },
-  {
-    "id": 348,
-    "year": 2026,
-    "skill": "Playwright",
-    "category": "Test",
-    "count": 84,
-    "region": "Global"
-  },
-  {
-    "id": 351,
-    "year": 2026,
-    "skill": "Appium",
-    "category": "Test",
-    "count": 84,
-    "region": "Global"
-  },
-  {
-    "id": 349,
-    "year": 2026,
-    "skill": "Jest",
-    "category": "Test",
-    "count": 83,
-    "region": "Global"
-  },
-  {
-    "id": 353,
-    "year": 2026,
-    "skill": "MongoDB",
-    "category": "Database",
-    "count": 83,
-    "region": "Global"
-  },
-  {
-    "id": 350,
-    "year": 2026,
-    "skill": "JUnit",
-    "category": "Test",
-    "count": 81,
-    "region": "Global"
-  },
-  {
-    "id": 364,
-    "year": 2026,
-    "skill": "Postman",
-    "category": "Tools",
-    "count": 80,
-    "region": "Global"
-  },
-  {
-    "id": 367,
-    "year": 2026,
-    "skill": "MacOS",
-    "category": "OS",
-    "count": 79,
-    "region": "Global"
-  },
-  {
-    "id": 344,
-    "year": 2026,
-    "skill": "R",
-    "category": "Data",
-    "count": 76,
-    "region": "Global"
-  },
-  {
-    "id": 356,
-    "year": 2026,
-    "skill": "Elasticsearch",
-    "category": "Database",
-    "count": 74,
-    "region": "Global"
-  },
-  {
-    "id": 321,
-    "year": 2026,
-    "skill": "Android",
-    "category": "Mobile",
-    "count": 73,
-    "region": "Global"
-  },
-  {
-    "id": 308,
-    "year": 2026,
-    "skill": "C#",
-    "category": "Backend",
-    "count": 67,
-    "region": "Global"
-  },
-  {
-    "id": 298,
-    "year": 2026,
-    "skill": "Vue.js",
-    "category": "Frontend",
-    "count": 66,
-    "region": "Global"
-  },
-  {
-    "id": 318,
-    "year": 2026,
-    "skill": "React Native",
-    "category": "Mobile",
-    "count": 66,
-    "region": "Global"
-  },
-  {
-    "id": 324,
-    "year": 2026,
-    "skill": "Objective-C",
-    "category": "Mobile",
-    "count": 66,
-    "region": "Global"
-  },
-  {
-    "id": 317,
-    "year": 2026,
-    "skill": "Flutter",
-    "category": "Mobile",
-    "count": 65,
+    "count": 140,
     "region": "Global"
   },
   {
@@ -2852,63 +2444,71 @@
     "year": 2026,
     "skill": "Dart",
     "category": "Mobile",
-    "count": 65,
+    "count": 137,
     "region": "Global"
   },
   {
-    "id": 330,
+    "id": 337,
     "year": 2026,
-    "skill": "Terraform",
-    "category": "DevOps",
-    "count": 65,
+    "skill": "Pandas",
+    "category": "Data",
+    "count": 134,
     "region": "Global"
   },
   {
-    "id": 334,
+    "id": 340,
     "year": 2026,
-    "skill": "Linux",
-    "category": "DevOps",
-    "count": 57,
+    "skill": "Spark",
+    "category": "Data",
+    "count": 133,
     "region": "Global"
   },
   {
-    "id": 328,
+    "id": 307,
     "year": 2026,
-    "skill": "Azure",
-    "category": "DevOps",
-    "count": 54,
-    "region": "Global"
-  },
-  {
-    "id": 368,
-    "year": 2026,
-    "skill": "Ubuntu",
-    "category": "OS",
-    "count": 51,
-    "region": "Global"
-  },
-  {
-    "id": 352,
-    "year": 2026,
-    "skill": "PostgreSQL",
-    "category": "Database",
-    "count": 49,
-    "region": "Global"
-  },
-  {
-    "id": 302,
-    "year": 2026,
-    "skill": "Tailwind CSS",
-    "category": "Frontend",
-    "count": 48,
-    "region": "Global"
-  },
-  {
-    "id": 310,
-    "year": 2026,
-    "skill": "PHP",
+    "skill": "Java",
     "category": "Backend",
-    "count": 43,
+    "count": 132,
+    "region": "Global"
+  },
+  {
+    "id": 364,
+    "year": 2026,
+    "skill": "Postman",
+    "category": "Tools",
+    "count": 130,
+    "region": "Global"
+  },
+  {
+    "id": 305,
+    "year": 2026,
+    "skill": "Node.js",
+    "category": "Backend",
+    "count": 129,
+    "region": "Global"
+  },
+  {
+    "id": 297,
+    "year": 2026,
+    "skill": "React",
+    "category": "Frontend",
+    "count": 126,
+    "region": "Global"
+  },
+  {
+    "id": 361,
+    "year": 2026,
+    "skill": "Git",
+    "category": "Tools",
+    "count": 120,
+    "region": "Global"
+  },
+  {
+    "id": 316,
+    "year": 2026,
+    "skill": "NestJS",
+    "category": "Backend",
+    "count": 118,
     "region": "Global"
   },
   {
@@ -2916,7 +2516,55 @@
     "year": 2026,
     "skill": "Selenium",
     "category": "Test",
-    "count": 43,
+    "count": 113,
+    "region": "Global"
+  },
+  {
+    "id": 312,
+    "year": 2026,
+    "skill": "Spring Boot",
+    "category": "Backend",
+    "count": 108,
+    "region": "Global"
+  },
+  {
+    "id": 344,
+    "year": 2026,
+    "skill": "R",
+    "category": "Data",
+    "count": 108,
+    "region": "Global"
+  },
+  {
+    "id": 313,
+    "year": 2026,
+    "skill": ".NET Core",
+    "category": "Backend",
+    "count": 104,
+    "region": "Global"
+  },
+  {
+    "id": 343,
+    "year": 2026,
+    "skill": "Tableau",
+    "category": "Data",
+    "count": 104,
+    "region": "Global"
+  },
+  {
+    "id": 347,
+    "year": 2026,
+    "skill": "Cypress",
+    "category": "Test",
+    "count": 97,
+    "region": "Global"
+  },
+  {
+    "id": 348,
+    "year": 2026,
+    "skill": "Playwright",
+    "category": "Test",
+    "count": 97,
     "region": "Global"
   },
   {
@@ -2924,15 +2572,15 @@
     "year": 2026,
     "skill": "Red Hat",
     "category": "OS",
-    "count": 40,
+    "count": 97,
     "region": "Global"
   },
   {
-    "id": 315,
+    "id": 318,
     "year": 2026,
-    "skill": "FastAPI",
-    "category": "Backend",
-    "count": 34,
+    "skill": "React Native",
+    "category": "Mobile",
+    "count": 92,
     "region": "Global"
   },
   {
@@ -2940,15 +2588,79 @@
     "year": 2026,
     "skill": "GitHub Actions",
     "category": "DevOps",
-    "count": 31,
+    "count": 92,
     "region": "Global"
   },
   {
-    "id": 311,
+    "id": 365,
     "year": 2026,
-    "skill": "Ruby",
+    "skill": "Figma",
+    "category": "Tools",
+    "count": 92,
+    "region": "Global"
+  },
+  {
+    "id": 354,
+    "year": 2026,
+    "skill": "MySQL",
+    "category": "Database",
+    "count": 91,
+    "region": "Global"
+  },
+  {
+    "id": 362,
+    "year": 2026,
+    "skill": "Jira",
+    "category": "Tools",
+    "count": 90,
+    "region": "Global"
+  },
+  {
+    "id": 319,
+    "year": 2026,
+    "skill": "Swift",
+    "category": "Mobile",
+    "count": 88,
+    "region": "Global"
+  },
+  {
+    "id": 366,
+    "year": 2026,
+    "skill": "Windows",
+    "category": "OS",
+    "count": 87,
+    "region": "Global"
+  },
+  {
+    "id": 328,
+    "year": 2026,
+    "skill": "Azure",
+    "category": "DevOps",
+    "count": 83,
+    "region": "Global"
+  },
+  {
+    "id": 300,
+    "year": 2026,
+    "skill": "Svelte",
+    "category": "Frontend",
+    "count": 82,
+    "region": "Global"
+  },
+  {
+    "id": 301,
+    "year": 2026,
+    "skill": "Next.js",
+    "category": "Frontend",
+    "count": 82,
+    "region": "Global"
+  },
+  {
+    "id": 308,
+    "year": 2026,
+    "skill": "C#",
     "category": "Backend",
-    "count": 28,
+    "count": 81,
     "region": "Global"
   },
   {
@@ -2956,39 +2668,303 @@
     "year": 2026,
     "skill": "Angular",
     "category": "Frontend",
-    "count": 21,
+    "count": 79,
     "region": "Global"
   },
   {
-    "id": 381,
-    "year": 2022,
-    "skill": "Java",
-    "category": "Backend",
-    "count": 271,
-    "region": "TR"
-  },
-  {
-    "id": 410,
-    "year": 2022,
-    "skill": "SQL",
-    "category": "Data",
-    "count": 202,
-    "region": "TR"
-  },
-  {
-    "id": 371,
-    "year": 2022,
-    "skill": "React",
+    "id": 303,
+    "year": 2026,
+    "skill": "HTML/CSS",
     "category": "Frontend",
-    "count": 193,
-    "region": "TR"
+    "count": 79,
+    "region": "Global"
   },
   {
-    "id": 380,
+    "id": 309,
+    "year": 2026,
+    "skill": "Go",
+    "category": "Backend",
+    "count": 78,
+    "region": "Global"
+  },
+  {
+    "id": 353,
+    "year": 2026,
+    "skill": "MongoDB",
+    "category": "Database",
+    "count": 76,
+    "region": "Global"
+  },
+  {
+    "id": 355,
+    "year": 2026,
+    "skill": "Redis",
+    "category": "Database",
+    "count": 74,
+    "region": "Global"
+  },
+  {
+    "id": 329,
+    "year": 2026,
+    "skill": "GCP",
+    "category": "DevOps",
+    "count": 73,
+    "region": "Global"
+  },
+  {
+    "id": 298,
+    "year": 2026,
+    "skill": "Vue.js",
+    "category": "Frontend",
+    "count": 72,
+    "region": "Global"
+  },
+  {
+    "id": 314,
+    "year": 2026,
+    "skill": "Django",
+    "category": "Backend",
+    "count": 72,
+    "region": "Global"
+  },
+  {
+    "id": 359,
+    "year": 2026,
+    "skill": "VS Code",
+    "category": "Tools",
+    "count": 72,
+    "region": "Global"
+  },
+  {
+    "id": 302,
+    "year": 2026,
+    "skill": "Tailwind CSS",
+    "category": "Frontend",
+    "count": 71,
+    "region": "Global"
+  },
+  {
+    "id": 358,
+    "year": 2026,
+    "skill": "SQLite",
+    "category": "Database",
+    "count": 69,
+    "region": "Global"
+  },
+  {
+    "id": 349,
+    "year": 2026,
+    "skill": "Jest",
+    "category": "Test",
+    "count": 68,
+    "region": "Global"
+  },
+  {
+    "id": 334,
+    "year": 2026,
+    "skill": "Linux",
+    "category": "DevOps",
+    "count": 67,
+    "region": "Global"
+  },
+  {
+    "id": 342,
+    "year": 2026,
+    "skill": "PowerBI",
+    "category": "Data",
+    "count": 67,
+    "region": "Global"
+  },
+  {
+    "id": 360,
+    "year": 2026,
+    "skill": "IntelliJ IDEA",
+    "category": "Tools",
+    "count": 67,
+    "region": "Global"
+  },
+  {
+    "id": 311,
+    "year": 2026,
+    "skill": "Ruby",
+    "category": "Backend",
+    "count": 65,
+    "region": "Global"
+  },
+  {
+    "id": 320,
+    "year": 2026,
+    "skill": "Kotlin",
+    "category": "Mobile",
+    "count": 65,
+    "region": "Global"
+  },
+  {
+    "id": 317,
+    "year": 2026,
+    "skill": "Flutter",
+    "category": "Mobile",
+    "count": 62,
+    "region": "Global"
+  },
+  {
+    "id": 338,
+    "year": 2026,
+    "skill": "TensorFlow",
+    "category": "Data",
+    "count": 62,
+    "region": "Global"
+  },
+  {
+    "id": 356,
+    "year": 2026,
+    "skill": "Elasticsearch",
+    "category": "Database",
+    "count": 59,
+    "region": "Global"
+  },
+  {
+    "id": 310,
+    "year": 2026,
+    "skill": "PHP",
+    "category": "Backend",
+    "count": 58,
+    "region": "Global"
+  },
+  {
+    "id": 351,
+    "year": 2026,
+    "skill": "Appium",
+    "category": "Test",
+    "count": 57,
+    "region": "Global"
+  },
+  {
+    "id": 369,
+    "year": 2026,
+    "skill": "CentOS",
+    "category": "OS",
+    "count": 50,
+    "region": "Global"
+  },
+  {
+    "id": 367,
+    "year": 2026,
+    "skill": "MacOS",
+    "category": "OS",
+    "count": 49,
+    "region": "Global"
+  },
+  {
+    "id": 321,
+    "year": 2026,
+    "skill": "Android",
+    "category": "Mobile",
+    "count": 46,
+    "region": "Global"
+  },
+  {
+    "id": 352,
+    "year": 2026,
+    "skill": "PostgreSQL",
+    "category": "Database",
+    "count": 46,
+    "region": "Global"
+  },
+  {
+    "id": 330,
+    "year": 2026,
+    "skill": "Terraform",
+    "category": "DevOps",
+    "count": 45,
+    "region": "Global"
+  },
+  {
+    "id": 350,
+    "year": 2026,
+    "skill": "JUnit",
+    "category": "Test",
+    "count": 44,
+    "region": "Global"
+  },
+  {
+    "id": 363,
+    "year": 2026,
+    "skill": "Visual Studio",
+    "category": "Tools",
+    "count": 41,
+    "region": "Global"
+  },
+  {
+    "id": 341,
+    "year": 2026,
+    "skill": "Hadoop",
+    "category": "Data",
+    "count": 40,
+    "region": "Global"
+  },
+  {
+    "id": 331,
+    "year": 2026,
+    "skill": "Ansible",
+    "category": "DevOps",
+    "count": 39,
+    "region": "Global"
+  },
+  {
+    "id": 332,
+    "year": 2026,
+    "skill": "Jenkins",
+    "category": "DevOps",
+    "count": 39,
+    "region": "Global"
+  },
+  {
+    "id": 322,
+    "year": 2026,
+    "skill": "iOS",
+    "category": "Mobile",
+    "count": 37,
+    "region": "Global"
+  },
+  {
+    "id": 315,
+    "year": 2026,
+    "skill": "FastAPI",
+    "category": "Backend",
+    "count": 33,
+    "region": "Global"
+  },
+  {
+    "id": 368,
+    "year": 2026,
+    "skill": "Ubuntu",
+    "category": "OS",
+    "count": 32,
+    "region": "Global"
+  },
+  {
+    "id": 357,
+    "year": 2026,
+    "skill": "Cassandra",
+    "category": "Database",
+    "count": 29,
+    "region": "Global"
+  },
+  {
+    "id": 324,
+    "year": 2026,
+    "skill": "Objective-C",
+    "category": "Mobile",
+    "count": 25,
+    "region": "Global"
+  },
+  {
+    "id": 409,
     "year": 2022,
     "skill": "Python",
-    "category": "Backend",
-    "count": 166,
+    "category": "Data",
+    "count": 194,
     "region": "TR"
   },
   {
@@ -2996,31 +2972,23 @@
     "year": 2022,
     "skill": "AWS",
     "category": "DevOps",
-    "count": 148,
+    "count": 176,
     "region": "TR"
   },
   {
-    "id": 379,
+    "id": 380,
     "year": 2022,
-    "skill": "Node.js",
+    "skill": "Python",
     "category": "Backend",
-    "count": 143,
+    "count": 165,
     "region": "TR"
   },
   {
-    "id": 391,
+    "id": 381,
     "year": 2022,
-    "skill": "Flutter",
-    "category": "Mobile",
-    "count": 132,
-    "region": "TR"
-  },
-  {
-    "id": 373,
-    "year": 2022,
-    "skill": "Angular",
-    "category": "Frontend",
-    "count": 129,
+    "skill": "Java",
+    "category": "Backend",
+    "count": 162,
     "region": "TR"
   },
   {
@@ -3028,207 +2996,7 @@
     "year": 2022,
     "skill": "Windows",
     "category": "OS",
-    "count": 124,
-    "region": "TR"
-  },
-  {
-    "id": 399,
-    "year": 2022,
-    "skill": "Docker",
-    "category": "DevOps",
-    "count": 117,
-    "region": "TR"
-  },
-  {
-    "id": 437,
-    "year": 2022,
-    "skill": "Visual Studio",
-    "category": "Tools",
-    "count": 117,
-    "region": "TR"
-  },
-  {
-    "id": 428,
-    "year": 2022,
-    "skill": "MySQL",
-    "category": "Database",
-    "count": 116,
-    "region": "TR"
-  },
-  {
-    "id": 382,
-    "year": 2022,
-    "skill": "C#",
-    "category": "Backend",
-    "count": 112,
-    "region": "TR"
-  },
-  {
-    "id": 436,
-    "year": 2022,
-    "skill": "Jira",
-    "category": "Tools",
-    "count": 108,
-    "region": "TR"
-  },
-  {
-    "id": 393,
-    "year": 2022,
-    "skill": "Swift",
-    "category": "Mobile",
-    "count": 100,
-    "region": "TR"
-  },
-  {
-    "id": 426,
-    "year": 2022,
-    "skill": "PostgreSQL",
-    "category": "Database",
-    "count": 97,
-    "region": "TR"
-  },
-  {
-    "id": 385,
-    "year": 2022,
-    "skill": "Ruby",
-    "category": "Backend",
-    "count": 94,
-    "region": "TR"
-  },
-  {
-    "id": 444,
-    "year": 2022,
-    "skill": "Red Hat",
-    "category": "OS",
-    "count": 94,
-    "region": "TR"
-  },
-  {
-    "id": 372,
-    "year": 2022,
-    "skill": "Vue.js",
-    "category": "Frontend",
-    "count": 92,
-    "region": "TR"
-  },
-  {
-    "id": 431,
-    "year": 2022,
-    "skill": "Cassandra",
-    "category": "Database",
-    "count": 91,
-    "region": "TR"
-  },
-  {
-    "id": 441,
-    "year": 2022,
-    "skill": "MacOS",
-    "category": "OS",
-    "count": 91,
-    "region": "TR"
-  },
-  {
-    "id": 404,
-    "year": 2022,
-    "skill": "Terraform",
-    "category": "DevOps",
-    "count": 90,
-    "region": "TR"
-  },
-  {
-    "id": 386,
-    "year": 2022,
-    "skill": "Spring Boot",
-    "category": "Backend",
-    "count": 87,
-    "region": "TR"
-  },
-  {
-    "id": 408,
-    "year": 2022,
-    "skill": "Linux",
-    "category": "DevOps",
-    "count": 87,
-    "region": "TR"
-  },
-  {
-    "id": 425,
-    "year": 2022,
-    "skill": "Appium",
-    "category": "Test",
-    "count": 84,
-    "region": "TR"
-  },
-  {
-    "id": 415,
-    "year": 2022,
-    "skill": "Hadoop",
-    "category": "Data",
-    "count": 83,
-    "region": "TR"
-  },
-  {
-    "id": 398,
-    "year": 2022,
-    "skill": "Objective-C",
-    "category": "Mobile",
-    "count": 81,
-    "region": "TR"
-  },
-  {
-    "id": 402,
-    "year": 2022,
-    "skill": "Azure",
-    "category": "DevOps",
-    "count": 80,
-    "region": "TR"
-  },
-  {
-    "id": 407,
-    "year": 2022,
-    "skill": "GitHub Actions",
-    "category": "DevOps",
-    "count": 75,
-    "region": "TR"
-  },
-  {
-    "id": 384,
-    "year": 2022,
-    "skill": "PHP",
-    "category": "Backend",
-    "count": 74,
-    "region": "TR"
-  },
-  {
-    "id": 429,
-    "year": 2022,
-    "skill": "Redis",
-    "category": "Database",
-    "count": 73,
-    "region": "TR"
-  },
-  {
-    "id": 409,
-    "year": 2022,
-    "skill": "Python",
-    "category": "Data",
-    "count": 72,
-    "region": "TR"
-  },
-  {
-    "id": 443,
-    "year": 2022,
-    "skill": "CentOS",
-    "category": "OS",
-    "count": 71,
-    "region": "TR"
-  },
-  {
-    "id": 423,
-    "year": 2022,
-    "skill": "Jest",
-    "category": "Test",
-    "count": 70,
+    "count": 139,
     "region": "TR"
   },
   {
@@ -3236,191 +3004,15 @@
     "year": 2022,
     "skill": "TypeScript",
     "category": "Frontend",
-    "count": 69,
+    "count": 135,
     "region": "TR"
   },
   {
-    "id": 397,
+    "id": 379,
     "year": 2022,
-    "skill": "Dart",
-    "category": "Mobile",
-    "count": 68,
-    "region": "TR"
-  },
-  {
-    "id": 424,
-    "year": 2022,
-    "skill": "JUnit",
-    "category": "Test",
-    "count": 68,
-    "region": "TR"
-  },
-  {
-    "id": 392,
-    "year": 2022,
-    "skill": "React Native",
-    "category": "Mobile",
-    "count": 67,
-    "region": "TR"
-  },
-  {
-    "id": 396,
-    "year": 2022,
-    "skill": "iOS",
-    "category": "Mobile",
-    "count": 67,
-    "region": "TR"
-  },
-  {
-    "id": 374,
-    "year": 2022,
-    "skill": "Svelte",
-    "category": "Frontend",
-    "count": 66,
-    "region": "TR"
-  },
-  {
-    "id": 387,
-    "year": 2022,
-    "skill": ".NET Core",
+    "skill": "Node.js",
     "category": "Backend",
-    "count": 66,
-    "region": "TR"
-  },
-  {
-    "id": 411,
-    "year": 2022,
-    "skill": "Pandas",
-    "category": "Data",
-    "count": 66,
-    "region": "TR"
-  },
-  {
-    "id": 389,
-    "year": 2022,
-    "skill": "FastAPI",
-    "category": "Backend",
-    "count": 65,
-    "region": "TR"
-  },
-  {
-    "id": 438,
-    "year": 2022,
-    "skill": "Postman",
-    "category": "Tools",
-    "count": 65,
-    "region": "TR"
-  },
-  {
-    "id": 413,
-    "year": 2022,
-    "skill": "PyTorch",
-    "category": "Data",
-    "count": 61,
-    "region": "TR"
-  },
-  {
-    "id": 442,
-    "year": 2022,
-    "skill": "Ubuntu",
-    "category": "OS",
-    "count": 61,
-    "region": "TR"
-  },
-  {
-    "id": 418,
-    "year": 2022,
-    "skill": "R",
-    "category": "Data",
-    "count": 60,
-    "region": "TR"
-  },
-  {
-    "id": 383,
-    "year": 2022,
-    "skill": "Go",
-    "category": "Backend",
-    "count": 59,
-    "region": "TR"
-  },
-  {
-    "id": 421,
-    "year": 2022,
-    "skill": "Cypress",
-    "category": "Test",
-    "count": 57,
-    "region": "TR"
-  },
-  {
-    "id": 433,
-    "year": 2022,
-    "skill": "VS Code",
-    "category": "Tools",
-    "count": 55,
-    "region": "TR"
-  },
-  {
-    "id": 435,
-    "year": 2022,
-    "skill": "Git",
-    "category": "Tools",
-    "count": 54,
-    "region": "TR"
-  },
-  {
-    "id": 377,
-    "year": 2022,
-    "skill": "HTML/CSS",
-    "category": "Frontend",
-    "count": 53,
-    "region": "TR"
-  },
-  {
-    "id": 403,
-    "year": 2022,
-    "skill": "GCP",
-    "category": "DevOps",
-    "count": 53,
-    "region": "TR"
-  },
-  {
-    "id": 420,
-    "year": 2022,
-    "skill": "Selenium",
-    "category": "Test",
-    "count": 51,
-    "region": "TR"
-  },
-  {
-    "id": 434,
-    "year": 2022,
-    "skill": "IntelliJ IDEA",
-    "category": "Tools",
-    "count": 50,
-    "region": "TR"
-  },
-  {
-    "id": 422,
-    "year": 2022,
-    "skill": "Playwright",
-    "category": "Test",
-    "count": 47,
-    "region": "TR"
-  },
-  {
-    "id": 405,
-    "year": 2022,
-    "skill": "Ansible",
-    "category": "DevOps",
-    "count": 46,
-    "region": "TR"
-  },
-  {
-    "id": 419,
-    "year": 2022,
-    "skill": "OpenAI API",
-    "category": "Data",
-    "count": 46,
+    "count": 116,
     "region": "TR"
   },
   {
@@ -3428,15 +3020,55 @@
     "year": 2022,
     "skill": "Android",
     "category": "Mobile",
-    "count": 41,
+    "count": 115,
     "region": "TR"
   },
   {
-    "id": 375,
+    "id": 371,
     "year": 2022,
-    "skill": "Next.js",
+    "skill": "React",
     "category": "Frontend",
-    "count": 38,
+    "count": 107,
+    "region": "TR"
+  },
+  {
+    "id": 373,
+    "year": 2022,
+    "skill": "Angular",
+    "category": "Frontend",
+    "count": 107,
+    "region": "TR"
+  },
+  {
+    "id": 423,
+    "year": 2022,
+    "skill": "Jest",
+    "category": "Test",
+    "count": 104,
+    "region": "TR"
+  },
+  {
+    "id": 410,
+    "year": 2022,
+    "skill": "SQL",
+    "category": "Data",
+    "count": 103,
+    "region": "TR"
+  },
+  {
+    "id": 399,
+    "year": 2022,
+    "skill": "Docker",
+    "category": "DevOps",
+    "count": 102,
+    "region": "TR"
+  },
+  {
+    "id": 442,
+    "year": 2022,
+    "skill": "Ubuntu",
+    "category": "OS",
+    "count": 100,
     "region": "TR"
   },
   {
@@ -3444,7 +3076,71 @@
     "year": 2022,
     "skill": "NestJS",
     "category": "Backend",
-    "count": 38,
+    "count": 99,
+    "region": "TR"
+  },
+  {
+    "id": 384,
+    "year": 2022,
+    "skill": "PHP",
+    "category": "Backend",
+    "count": 96,
+    "region": "TR"
+  },
+  {
+    "id": 396,
+    "year": 2022,
+    "skill": "iOS",
+    "category": "Mobile",
+    "count": 96,
+    "region": "TR"
+  },
+  {
+    "id": 436,
+    "year": 2022,
+    "skill": "Jira",
+    "category": "Tools",
+    "count": 96,
+    "region": "TR"
+  },
+  {
+    "id": 435,
+    "year": 2022,
+    "skill": "Git",
+    "category": "Tools",
+    "count": 95,
+    "region": "TR"
+  },
+  {
+    "id": 404,
+    "year": 2022,
+    "skill": "Terraform",
+    "category": "DevOps",
+    "count": 93,
+    "region": "TR"
+  },
+  {
+    "id": 413,
+    "year": 2022,
+    "skill": "PyTorch",
+    "category": "Data",
+    "count": 92,
+    "region": "TR"
+  },
+  {
+    "id": 375,
+    "year": 2022,
+    "skill": "Next.js",
+    "category": "Frontend",
+    "count": 91,
+    "region": "TR"
+  },
+  {
+    "id": 408,
+    "year": 2022,
+    "skill": "Linux",
+    "category": "DevOps",
+    "count": 91,
     "region": "TR"
   },
   {
@@ -3452,7 +3148,31 @@
     "year": 2022,
     "skill": "Django",
     "category": "Backend",
-    "count": 37,
+    "count": 90,
+    "region": "TR"
+  },
+  {
+    "id": 397,
+    "year": 2022,
+    "skill": "Dart",
+    "category": "Mobile",
+    "count": 90,
+    "region": "TR"
+  },
+  {
+    "id": 433,
+    "year": 2022,
+    "skill": "VS Code",
+    "category": "Tools",
+    "count": 89,
+    "region": "TR"
+  },
+  {
+    "id": 391,
+    "year": 2022,
+    "skill": "Flutter",
+    "category": "Mobile",
+    "count": 87,
     "region": "TR"
   },
   {
@@ -3460,71 +3180,23 @@
     "year": 2022,
     "skill": "Spark",
     "category": "Data",
-    "count": 37,
+    "count": 87,
     "region": "TR"
   },
   {
-    "id": 439,
+    "id": 372,
     "year": 2022,
-    "skill": "Figma",
-    "category": "Tools",
-    "count": 36,
-    "region": "TR"
-  },
-  {
-    "id": 417,
-    "year": 2022,
-    "skill": "Tableau",
-    "category": "Data",
-    "count": 31,
-    "region": "TR"
-  },
-  {
-    "id": 406,
-    "year": 2022,
-    "skill": "Jenkins",
-    "category": "DevOps",
-    "count": 30,
-    "region": "TR"
-  },
-  {
-    "id": 427,
-    "year": 2022,
-    "skill": "MongoDB",
-    "category": "Database",
-    "count": 30,
-    "region": "TR"
-  },
-  {
-    "id": 432,
-    "year": 2022,
-    "skill": "SQLite",
-    "category": "Database",
-    "count": 29,
-    "region": "TR"
-  },
-  {
-    "id": 412,
-    "year": 2022,
-    "skill": "TensorFlow",
-    "category": "Data",
-    "count": 28,
-    "region": "TR"
-  },
-  {
-    "id": 400,
-    "year": 2022,
-    "skill": "Kubernetes",
-    "category": "DevOps",
-    "count": 27,
-    "region": "TR"
-  },
-  {
-    "id": 376,
-    "year": 2022,
-    "skill": "Tailwind CSS",
+    "skill": "Vue.js",
     "category": "Frontend",
-    "count": 25,
+    "count": 83,
+    "region": "TR"
+  },
+  {
+    "id": 387,
+    "year": 2022,
+    "skill": ".NET Core",
+    "category": "Backend",
+    "count": 80,
     "region": "TR"
   },
   {
@@ -3532,7 +3204,23 @@
     "year": 2022,
     "skill": "Elasticsearch",
     "category": "Database",
-    "count": 25,
+    "count": 78,
+    "region": "TR"
+  },
+  {
+    "id": 441,
+    "year": 2022,
+    "skill": "MacOS",
+    "category": "OS",
+    "count": 77,
+    "region": "TR"
+  },
+  {
+    "id": 383,
+    "year": 2022,
+    "skill": "Go",
+    "category": "Backend",
+    "count": 73,
     "region": "TR"
   },
   {
@@ -3540,7 +3228,183 @@
     "year": 2022,
     "skill": "Kotlin",
     "category": "Mobile",
-    "count": 23,
+    "count": 73,
+    "region": "TR"
+  },
+  {
+    "id": 400,
+    "year": 2022,
+    "skill": "Kubernetes",
+    "category": "DevOps",
+    "count": 71,
+    "region": "TR"
+  },
+  {
+    "id": 398,
+    "year": 2022,
+    "skill": "Objective-C",
+    "category": "Mobile",
+    "count": 67,
+    "region": "TR"
+  },
+  {
+    "id": 415,
+    "year": 2022,
+    "skill": "Hadoop",
+    "category": "Data",
+    "count": 67,
+    "region": "TR"
+  },
+  {
+    "id": 428,
+    "year": 2022,
+    "skill": "MySQL",
+    "category": "Database",
+    "count": 65,
+    "region": "TR"
+  },
+  {
+    "id": 437,
+    "year": 2022,
+    "skill": "Visual Studio",
+    "category": "Tools",
+    "count": 65,
+    "region": "TR"
+  },
+  {
+    "id": 393,
+    "year": 2022,
+    "skill": "Swift",
+    "category": "Mobile",
+    "count": 64,
+    "region": "TR"
+  },
+  {
+    "id": 411,
+    "year": 2022,
+    "skill": "Pandas",
+    "category": "Data",
+    "count": 62,
+    "region": "TR"
+  },
+  {
+    "id": 403,
+    "year": 2022,
+    "skill": "GCP",
+    "category": "DevOps",
+    "count": 61,
+    "region": "TR"
+  },
+  {
+    "id": 406,
+    "year": 2022,
+    "skill": "Jenkins",
+    "category": "DevOps",
+    "count": 60,
+    "region": "TR"
+  },
+  {
+    "id": 444,
+    "year": 2022,
+    "skill": "Red Hat",
+    "category": "OS",
+    "count": 58,
+    "region": "TR"
+  },
+  {
+    "id": 377,
+    "year": 2022,
+    "skill": "HTML/CSS",
+    "category": "Frontend",
+    "count": 57,
+    "region": "TR"
+  },
+  {
+    "id": 438,
+    "year": 2022,
+    "skill": "Postman",
+    "category": "Tools",
+    "count": 56,
+    "region": "TR"
+  },
+  {
+    "id": 385,
+    "year": 2022,
+    "skill": "Ruby",
+    "category": "Backend",
+    "count": 55,
+    "region": "TR"
+  },
+  {
+    "id": 426,
+    "year": 2022,
+    "skill": "PostgreSQL",
+    "category": "Database",
+    "count": 53,
+    "region": "TR"
+  },
+  {
+    "id": 427,
+    "year": 2022,
+    "skill": "MongoDB",
+    "category": "Database",
+    "count": 53,
+    "region": "TR"
+  },
+  {
+    "id": 376,
+    "year": 2022,
+    "skill": "Tailwind CSS",
+    "category": "Frontend",
+    "count": 52,
+    "region": "TR"
+  },
+  {
+    "id": 421,
+    "year": 2022,
+    "skill": "Cypress",
+    "category": "Test",
+    "count": 52,
+    "region": "TR"
+  },
+  {
+    "id": 374,
+    "year": 2022,
+    "skill": "Svelte",
+    "category": "Frontend",
+    "count": 51,
+    "region": "TR"
+  },
+  {
+    "id": 392,
+    "year": 2022,
+    "skill": "React Native",
+    "category": "Mobile",
+    "count": 51,
+    "region": "TR"
+  },
+  {
+    "id": 422,
+    "year": 2022,
+    "skill": "Playwright",
+    "category": "Test",
+    "count": 50,
+    "region": "TR"
+  },
+  {
+    "id": 418,
+    "year": 2022,
+    "skill": "R",
+    "category": "Data",
+    "count": 48,
+    "region": "TR"
+  },
+  {
+    "id": 405,
+    "year": 2022,
+    "skill": "Ansible",
+    "category": "DevOps",
+    "count": 47,
     "region": "TR"
   },
   {
@@ -3548,7 +3412,143 @@
     "year": 2022,
     "skill": "PowerBI",
     "category": "Data",
-    "count": 23,
+    "count": 45,
+    "region": "TR"
+  },
+  {
+    "id": 386,
+    "year": 2022,
+    "skill": "Spring Boot",
+    "category": "Backend",
+    "count": 44,
+    "region": "TR"
+  },
+  {
+    "id": 432,
+    "year": 2022,
+    "skill": "SQLite",
+    "category": "Database",
+    "count": 41,
+    "region": "TR"
+  },
+  {
+    "id": 420,
+    "year": 2022,
+    "skill": "Selenium",
+    "category": "Test",
+    "count": 40,
+    "region": "TR"
+  },
+  {
+    "id": 407,
+    "year": 2022,
+    "skill": "GitHub Actions",
+    "category": "DevOps",
+    "count": 39,
+    "region": "TR"
+  },
+  {
+    "id": 429,
+    "year": 2022,
+    "skill": "Redis",
+    "category": "Database",
+    "count": 39,
+    "region": "TR"
+  },
+  {
+    "id": 443,
+    "year": 2022,
+    "skill": "CentOS",
+    "category": "OS",
+    "count": 38,
+    "region": "TR"
+  },
+  {
+    "id": 417,
+    "year": 2022,
+    "skill": "Tableau",
+    "category": "Data",
+    "count": 34,
+    "region": "TR"
+  },
+  {
+    "id": 424,
+    "year": 2022,
+    "skill": "JUnit",
+    "category": "Test",
+    "count": 34,
+    "region": "TR"
+  },
+  {
+    "id": 439,
+    "year": 2022,
+    "skill": "Figma",
+    "category": "Tools",
+    "count": 32,
+    "region": "TR"
+  },
+  {
+    "id": 419,
+    "year": 2022,
+    "skill": "OpenAI API",
+    "category": "Data",
+    "count": 31,
+    "region": "TR"
+  },
+  {
+    "id": 382,
+    "year": 2022,
+    "skill": "C#",
+    "category": "Backend",
+    "count": 29,
+    "region": "TR"
+  },
+  {
+    "id": 402,
+    "year": 2022,
+    "skill": "Azure",
+    "category": "DevOps",
+    "count": 28,
+    "region": "TR"
+  },
+  {
+    "id": 412,
+    "year": 2022,
+    "skill": "TensorFlow",
+    "category": "Data",
+    "count": 27,
+    "region": "TR"
+  },
+  {
+    "id": 431,
+    "year": 2022,
+    "skill": "Cassandra",
+    "category": "Database",
+    "count": 27,
+    "region": "TR"
+  },
+  {
+    "id": 434,
+    "year": 2022,
+    "skill": "IntelliJ IDEA",
+    "category": "Tools",
+    "count": 25,
+    "region": "TR"
+  },
+  {
+    "id": 389,
+    "year": 2022,
+    "skill": "FastAPI",
+    "category": "Backend",
+    "count": 22,
+    "region": "TR"
+  },
+  {
+    "id": 425,
+    "year": 2022,
+    "skill": "Appium",
+    "category": "Test",
+    "count": 22,
     "region": "TR"
   },
   {
@@ -3556,119 +3556,7 @@
     "year": 2023,
     "skill": "Java",
     "category": "Backend",
-    "count": 273,
-    "region": "TR"
-  },
-  {
-    "id": 454,
-    "year": 2023,
-    "skill": "Python",
-    "category": "Backend",
-    "count": 267,
-    "region": "TR"
-  },
-  {
-    "id": 452,
-    "year": 2023,
-    "skill": "TypeScript",
-    "category": "Frontend",
-    "count": 230,
-    "region": "TR"
-  },
-  {
-    "id": 473,
-    "year": 2023,
-    "skill": "Docker",
-    "category": "DevOps",
-    "count": 182,
-    "region": "TR"
-  },
-  {
-    "id": 511,
-    "year": 2023,
-    "skill": "Visual Studio",
-    "category": "Tools",
-    "count": 169,
-    "region": "TR"
-  },
-  {
-    "id": 460,
-    "year": 2023,
-    "skill": "Spring Boot",
-    "category": "Backend",
-    "count": 165,
-    "region": "TR"
-  },
-  {
-    "id": 456,
-    "year": 2023,
-    "skill": "C#",
-    "category": "Backend",
-    "count": 149,
-    "region": "TR"
-  },
-  {
-    "id": 475,
-    "year": 2023,
-    "skill": "AWS",
-    "category": "DevOps",
-    "count": 122,
-    "region": "TR"
-  },
-  {
-    "id": 483,
-    "year": 2023,
-    "skill": "Python",
-    "category": "Data",
-    "count": 120,
-    "region": "TR"
-  },
-  {
-    "id": 479,
-    "year": 2023,
-    "skill": "Ansible",
-    "category": "DevOps",
-    "count": 115,
-    "region": "TR"
-  },
-  {
-    "id": 471,
-    "year": 2023,
-    "skill": "Dart",
-    "category": "Mobile",
-    "count": 112,
-    "region": "TR"
-  },
-  {
-    "id": 488,
-    "year": 2023,
-    "skill": "Spark",
-    "category": "Data",
-    "count": 112,
-    "region": "TR"
-  },
-  {
-    "id": 451,
-    "year": 2023,
-    "skill": "HTML/CSS",
-    "category": "Frontend",
-    "count": 105,
-    "region": "TR"
-  },
-  {
-    "id": 516,
-    "year": 2023,
-    "skill": "Ubuntu",
-    "category": "OS",
-    "count": 105,
-    "region": "TR"
-  },
-  {
-    "id": 449,
-    "year": 2023,
-    "skill": "Next.js",
-    "category": "Frontend",
-    "count": 104,
+    "count": 288,
     "region": "TR"
   },
   {
@@ -3676,7 +3564,23 @@
     "year": 2023,
     "skill": "React",
     "category": "Frontend",
-    "count": 101,
+    "count": 221,
+    "region": "TR"
+  },
+  {
+    "id": 475,
+    "year": 2023,
+    "skill": "AWS",
+    "category": "DevOps",
+    "count": 177,
+    "region": "TR"
+  },
+  {
+    "id": 511,
+    "year": 2023,
+    "skill": "Visual Studio",
+    "category": "Tools",
+    "count": 138,
     "region": "TR"
   },
   {
@@ -3684,39 +3588,55 @@
     "year": 2023,
     "skill": "SQL",
     "category": "Data",
-    "count": 98,
+    "count": 133,
     "region": "TR"
   },
   {
-    "id": 502,
+    "id": 452,
     "year": 2023,
-    "skill": "MySQL",
-    "category": "Database",
-    "count": 95,
+    "skill": "TypeScript",
+    "category": "Frontend",
+    "count": 128,
     "region": "TR"
   },
   {
-    "id": 506,
+    "id": 454,
     "year": 2023,
-    "skill": "SQLite",
-    "category": "Database",
-    "count": 94,
-    "region": "TR"
-  },
-  {
-    "id": 482,
-    "year": 2023,
-    "skill": "Linux",
-    "category": "DevOps",
-    "count": 91,
-    "region": "TR"
-  },
-  {
-    "id": 461,
-    "year": 2023,
-    "skill": ".NET Core",
+    "skill": "Python",
     "category": "Backend",
-    "count": 89,
+    "count": 124,
+    "region": "TR"
+  },
+  {
+    "id": 457,
+    "year": 2023,
+    "skill": "Go",
+    "category": "Backend",
+    "count": 114,
+    "region": "TR"
+  },
+  {
+    "id": 466,
+    "year": 2023,
+    "skill": "React Native",
+    "category": "Mobile",
+    "count": 110,
+    "region": "TR"
+  },
+  {
+    "id": 479,
+    "year": 2023,
+    "skill": "Ansible",
+    "category": "DevOps",
+    "count": 101,
+    "region": "TR"
+  },
+  {
+    "id": 446,
+    "year": 2023,
+    "skill": "Vue.js",
+    "category": "Frontend",
+    "count": 99,
     "region": "TR"
   },
   {
@@ -3724,47 +3644,47 @@
     "year": 2023,
     "skill": "Redis",
     "category": "Database",
-    "count": 89,
+    "count": 99,
     "region": "TR"
   },
   {
-    "id": 495,
+    "id": 508,
     "year": 2023,
-    "skill": "Cypress",
-    "category": "Test",
-    "count": 85,
-    "region": "TR"
-  },
-  {
-    "id": 462,
-    "year": 2023,
-    "skill": "Django",
-    "category": "Backend",
-    "count": 82,
-    "region": "TR"
-  },
-  {
-    "id": 513,
-    "year": 2023,
-    "skill": "Figma",
+    "skill": "IntelliJ IDEA",
     "category": "Tools",
-    "count": 80,
+    "count": 98,
     "region": "TR"
   },
   {
-    "id": 453,
+    "id": 461,
     "year": 2023,
-    "skill": "Node.js",
+    "skill": ".NET Core",
     "category": "Backend",
-    "count": 79,
+    "count": 96,
     "region": "TR"
   },
   {
-    "id": 496,
+    "id": 483,
     "year": 2023,
-    "skill": "Playwright",
-    "category": "Test",
-    "count": 79,
+    "skill": "Python",
+    "category": "Data",
+    "count": 96,
+    "region": "TR"
+  },
+  {
+    "id": 505,
+    "year": 2023,
+    "skill": "Cassandra",
+    "category": "Database",
+    "count": 96,
+    "region": "TR"
+  },
+  {
+    "id": 518,
+    "year": 2023,
+    "skill": "Red Hat",
+    "category": "OS",
+    "count": 95,
     "region": "TR"
   },
   {
@@ -3772,79 +3692,7 @@
     "year": 2023,
     "skill": "Swift",
     "category": "Mobile",
-    "count": 77,
-    "region": "TR"
-  },
-  {
-    "id": 472,
-    "year": 2023,
-    "skill": "Objective-C",
-    "category": "Mobile",
-    "count": 76,
-    "region": "TR"
-  },
-  {
-    "id": 463,
-    "year": 2023,
-    "skill": "FastAPI",
-    "category": "Backend",
-    "count": 75,
-    "region": "TR"
-  },
-  {
-    "id": 497,
-    "year": 2023,
-    "skill": "Jest",
-    "category": "Test",
-    "count": 73,
-    "region": "TR"
-  },
-  {
-    "id": 465,
-    "year": 2023,
-    "skill": "Flutter",
-    "category": "Mobile",
-    "count": 72,
-    "region": "TR"
-  },
-  {
-    "id": 509,
-    "year": 2023,
-    "skill": "Git",
-    "category": "Tools",
-    "count": 70,
-    "region": "TR"
-  },
-  {
-    "id": 478,
-    "year": 2023,
-    "skill": "Terraform",
-    "category": "DevOps",
-    "count": 69,
-    "region": "TR"
-  },
-  {
-    "id": 485,
-    "year": 2023,
-    "skill": "Pandas",
-    "category": "Data",
-    "count": 68,
-    "region": "TR"
-  },
-  {
-    "id": 499,
-    "year": 2023,
-    "skill": "Appium",
-    "category": "Test",
-    "count": 67,
-    "region": "TR"
-  },
-  {
-    "id": 447,
-    "year": 2023,
-    "skill": "Angular",
-    "category": "Frontend",
-    "count": 66,
+    "count": 93,
     "region": "TR"
   },
   {
@@ -3852,6 +3700,190 @@
     "year": 2023,
     "skill": "OpenAI API",
     "category": "Data",
+    "count": 93,
+    "region": "TR"
+  },
+  {
+    "id": 495,
+    "year": 2023,
+    "skill": "Cypress",
+    "category": "Test",
+    "count": 92,
+    "region": "TR"
+  },
+  {
+    "id": 488,
+    "year": 2023,
+    "skill": "Spark",
+    "category": "Data",
+    "count": 91,
+    "region": "TR"
+  },
+  {
+    "id": 473,
+    "year": 2023,
+    "skill": "Docker",
+    "category": "DevOps",
+    "count": 90,
+    "region": "TR"
+  },
+  {
+    "id": 463,
+    "year": 2023,
+    "skill": "FastAPI",
+    "category": "Backend",
+    "count": 89,
+    "region": "TR"
+  },
+  {
+    "id": 513,
+    "year": 2023,
+    "skill": "Figma",
+    "category": "Tools",
+    "count": 88,
+    "region": "TR"
+  },
+  {
+    "id": 458,
+    "year": 2023,
+    "skill": "PHP",
+    "category": "Backend",
+    "count": 82,
+    "region": "TR"
+  },
+  {
+    "id": 487,
+    "year": 2023,
+    "skill": "PyTorch",
+    "category": "Data",
+    "count": 82,
+    "region": "TR"
+  },
+  {
+    "id": 509,
+    "year": 2023,
+    "skill": "Git",
+    "category": "Tools",
+    "count": 80,
+    "region": "TR"
+  },
+  {
+    "id": 468,
+    "year": 2023,
+    "skill": "Kotlin",
+    "category": "Mobile",
+    "count": 79,
+    "region": "TR"
+  },
+  {
+    "id": 512,
+    "year": 2023,
+    "skill": "Postman",
+    "category": "Tools",
+    "count": 78,
+    "region": "TR"
+  },
+  {
+    "id": 480,
+    "year": 2023,
+    "skill": "Jenkins",
+    "category": "DevOps",
+    "count": 77,
+    "region": "TR"
+  },
+  {
+    "id": 494,
+    "year": 2023,
+    "skill": "Selenium",
+    "category": "Test",
+    "count": 77,
+    "region": "TR"
+  },
+  {
+    "id": 507,
+    "year": 2023,
+    "skill": "VS Code",
+    "category": "Tools",
+    "count": 77,
+    "region": "TR"
+  },
+  {
+    "id": 465,
+    "year": 2023,
+    "skill": "Flutter",
+    "category": "Mobile",
+    "count": 76,
+    "region": "TR"
+  },
+  {
+    "id": 453,
+    "year": 2023,
+    "skill": "Node.js",
+    "category": "Backend",
+    "count": 75,
+    "region": "TR"
+  },
+  {
+    "id": 459,
+    "year": 2023,
+    "skill": "Ruby",
+    "category": "Backend",
+    "count": 75,
+    "region": "TR"
+  },
+  {
+    "id": 502,
+    "year": 2023,
+    "skill": "MySQL",
+    "category": "Database",
+    "count": 73,
+    "region": "TR"
+  },
+  {
+    "id": 489,
+    "year": 2023,
+    "skill": "Hadoop",
+    "category": "Data",
+    "count": 72,
+    "region": "TR"
+  },
+  {
+    "id": 460,
+    "year": 2023,
+    "skill": "Spring Boot",
+    "category": "Backend",
+    "count": 70,
+    "region": "TR"
+  },
+  {
+    "id": 477,
+    "year": 2023,
+    "skill": "GCP",
+    "category": "DevOps",
+    "count": 70,
+    "region": "TR"
+  },
+  {
+    "id": 490,
+    "year": 2023,
+    "skill": "PowerBI",
+    "category": "Data",
+    "count": 69,
+    "region": "TR"
+  },
+  {
+    "id": 478,
+    "year": 2023,
+    "skill": "Terraform",
+    "category": "DevOps",
+    "count": 66,
+    "region": "TR"
+  },
+  {
+    "id": 499,
+    "year": 2023,
+    "skill": "Appium",
+    "category": "Test",
     "count": 65,
     "region": "TR"
   },
@@ -3860,119 +3892,7 @@
     "year": 2023,
     "skill": "Android",
     "category": "Mobile",
-    "count": 63,
-    "region": "TR"
-  },
-  {
-    "id": 500,
-    "year": 2023,
-    "skill": "PostgreSQL",
-    "category": "Database",
-    "count": 62,
-    "region": "TR"
-  },
-  {
-    "id": 508,
-    "year": 2023,
-    "skill": "IntelliJ IDEA",
-    "category": "Tools",
-    "count": 62,
-    "region": "TR"
-  },
-  {
-    "id": 512,
-    "year": 2023,
-    "skill": "Postman",
-    "category": "Tools",
-    "count": 62,
-    "region": "TR"
-  },
-  {
-    "id": 468,
-    "year": 2023,
-    "skill": "Kotlin",
-    "category": "Mobile",
-    "count": 61,
-    "region": "TR"
-  },
-  {
-    "id": 514,
-    "year": 2023,
-    "skill": "Windows",
-    "category": "OS",
-    "count": 60,
-    "region": "TR"
-  },
-  {
-    "id": 476,
-    "year": 2023,
-    "skill": "Azure",
-    "category": "DevOps",
-    "count": 58,
-    "region": "TR"
-  },
-  {
-    "id": 501,
-    "year": 2023,
-    "skill": "MongoDB",
-    "category": "Database",
-    "count": 58,
-    "region": "TR"
-  },
-  {
-    "id": 457,
-    "year": 2023,
-    "skill": "Go",
-    "category": "Backend",
-    "count": 55,
-    "region": "TR"
-  },
-  {
-    "id": 518,
-    "year": 2023,
-    "skill": "Red Hat",
-    "category": "OS",
-    "count": 55,
-    "region": "TR"
-  },
-  {
-    "id": 494,
-    "year": 2023,
-    "skill": "Selenium",
-    "category": "Test",
-    "count": 52,
-    "region": "TR"
-  },
-  {
-    "id": 477,
-    "year": 2023,
-    "skill": "GCP",
-    "category": "DevOps",
-    "count": 51,
-    "region": "TR"
-  },
-  {
-    "id": 474,
-    "year": 2023,
-    "skill": "Kubernetes",
-    "category": "DevOps",
-    "count": 47,
-    "region": "TR"
-  },
-  {
-    "id": 480,
-    "year": 2023,
-    "skill": "Jenkins",
-    "category": "DevOps",
-    "count": 47,
-    "region": "TR"
-  },
-  {
-    "id": 486,
-    "year": 2023,
-    "skill": "TensorFlow",
-    "category": "Data",
-    "count": 46,
+    "count": 64,
     "region": "TR"
   },
   {
@@ -3980,103 +3900,7 @@
     "year": 2023,
     "skill": "MacOS",
     "category": "OS",
-    "count": 46,
-    "region": "TR"
-  },
-  {
-    "id": 507,
-    "year": 2023,
-    "skill": "VS Code",
-    "category": "Tools",
-    "count": 45,
-    "region": "TR"
-  },
-  {
-    "id": 448,
-    "year": 2023,
-    "skill": "Svelte",
-    "category": "Frontend",
-    "count": 44,
-    "region": "TR"
-  },
-  {
-    "id": 458,
-    "year": 2023,
-    "skill": "PHP",
-    "category": "Backend",
-    "count": 44,
-    "region": "TR"
-  },
-  {
-    "id": 470,
-    "year": 2023,
-    "skill": "iOS",
-    "category": "Mobile",
-    "count": 44,
-    "region": "TR"
-  },
-  {
-    "id": 464,
-    "year": 2023,
-    "skill": "NestJS",
-    "category": "Backend",
-    "count": 43,
-    "region": "TR"
-  },
-  {
-    "id": 517,
-    "year": 2023,
-    "skill": "CentOS",
-    "category": "OS",
-    "count": 43,
-    "region": "TR"
-  },
-  {
-    "id": 450,
-    "year": 2023,
-    "skill": "Tailwind CSS",
-    "category": "Frontend",
-    "count": 36,
-    "region": "TR"
-  },
-  {
-    "id": 490,
-    "year": 2023,
-    "skill": "PowerBI",
-    "category": "Data",
-    "count": 36,
-    "region": "TR"
-  },
-  {
-    "id": 505,
-    "year": 2023,
-    "skill": "Cassandra",
-    "category": "Database",
-    "count": 35,
-    "region": "TR"
-  },
-  {
-    "id": 487,
-    "year": 2023,
-    "skill": "PyTorch",
-    "category": "Data",
-    "count": 34,
-    "region": "TR"
-  },
-  {
-    "id": 489,
-    "year": 2023,
-    "skill": "Hadoop",
-    "category": "Data",
-    "count": 33,
-    "region": "TR"
-  },
-  {
-    "id": 498,
-    "year": 2023,
-    "skill": "JUnit",
-    "category": "Test",
-    "count": 32,
+    "count": 64,
     "region": "TR"
   },
   {
@@ -4084,15 +3908,23 @@
     "year": 2023,
     "skill": "Elasticsearch",
     "category": "Database",
-    "count": 29,
+    "count": 60,
     "region": "TR"
   },
   {
-    "id": 491,
+    "id": 456,
     "year": 2023,
-    "skill": "Tableau",
+    "skill": "C#",
+    "category": "Backend",
+    "count": 59,
+    "region": "TR"
+  },
+  {
+    "id": 486,
+    "year": 2023,
+    "skill": "TensorFlow",
     "category": "Data",
-    "count": 28,
+    "count": 59,
     "region": "TR"
   },
   {
@@ -4100,31 +3932,167 @@
     "year": 2023,
     "skill": "Jira",
     "category": "Tools",
-    "count": 27,
+    "count": 59,
     "region": "TR"
   },
   {
-    "id": 466,
+    "id": 472,
     "year": 2023,
-    "skill": "React Native",
+    "skill": "Objective-C",
     "category": "Mobile",
-    "count": 24,
+    "count": 58,
     "region": "TR"
   },
   {
-    "id": 492,
+    "id": 451,
     "year": 2023,
-    "skill": "R",
-    "category": "Data",
-    "count": 24,
-    "region": "TR"
-  },
-  {
-    "id": 446,
-    "year": 2023,
-    "skill": "Vue.js",
+    "skill": "HTML/CSS",
     "category": "Frontend",
-    "count": 23,
+    "count": 57,
+    "region": "TR"
+  },
+  {
+    "id": 482,
+    "year": 2023,
+    "skill": "Linux",
+    "category": "DevOps",
+    "count": 55,
+    "region": "TR"
+  },
+  {
+    "id": 485,
+    "year": 2023,
+    "skill": "Pandas",
+    "category": "Data",
+    "count": 55,
+    "region": "TR"
+  },
+  {
+    "id": 516,
+    "year": 2023,
+    "skill": "Ubuntu",
+    "category": "OS",
+    "count": 54,
+    "region": "TR"
+  },
+  {
+    "id": 506,
+    "year": 2023,
+    "skill": "SQLite",
+    "category": "Database",
+    "count": 53,
+    "region": "TR"
+  },
+  {
+    "id": 498,
+    "year": 2023,
+    "skill": "JUnit",
+    "category": "Test",
+    "count": 52,
+    "region": "TR"
+  },
+  {
+    "id": 471,
+    "year": 2023,
+    "skill": "Dart",
+    "category": "Mobile",
+    "count": 48,
+    "region": "TR"
+  },
+  {
+    "id": 448,
+    "year": 2023,
+    "skill": "Svelte",
+    "category": "Frontend",
+    "count": 47,
+    "region": "TR"
+  },
+  {
+    "id": 517,
+    "year": 2023,
+    "skill": "CentOS",
+    "category": "OS",
+    "count": 42,
+    "region": "TR"
+  },
+  {
+    "id": 464,
+    "year": 2023,
+    "skill": "NestJS",
+    "category": "Backend",
+    "count": 41,
+    "region": "TR"
+  },
+  {
+    "id": 496,
+    "year": 2023,
+    "skill": "Playwright",
+    "category": "Test",
+    "count": 41,
+    "region": "TR"
+  },
+  {
+    "id": 470,
+    "year": 2023,
+    "skill": "iOS",
+    "category": "Mobile",
+    "count": 40,
+    "region": "TR"
+  },
+  {
+    "id": 474,
+    "year": 2023,
+    "skill": "Kubernetes",
+    "category": "DevOps",
+    "count": 40,
+    "region": "TR"
+  },
+  {
+    "id": 449,
+    "year": 2023,
+    "skill": "Next.js",
+    "category": "Frontend",
+    "count": 39,
+    "region": "TR"
+  },
+  {
+    "id": 500,
+    "year": 2023,
+    "skill": "PostgreSQL",
+    "category": "Database",
+    "count": 39,
+    "region": "TR"
+  },
+  {
+    "id": 501,
+    "year": 2023,
+    "skill": "MongoDB",
+    "category": "Database",
+    "count": 37,
+    "region": "TR"
+  },
+  {
+    "id": 476,
+    "year": 2023,
+    "skill": "Azure",
+    "category": "DevOps",
+    "count": 35,
+    "region": "TR"
+  },
+  {
+    "id": 497,
+    "year": 2023,
+    "skill": "Jest",
+    "category": "Test",
+    "count": 35,
+    "region": "TR"
+  },
+  {
+    "id": 447,
+    "year": 2023,
+    "skill": "Angular",
+    "category": "Frontend",
+    "count": 34,
     "region": "TR"
   },
   {
@@ -4132,31 +4100,47 @@
     "year": 2023,
     "skill": "GitHub Actions",
     "category": "DevOps",
-    "count": 20,
+    "count": 34,
     "region": "TR"
   },
   {
-    "id": 459,
+    "id": 514,
     "year": 2023,
-    "skill": "Ruby",
-    "category": "Backend",
-    "count": 19,
+    "skill": "Windows",
+    "category": "OS",
+    "count": 33,
     "region": "TR"
   },
   {
-    "id": 527,
-    "year": 2024,
-    "skill": "Node.js",
+    "id": 462,
+    "year": 2023,
+    "skill": "Django",
     "category": "Backend",
-    "count": 261,
+    "count": 30,
     "region": "TR"
   },
   {
-    "id": 529,
-    "year": 2024,
-    "skill": "Java",
-    "category": "Backend",
-    "count": 261,
+    "id": 491,
+    "year": 2023,
+    "skill": "Tableau",
+    "category": "Data",
+    "count": 30,
+    "region": "TR"
+  },
+  {
+    "id": 450,
+    "year": 2023,
+    "skill": "Tailwind CSS",
+    "category": "Frontend",
+    "count": 28,
+    "region": "TR"
+  },
+  {
+    "id": 492,
+    "year": 2023,
+    "skill": "R",
+    "category": "Data",
+    "count": 22,
     "region": "TR"
   },
   {
@@ -4164,15 +4148,7 @@
     "year": 2024,
     "skill": "Python",
     "category": "Data",
-    "count": 261,
-    "region": "TR"
-  },
-  {
-    "id": 528,
-    "year": 2024,
-    "skill": "Python",
-    "category": "Backend",
-    "count": 253,
+    "count": 278,
     "region": "TR"
   },
   {
@@ -4180,31 +4156,15 @@
     "year": 2024,
     "skill": "SQL",
     "category": "Data",
-    "count": 231,
+    "count": 253,
     "region": "TR"
   },
   {
-    "id": 549,
+    "id": 527,
     "year": 2024,
-    "skill": "AWS",
-    "category": "DevOps",
-    "count": 199,
-    "region": "TR"
-  },
-  {
-    "id": 526,
-    "year": 2024,
-    "skill": "TypeScript",
-    "category": "Frontend",
-    "count": 178,
-    "region": "TR"
-  },
-  {
-    "id": 547,
-    "year": 2024,
-    "skill": "Docker",
-    "category": "DevOps",
-    "count": 169,
+    "skill": "Node.js",
+    "category": "Backend",
+    "count": 187,
     "region": "TR"
   },
   {
@@ -4212,23 +4172,15 @@
     "year": 2024,
     "skill": "React",
     "category": "Frontend",
-    "count": 161,
+    "count": 185,
     "region": "TR"
   },
   {
-    "id": 535,
+    "id": 549,
     "year": 2024,
-    "skill": ".NET Core",
-    "category": "Backend",
-    "count": 159,
-    "region": "TR"
-  },
-  {
-    "id": 588,
-    "year": 2024,
-    "skill": "Windows",
-    "category": "OS",
-    "count": 157,
+    "skill": "AWS",
+    "category": "DevOps",
+    "count": 185,
     "region": "TR"
   },
   {
@@ -4236,223 +4188,15 @@
     "year": 2024,
     "skill": "Visual Studio",
     "category": "Tools",
-    "count": 154,
+    "count": 172,
     "region": "TR"
   },
   {
-    "id": 524,
+    "id": 529,
     "year": 2024,
-    "skill": "Tailwind CSS",
-    "category": "Frontend",
-    "count": 146,
-    "region": "TR"
-  },
-  {
-    "id": 534,
-    "year": 2024,
-    "skill": "Spring Boot",
+    "skill": "Java",
     "category": "Backend",
-    "count": 132,
-    "region": "TR"
-  },
-  {
-    "id": 543,
-    "year": 2024,
-    "skill": "Android",
-    "category": "Mobile",
-    "count": 132,
-    "region": "TR"
-  },
-  {
-    "id": 567,
-    "year": 2024,
-    "skill": "OpenAI API",
-    "category": "Data",
-    "count": 125,
-    "region": "TR"
-  },
-  {
-    "id": 577,
-    "year": 2024,
-    "skill": "Redis",
-    "category": "Database",
-    "count": 122,
-    "region": "TR"
-  },
-  {
-    "id": 570,
-    "year": 2024,
-    "skill": "Playwright",
-    "category": "Test",
-    "count": 120,
-    "region": "TR"
-  },
-  {
-    "id": 548,
-    "year": 2024,
-    "skill": "Kubernetes",
-    "category": "DevOps",
-    "count": 113,
-    "region": "TR"
-  },
-  {
-    "id": 560,
-    "year": 2024,
-    "skill": "TensorFlow",
-    "category": "Data",
-    "count": 112,
-    "region": "TR"
-  },
-  {
-    "id": 552,
-    "year": 2024,
-    "skill": "Terraform",
-    "category": "DevOps",
-    "count": 107,
-    "region": "TR"
-  },
-  {
-    "id": 542,
-    "year": 2024,
-    "skill": "Kotlin",
-    "category": "Mobile",
-    "count": 106,
-    "region": "TR"
-  },
-  {
-    "id": 523,
-    "year": 2024,
-    "skill": "Next.js",
-    "category": "Frontend",
-    "count": 104,
-    "region": "TR"
-  },
-  {
-    "id": 591,
-    "year": 2024,
-    "skill": "CentOS",
-    "category": "OS",
-    "count": 104,
-    "region": "TR"
-  },
-  {
-    "id": 532,
-    "year": 2024,
-    "skill": "PHP",
-    "category": "Backend",
-    "count": 97,
-    "region": "TR"
-  },
-  {
-    "id": 564,
-    "year": 2024,
-    "skill": "PowerBI",
-    "category": "Data",
-    "count": 96,
-    "region": "TR"
-  },
-  {
-    "id": 571,
-    "year": 2024,
-    "skill": "Jest",
-    "category": "Test",
-    "count": 94,
-    "region": "TR"
-  },
-  {
-    "id": 537,
-    "year": 2024,
-    "skill": "FastAPI",
-    "category": "Backend",
-    "count": 93,
-    "region": "TR"
-  },
-  {
-    "id": 525,
-    "year": 2024,
-    "skill": "HTML/CSS",
-    "category": "Frontend",
-    "count": 92,
-    "region": "TR"
-  },
-  {
-    "id": 568,
-    "year": 2024,
-    "skill": "Selenium",
-    "category": "Test",
-    "count": 91,
-    "region": "TR"
-  },
-  {
-    "id": 589,
-    "year": 2024,
-    "skill": "MacOS",
-    "category": "OS",
-    "count": 87,
-    "region": "TR"
-  },
-  {
-    "id": 592,
-    "year": 2024,
-    "skill": "Red Hat",
-    "category": "OS",
-    "count": 86,
-    "region": "TR"
-  },
-  {
-    "id": 531,
-    "year": 2024,
-    "skill": "Go",
-    "category": "Backend",
-    "count": 85,
-    "region": "TR"
-  },
-  {
-    "id": 584,
-    "year": 2024,
-    "skill": "Jira",
-    "category": "Tools",
-    "count": 85,
-    "region": "TR"
-  },
-  {
-    "id": 520,
-    "year": 2024,
-    "skill": "Vue.js",
-    "category": "Frontend",
-    "count": 84,
-    "region": "TR"
-  },
-  {
-    "id": 541,
-    "year": 2024,
-    "skill": "Swift",
-    "category": "Mobile",
-    "count": 80,
-    "region": "TR"
-  },
-  {
-    "id": 587,
-    "year": 2024,
-    "skill": "Figma",
-    "category": "Tools",
-    "count": 80,
-    "region": "TR"
-  },
-  {
-    "id": 583,
-    "year": 2024,
-    "skill": "Git",
-    "category": "Tools",
-    "count": 79,
-    "region": "TR"
-  },
-  {
-    "id": 576,
-    "year": 2024,
-    "skill": "MySQL",
-    "category": "Database",
-    "count": 77,
+    "count": 148,
     "region": "TR"
   },
   {
@@ -4460,263 +4204,39 @@
     "year": 2024,
     "skill": "C#",
     "category": "Backend",
-    "count": 76,
+    "count": 147,
     "region": "TR"
   },
   {
-    "id": 586,
+    "id": 526,
     "year": 2024,
-    "skill": "Postman",
-    "category": "Tools",
-    "count": 76,
-    "region": "TR"
-  },
-  {
-    "id": 533,
-    "year": 2024,
-    "skill": "Ruby",
-    "category": "Backend",
-    "count": 74,
-    "region": "TR"
-  },
-  {
-    "id": 546,
-    "year": 2024,
-    "skill": "Objective-C",
-    "category": "Mobile",
-    "count": 73,
-    "region": "TR"
-  },
-  {
-    "id": 555,
-    "year": 2024,
-    "skill": "GitHub Actions",
-    "category": "DevOps",
-    "count": 72,
-    "region": "TR"
-  },
-  {
-    "id": 551,
-    "year": 2024,
-    "skill": "GCP",
-    "category": "DevOps",
-    "count": 70,
-    "region": "TR"
-  },
-  {
-    "id": 566,
-    "year": 2024,
-    "skill": "R",
-    "category": "Data",
-    "count": 69,
-    "region": "TR"
-  },
-  {
-    "id": 565,
-    "year": 2024,
-    "skill": "Tableau",
-    "category": "Data",
-    "count": 68,
-    "region": "TR"
-  },
-  {
-    "id": 556,
-    "year": 2024,
-    "skill": "Linux",
-    "category": "DevOps",
-    "count": 67,
-    "region": "TR"
-  },
-  {
-    "id": 579,
-    "year": 2024,
-    "skill": "Cassandra",
-    "category": "Database",
-    "count": 64,
-    "region": "TR"
-  },
-  {
-    "id": 582,
-    "year": 2024,
-    "skill": "IntelliJ IDEA",
-    "category": "Tools",
-    "count": 64,
-    "region": "TR"
-  },
-  {
-    "id": 521,
-    "year": 2024,
-    "skill": "Angular",
+    "skill": "TypeScript",
     "category": "Frontend",
-    "count": 59,
+    "count": 145,
     "region": "TR"
   },
   {
-    "id": 539,
+    "id": 584,
     "year": 2024,
-    "skill": "Flutter",
-    "category": "Mobile",
-    "count": 58,
-    "region": "TR"
-  },
-  {
-    "id": 522,
-    "year": 2024,
-    "skill": "Svelte",
-    "category": "Frontend",
-    "count": 57,
-    "region": "TR"
-  },
-  {
-    "id": 590,
-    "year": 2024,
-    "skill": "Ubuntu",
-    "category": "OS",
-    "count": 55,
-    "region": "TR"
-  },
-  {
-    "id": 578,
-    "year": 2024,
-    "skill": "Elasticsearch",
-    "category": "Database",
-    "count": 53,
-    "region": "TR"
-  },
-  {
-    "id": 575,
-    "year": 2024,
-    "skill": "MongoDB",
-    "category": "Database",
-    "count": 52,
-    "region": "TR"
-  },
-  {
-    "id": 540,
-    "year": 2024,
-    "skill": "React Native",
-    "category": "Mobile",
-    "count": 49,
-    "region": "TR"
-  },
-  {
-    "id": 536,
-    "year": 2024,
-    "skill": "Django",
-    "category": "Backend",
-    "count": 48,
-    "region": "TR"
-  },
-  {
-    "id": 538,
-    "year": 2024,
-    "skill": "NestJS",
-    "category": "Backend",
-    "count": 44,
-    "region": "TR"
-  },
-  {
-    "id": 550,
-    "year": 2024,
-    "skill": "Azure",
-    "category": "DevOps",
-    "count": 43,
-    "region": "TR"
-  },
-  {
-    "id": 574,
-    "year": 2024,
-    "skill": "PostgreSQL",
-    "category": "Database",
-    "count": 43,
-    "region": "TR"
-  },
-  {
-    "id": 569,
-    "year": 2024,
-    "skill": "Cypress",
-    "category": "Test",
-    "count": 40,
-    "region": "TR"
-  },
-  {
-    "id": 559,
-    "year": 2024,
-    "skill": "Pandas",
-    "category": "Data",
-    "count": 39,
-    "region": "TR"
-  },
-  {
-    "id": 562,
-    "year": 2024,
-    "skill": "Spark",
-    "category": "Data",
-    "count": 39,
-    "region": "TR"
-  },
-  {
-    "id": 553,
-    "year": 2024,
-    "skill": "Ansible",
-    "category": "DevOps",
-    "count": 38,
-    "region": "TR"
-  },
-  {
-    "id": 561,
-    "year": 2024,
-    "skill": "PyTorch",
-    "category": "Data",
-    "count": 37,
-    "region": "TR"
-  },
-  {
-    "id": 545,
-    "year": 2024,
-    "skill": "Dart",
-    "category": "Mobile",
-    "count": 30,
-    "region": "TR"
-  },
-  {
-    "id": 563,
-    "year": 2024,
-    "skill": "Hadoop",
-    "category": "Data",
-    "count": 29,
-    "region": "TR"
-  },
-  {
-    "id": 573,
-    "year": 2024,
-    "skill": "Appium",
-    "category": "Test",
-    "count": 27,
-    "region": "TR"
-  },
-  {
-    "id": 554,
-    "year": 2024,
-    "skill": "Jenkins",
-    "category": "DevOps",
-    "count": 24,
-    "region": "TR"
-  },
-  {
-    "id": 581,
-    "year": 2024,
-    "skill": "VS Code",
+    "skill": "Jira",
     "category": "Tools",
-    "count": 23,
+    "count": 145,
     "region": "TR"
   },
   {
-    "id": 544,
+    "id": 543,
     "year": 2024,
-    "skill": "iOS",
+    "skill": "Android",
     "category": "Mobile",
-    "count": 22,
+    "count": 140,
+    "region": "TR"
+  },
+  {
+    "id": 576,
+    "year": 2024,
+    "skill": "MySQL",
+    "category": "Database",
+    "count": 116,
     "region": "TR"
   },
   {
@@ -4724,7 +4244,167 @@
     "year": 2024,
     "skill": "SQLite",
     "category": "Database",
-    "count": 22,
+    "count": 115,
+    "region": "TR"
+  },
+  {
+    "id": 586,
+    "year": 2024,
+    "skill": "Postman",
+    "category": "Tools",
+    "count": 113,
+    "region": "TR"
+  },
+  {
+    "id": 574,
+    "year": 2024,
+    "skill": "PostgreSQL",
+    "category": "Database",
+    "count": 111,
+    "region": "TR"
+  },
+  {
+    "id": 528,
+    "year": 2024,
+    "skill": "Python",
+    "category": "Backend",
+    "count": 108,
+    "region": "TR"
+  },
+  {
+    "id": 525,
+    "year": 2024,
+    "skill": "HTML/CSS",
+    "category": "Frontend",
+    "count": 107,
+    "region": "TR"
+  },
+  {
+    "id": 551,
+    "year": 2024,
+    "skill": "GCP",
+    "category": "DevOps",
+    "count": 106,
+    "region": "TR"
+  },
+  {
+    "id": 575,
+    "year": 2024,
+    "skill": "MongoDB",
+    "category": "Database",
+    "count": 105,
+    "region": "TR"
+  },
+  {
+    "id": 521,
+    "year": 2024,
+    "skill": "Angular",
+    "category": "Frontend",
+    "count": 104,
+    "region": "TR"
+  },
+  {
+    "id": 579,
+    "year": 2024,
+    "skill": "Cassandra",
+    "category": "Database",
+    "count": 104,
+    "region": "TR"
+  },
+  {
+    "id": 550,
+    "year": 2024,
+    "skill": "Azure",
+    "category": "DevOps",
+    "count": 103,
+    "region": "TR"
+  },
+  {
+    "id": 536,
+    "year": 2024,
+    "skill": "Django",
+    "category": "Backend",
+    "count": 101,
+    "region": "TR"
+  },
+  {
+    "id": 564,
+    "year": 2024,
+    "skill": "PowerBI",
+    "category": "Data",
+    "count": 101,
+    "region": "TR"
+  },
+  {
+    "id": 547,
+    "year": 2024,
+    "skill": "Docker",
+    "category": "DevOps",
+    "count": 96,
+    "region": "TR"
+  },
+  {
+    "id": 559,
+    "year": 2024,
+    "skill": "Pandas",
+    "category": "Data",
+    "count": 96,
+    "region": "TR"
+  },
+  {
+    "id": 566,
+    "year": 2024,
+    "skill": "R",
+    "category": "Data",
+    "count": 95,
+    "region": "TR"
+  },
+  {
+    "id": 539,
+    "year": 2024,
+    "skill": "Flutter",
+    "category": "Mobile",
+    "count": 91,
+    "region": "TR"
+  },
+  {
+    "id": 552,
+    "year": 2024,
+    "skill": "Terraform",
+    "category": "DevOps",
+    "count": 91,
+    "region": "TR"
+  },
+  {
+    "id": 583,
+    "year": 2024,
+    "skill": "Git",
+    "category": "Tools",
+    "count": 89,
+    "region": "TR"
+  },
+  {
+    "id": 554,
+    "year": 2024,
+    "skill": "Jenkins",
+    "category": "DevOps",
+    "count": 88,
+    "region": "TR"
+  },
+  {
+    "id": 578,
+    "year": 2024,
+    "skill": "Elasticsearch",
+    "category": "Database",
+    "count": 88,
+    "region": "TR"
+  },
+  {
+    "id": 520,
+    "year": 2024,
+    "skill": "Vue.js",
+    "category": "Frontend",
+    "count": 83,
     "region": "TR"
   },
   {
@@ -4732,7 +4412,327 @@
     "year": 2024,
     "skill": "JUnit",
     "category": "Test",
-    "count": 21,
+    "count": 81,
+    "region": "TR"
+  },
+  {
+    "id": 533,
+    "year": 2024,
+    "skill": "Ruby",
+    "category": "Backend",
+    "count": 80,
+    "region": "TR"
+  },
+  {
+    "id": 573,
+    "year": 2024,
+    "skill": "Appium",
+    "category": "Test",
+    "count": 77,
+    "region": "TR"
+  },
+  {
+    "id": 546,
+    "year": 2024,
+    "skill": "Objective-C",
+    "category": "Mobile",
+    "count": 72,
+    "region": "TR"
+  },
+  {
+    "id": 553,
+    "year": 2024,
+    "skill": "Ansible",
+    "category": "DevOps",
+    "count": 71,
+    "region": "TR"
+  },
+  {
+    "id": 591,
+    "year": 2024,
+    "skill": "CentOS",
+    "category": "OS",
+    "count": 68,
+    "region": "TR"
+  },
+  {
+    "id": 544,
+    "year": 2024,
+    "skill": "iOS",
+    "category": "Mobile",
+    "count": 65,
+    "region": "TR"
+  },
+  {
+    "id": 534,
+    "year": 2024,
+    "skill": "Spring Boot",
+    "category": "Backend",
+    "count": 64,
+    "region": "TR"
+  },
+  {
+    "id": 568,
+    "year": 2024,
+    "skill": "Selenium",
+    "category": "Test",
+    "count": 64,
+    "region": "TR"
+  },
+  {
+    "id": 565,
+    "year": 2024,
+    "skill": "Tableau",
+    "category": "Data",
+    "count": 63,
+    "region": "TR"
+  },
+  {
+    "id": 581,
+    "year": 2024,
+    "skill": "VS Code",
+    "category": "Tools",
+    "count": 62,
+    "region": "TR"
+  },
+  {
+    "id": 545,
+    "year": 2024,
+    "skill": "Dart",
+    "category": "Mobile",
+    "count": 59,
+    "region": "TR"
+  },
+  {
+    "id": 570,
+    "year": 2024,
+    "skill": "Playwright",
+    "category": "Test",
+    "count": 59,
+    "region": "TR"
+  },
+  {
+    "id": 522,
+    "year": 2024,
+    "skill": "Svelte",
+    "category": "Frontend",
+    "count": 58,
+    "region": "TR"
+  },
+  {
+    "id": 523,
+    "year": 2024,
+    "skill": "Next.js",
+    "category": "Frontend",
+    "count": 58,
+    "region": "TR"
+  },
+  {
+    "id": 524,
+    "year": 2024,
+    "skill": "Tailwind CSS",
+    "category": "Frontend",
+    "count": 58,
+    "region": "TR"
+  },
+  {
+    "id": 531,
+    "year": 2024,
+    "skill": "Go",
+    "category": "Backend",
+    "count": 57,
+    "region": "TR"
+  },
+  {
+    "id": 548,
+    "year": 2024,
+    "skill": "Kubernetes",
+    "category": "DevOps",
+    "count": 54,
+    "region": "TR"
+  },
+  {
+    "id": 588,
+    "year": 2024,
+    "skill": "Windows",
+    "category": "OS",
+    "count": 54,
+    "region": "TR"
+  },
+  {
+    "id": 569,
+    "year": 2024,
+    "skill": "Cypress",
+    "category": "Test",
+    "count": 53,
+    "region": "TR"
+  },
+  {
+    "id": 560,
+    "year": 2024,
+    "skill": "TensorFlow",
+    "category": "Data",
+    "count": 52,
+    "region": "TR"
+  },
+  {
+    "id": 561,
+    "year": 2024,
+    "skill": "PyTorch",
+    "category": "Data",
+    "count": 49,
+    "region": "TR"
+  },
+  {
+    "id": 535,
+    "year": 2024,
+    "skill": ".NET Core",
+    "category": "Backend",
+    "count": 48,
+    "region": "TR"
+  },
+  {
+    "id": 590,
+    "year": 2024,
+    "skill": "Ubuntu",
+    "category": "OS",
+    "count": 47,
+    "region": "TR"
+  },
+  {
+    "id": 538,
+    "year": 2024,
+    "skill": "NestJS",
+    "category": "Backend",
+    "count": 45,
+    "region": "TR"
+  },
+  {
+    "id": 541,
+    "year": 2024,
+    "skill": "Swift",
+    "category": "Mobile",
+    "count": 45,
+    "region": "TR"
+  },
+  {
+    "id": 589,
+    "year": 2024,
+    "skill": "MacOS",
+    "category": "OS",
+    "count": 45,
+    "region": "TR"
+  },
+  {
+    "id": 542,
+    "year": 2024,
+    "skill": "Kotlin",
+    "category": "Mobile",
+    "count": 44,
+    "region": "TR"
+  },
+  {
+    "id": 555,
+    "year": 2024,
+    "skill": "GitHub Actions",
+    "category": "DevOps",
+    "count": 42,
+    "region": "TR"
+  },
+  {
+    "id": 556,
+    "year": 2024,
+    "skill": "Linux",
+    "category": "DevOps",
+    "count": 42,
+    "region": "TR"
+  },
+  {
+    "id": 577,
+    "year": 2024,
+    "skill": "Redis",
+    "category": "Database",
+    "count": 41,
+    "region": "TR"
+  },
+  {
+    "id": 587,
+    "year": 2024,
+    "skill": "Figma",
+    "category": "Tools",
+    "count": 41,
+    "region": "TR"
+  },
+  {
+    "id": 567,
+    "year": 2024,
+    "skill": "OpenAI API",
+    "category": "Data",
+    "count": 39,
+    "region": "TR"
+  },
+  {
+    "id": 582,
+    "year": 2024,
+    "skill": "IntelliJ IDEA",
+    "category": "Tools",
+    "count": 39,
+    "region": "TR"
+  },
+  {
+    "id": 537,
+    "year": 2024,
+    "skill": "FastAPI",
+    "category": "Backend",
+    "count": 37,
+    "region": "TR"
+  },
+  {
+    "id": 563,
+    "year": 2024,
+    "skill": "Hadoop",
+    "category": "Data",
+    "count": 33,
+    "region": "TR"
+  },
+  {
+    "id": 532,
+    "year": 2024,
+    "skill": "PHP",
+    "category": "Backend",
+    "count": 31,
+    "region": "TR"
+  },
+  {
+    "id": 571,
+    "year": 2024,
+    "skill": "Jest",
+    "category": "Test",
+    "count": 29,
+    "region": "TR"
+  },
+  {
+    "id": 592,
+    "year": 2024,
+    "skill": "Red Hat",
+    "category": "OS",
+    "count": 27,
+    "region": "TR"
+  },
+  {
+    "id": 540,
+    "year": 2024,
+    "skill": "React Native",
+    "category": "Mobile",
+    "count": 25,
+    "region": "TR"
+  },
+  {
+    "id": 562,
+    "year": 2024,
+    "skill": "Spark",
+    "category": "Data",
+    "count": 24,
     "region": "TR"
   },
   {
@@ -4740,7 +4740,7 @@
     "year": 2025,
     "skill": "Python",
     "category": "Backend",
-    "count": 342,
+    "count": 292,
     "region": "TR"
   },
   {
@@ -4748,71 +4748,15 @@
     "year": 2025,
     "skill": "Python",
     "category": "Data",
-    "count": 266,
+    "count": 254,
     "region": "TR"
   },
   {
-    "id": 603,
+    "id": 601,
     "year": 2025,
-    "skill": "Java",
+    "skill": "Node.js",
     "category": "Backend",
-    "count": 228,
-    "region": "TR"
-  },
-  {
-    "id": 600,
-    "year": 2025,
-    "skill": "TypeScript",
-    "category": "Frontend",
-    "count": 211,
-    "region": "TR"
-  },
-  {
-    "id": 632,
-    "year": 2025,
-    "skill": "SQL",
-    "category": "Data",
-    "count": 203,
-    "region": "TR"
-  },
-  {
-    "id": 604,
-    "year": 2025,
-    "skill": "C#",
-    "category": "Backend",
-    "count": 179,
-    "region": "TR"
-  },
-  {
-    "id": 613,
-    "year": 2025,
-    "skill": "Flutter",
-    "category": "Mobile",
-    "count": 175,
-    "region": "TR"
-  },
-  {
-    "id": 635,
-    "year": 2025,
-    "skill": "PyTorch",
-    "category": "Data",
-    "count": 162,
-    "region": "TR"
-  },
-  {
-    "id": 608,
-    "year": 2025,
-    "skill": "Spring Boot",
-    "category": "Backend",
-    "count": 160,
-    "region": "TR"
-  },
-  {
-    "id": 609,
-    "year": 2025,
-    "skill": ".NET Core",
-    "category": "Backend",
-    "count": 153,
+    "count": 243,
     "region": "TR"
   },
   {
@@ -4820,23 +4764,95 @@
     "year": 2025,
     "skill": "React",
     "category": "Frontend",
-    "count": 142,
+    "count": 214,
     "region": "TR"
   },
   {
-    "id": 648,
+    "id": 604,
     "year": 2025,
-    "skill": "PostgreSQL",
-    "category": "Database",
+    "skill": "C#",
+    "category": "Backend",
+    "count": 187,
+    "region": "TR"
+  },
+  {
+    "id": 632,
+    "year": 2025,
+    "skill": "SQL",
+    "category": "Data",
+    "count": 178,
+    "region": "TR"
+  },
+  {
+    "id": 603,
+    "year": 2025,
+    "skill": "Java",
+    "category": "Backend",
+    "count": 176,
+    "region": "TR"
+  },
+  {
+    "id": 600,
+    "year": 2025,
+    "skill": "TypeScript",
+    "category": "Frontend",
+    "count": 155,
+    "region": "TR"
+  },
+  {
+    "id": 641,
+    "year": 2025,
+    "skill": "OpenAI API",
+    "category": "Data",
+    "count": 152,
+    "region": "TR"
+  },
+  {
+    "id": 597,
+    "year": 2025,
+    "skill": "Next.js",
+    "category": "Frontend",
+    "count": 148,
+    "region": "TR"
+  },
+  {
+    "id": 621,
+    "year": 2025,
+    "skill": "Docker",
+    "category": "DevOps",
+    "count": 146,
+    "region": "TR"
+  },
+  {
+    "id": 609,
+    "year": 2025,
+    "skill": ".NET Core",
+    "category": "Backend",
+    "count": 136,
+    "region": "TR"
+  },
+  {
+    "id": 623,
+    "year": 2025,
+    "skill": "AWS",
+    "category": "DevOps",
     "count": 131,
     "region": "TR"
   },
   {
-    "id": 630,
+    "id": 629,
     "year": 2025,
-    "skill": "Linux",
+    "skill": "GitHub Actions",
     "category": "DevOps",
     "count": 130,
+    "region": "TR"
+  },
+  {
+    "id": 635,
+    "year": 2025,
+    "skill": "PyTorch",
+    "category": "Data",
+    "count": 126,
     "region": "TR"
   },
   {
@@ -4848,67 +4864,19 @@
     "region": "TR"
   },
   {
-    "id": 601,
+    "id": 661,
     "year": 2025,
-    "skill": "Node.js",
-    "category": "Backend",
+    "skill": "Figma",
+    "category": "Tools",
     "count": 123,
     "region": "TR"
   },
   {
-    "id": 664,
+    "id": 595,
     "year": 2025,
-    "skill": "Ubuntu",
-    "category": "OS",
-    "count": 123,
-    "region": "TR"
-  },
-  {
-    "id": 653,
-    "year": 2025,
-    "skill": "Cassandra",
-    "category": "Database",
-    "count": 122,
-    "region": "TR"
-  },
-  {
-    "id": 651,
-    "year": 2025,
-    "skill": "Redis",
-    "category": "Database",
-    "count": 121,
-    "region": "TR"
-  },
-  {
-    "id": 606,
-    "year": 2025,
-    "skill": "PHP",
-    "category": "Backend",
-    "count": 116,
-    "region": "TR"
-  },
-  {
-    "id": 646,
-    "year": 2025,
-    "skill": "JUnit",
-    "category": "Test",
-    "count": 116,
-    "region": "TR"
-  },
-  {
-    "id": 663,
-    "year": 2025,
-    "skill": "MacOS",
-    "category": "OS",
-    "count": 108,
-    "region": "TR"
-  },
-  {
-    "id": 636,
-    "year": 2025,
-    "skill": "Spark",
-    "category": "Data",
-    "count": 106,
+    "skill": "Angular",
+    "category": "Frontend",
+    "count": 120,
     "region": "TR"
   },
   {
@@ -4916,39 +4884,23 @@
     "year": 2025,
     "skill": "Elasticsearch",
     "category": "Database",
-    "count": 105,
+    "count": 117,
     "region": "TR"
   },
   {
-    "id": 655,
+    "id": 666,
     "year": 2025,
-    "skill": "VS Code",
+    "skill": "Red Hat",
+    "category": "OS",
+    "count": 117,
+    "region": "TR"
+  },
+  {
+    "id": 659,
+    "year": 2025,
+    "skill": "Visual Studio",
     "category": "Tools",
-    "count": 101,
-    "region": "TR"
-  },
-  {
-    "id": 618,
-    "year": 2025,
-    "skill": "iOS",
-    "category": "Mobile",
-    "count": 99,
-    "region": "TR"
-  },
-  {
-    "id": 621,
-    "year": 2025,
-    "skill": "Docker",
-    "category": "DevOps",
-    "count": 99,
-    "region": "TR"
-  },
-  {
-    "id": 634,
-    "year": 2025,
-    "skill": "TensorFlow",
-    "category": "Data",
-    "count": 98,
+    "count": 116,
     "region": "TR"
   },
   {
@@ -4956,135 +4908,31 @@
     "year": 2025,
     "skill": "Hadoop",
     "category": "Data",
-    "count": 97,
+    "count": 115,
     "region": "TR"
   },
   {
-    "id": 611,
+    "id": 612,
     "year": 2025,
-    "skill": "FastAPI",
+    "skill": "NestJS",
     "category": "Backend",
-    "count": 96,
+    "count": 114,
     "region": "TR"
   },
   {
-    "id": 656,
+    "id": 613,
     "year": 2025,
-    "skill": "IntelliJ IDEA",
-    "category": "Tools",
-    "count": 95,
-    "region": "TR"
-  },
-  {
-    "id": 615,
-    "year": 2025,
-    "skill": "Swift",
+    "skill": "Flutter",
     "category": "Mobile",
-    "count": 94,
+    "count": 114,
     "region": "TR"
   },
   {
-    "id": 625,
+    "id": 618,
     "year": 2025,
-    "skill": "GCP",
-    "category": "DevOps",
-    "count": 92,
-    "region": "TR"
-  },
-  {
-    "id": 610,
-    "year": 2025,
-    "skill": "Django",
-    "category": "Backend",
-    "count": 91,
-    "region": "TR"
-  },
-  {
-    "id": 643,
-    "year": 2025,
-    "skill": "Cypress",
-    "category": "Test",
-    "count": 86,
-    "region": "TR"
-  },
-  {
-    "id": 645,
-    "year": 2025,
-    "skill": "Jest",
-    "category": "Test",
-    "count": 84,
-    "region": "TR"
-  },
-  {
-    "id": 623,
-    "year": 2025,
-    "skill": "AWS",
-    "category": "DevOps",
-    "count": 82,
-    "region": "TR"
-  },
-  {
-    "id": 639,
-    "year": 2025,
-    "skill": "Tableau",
-    "category": "Data",
-    "count": 82,
-    "region": "TR"
-  },
-  {
-    "id": 597,
-    "year": 2025,
-    "skill": "Next.js",
-    "category": "Frontend",
-    "count": 79,
-    "region": "TR"
-  },
-  {
-    "id": 644,
-    "year": 2025,
-    "skill": "Playwright",
-    "category": "Test",
-    "count": 79,
-    "region": "TR"
-  },
-  {
-    "id": 650,
-    "year": 2025,
-    "skill": "MySQL",
-    "category": "Database",
-    "count": 77,
-    "region": "TR"
-  },
-  {
-    "id": 662,
-    "year": 2025,
-    "skill": "Windows",
-    "category": "OS",
-    "count": 77,
-    "region": "TR"
-  },
-  {
-    "id": 647,
-    "year": 2025,
-    "skill": "Appium",
-    "category": "Test",
-    "count": 74,
-    "region": "TR"
-  },
-  {
-    "id": 654,
-    "year": 2025,
-    "skill": "SQLite",
-    "category": "Database",
-    "count": 74,
-    "region": "TR"
-  },
-  {
-    "id": 665,
-    "year": 2025,
-    "skill": "CentOS",
-    "category": "OS",
-    "count": 74,
+    "skill": "iOS",
+    "category": "Mobile",
+    "count": 114,
     "region": "TR"
   },
   {
@@ -5092,7 +4940,199 @@
     "year": 2025,
     "skill": "Kubernetes",
     "category": "DevOps",
-    "count": 73,
+    "count": 114,
+    "region": "TR"
+  },
+  {
+    "id": 644,
+    "year": 2025,
+    "skill": "Playwright",
+    "category": "Test",
+    "count": 110,
+    "region": "TR"
+  },
+  {
+    "id": 654,
+    "year": 2025,
+    "skill": "SQLite",
+    "category": "Database",
+    "count": 110,
+    "region": "TR"
+  },
+  {
+    "id": 649,
+    "year": 2025,
+    "skill": "MongoDB",
+    "category": "Database",
+    "count": 109,
+    "region": "TR"
+  },
+  {
+    "id": 633,
+    "year": 2025,
+    "skill": "Pandas",
+    "category": "Data",
+    "count": 107,
+    "region": "TR"
+  },
+  {
+    "id": 634,
+    "year": 2025,
+    "skill": "TensorFlow",
+    "category": "Data",
+    "count": 107,
+    "region": "TR"
+  },
+  {
+    "id": 636,
+    "year": 2025,
+    "skill": "Spark",
+    "category": "Data",
+    "count": 107,
+    "region": "TR"
+  },
+  {
+    "id": 615,
+    "year": 2025,
+    "skill": "Swift",
+    "category": "Mobile",
+    "count": 102,
+    "region": "TR"
+  },
+  {
+    "id": 657,
+    "year": 2025,
+    "skill": "Git",
+    "category": "Tools",
+    "count": 102,
+    "region": "TR"
+  },
+  {
+    "id": 643,
+    "year": 2025,
+    "skill": "Cypress",
+    "category": "Test",
+    "count": 95,
+    "region": "TR"
+  },
+  {
+    "id": 647,
+    "year": 2025,
+    "skill": "Appium",
+    "category": "Test",
+    "count": 94,
+    "region": "TR"
+  },
+  {
+    "id": 663,
+    "year": 2025,
+    "skill": "MacOS",
+    "category": "OS",
+    "count": 93,
+    "region": "TR"
+  },
+  {
+    "id": 611,
+    "year": 2025,
+    "skill": "FastAPI",
+    "category": "Backend",
+    "count": 91,
+    "region": "TR"
+  },
+  {
+    "id": 662,
+    "year": 2025,
+    "skill": "Windows",
+    "category": "OS",
+    "count": 89,
+    "region": "TR"
+  },
+  {
+    "id": 616,
+    "year": 2025,
+    "skill": "Kotlin",
+    "category": "Mobile",
+    "count": 86,
+    "region": "TR"
+  },
+  {
+    "id": 626,
+    "year": 2025,
+    "skill": "Terraform",
+    "category": "DevOps",
+    "count": 86,
+    "region": "TR"
+  },
+  {
+    "id": 640,
+    "year": 2025,
+    "skill": "R",
+    "category": "Data",
+    "count": 86,
+    "region": "TR"
+  },
+  {
+    "id": 599,
+    "year": 2025,
+    "skill": "HTML/CSS",
+    "category": "Frontend",
+    "count": 85,
+    "region": "TR"
+  },
+  {
+    "id": 642,
+    "year": 2025,
+    "skill": "Selenium",
+    "category": "Test",
+    "count": 85,
+    "region": "TR"
+  },
+  {
+    "id": 665,
+    "year": 2025,
+    "skill": "CentOS",
+    "category": "OS",
+    "count": 85,
+    "region": "TR"
+  },
+  {
+    "id": 660,
+    "year": 2025,
+    "skill": "Postman",
+    "category": "Tools",
+    "count": 81,
+    "region": "TR"
+  },
+  {
+    "id": 630,
+    "year": 2025,
+    "skill": "Linux",
+    "category": "DevOps",
+    "count": 80,
+    "region": "TR"
+  },
+  {
+    "id": 656,
+    "year": 2025,
+    "skill": "IntelliJ IDEA",
+    "category": "Tools",
+    "count": 80,
+    "region": "TR"
+  },
+  {
+    "id": 639,
+    "year": 2025,
+    "skill": "Tableau",
+    "category": "Data",
+    "count": 79,
+    "region": "TR"
+  },
+  {
+    "id": 620,
+    "year": 2025,
+    "skill": "Objective-C",
+    "category": "Mobile",
+    "count": 75,
     "region": "TR"
   },
   {
@@ -5100,6 +5140,54 @@
     "year": 2025,
     "skill": "Svelte",
     "category": "Frontend",
+    "count": 71,
+    "region": "TR"
+  },
+  {
+    "id": 645,
+    "year": 2025,
+    "skill": "Jest",
+    "category": "Test",
+    "count": 69,
+    "region": "TR"
+  },
+  {
+    "id": 625,
+    "year": 2025,
+    "skill": "GCP",
+    "category": "DevOps",
+    "count": 68,
+    "region": "TR"
+  },
+  {
+    "id": 648,
+    "year": 2025,
+    "skill": "PostgreSQL",
+    "category": "Database",
+    "count": 68,
+    "region": "TR"
+  },
+  {
+    "id": 650,
+    "year": 2025,
+    "skill": "MySQL",
+    "category": "Database",
+    "count": 67,
+    "region": "TR"
+  },
+  {
+    "id": 664,
+    "year": 2025,
+    "skill": "Ubuntu",
+    "category": "OS",
+    "count": 67,
+    "region": "TR"
+  },
+  {
+    "id": 617,
+    "year": 2025,
+    "skill": "Android",
+    "category": "Mobile",
     "count": 65,
     "region": "TR"
   },
@@ -5108,103 +5196,7 @@
     "year": 2025,
     "skill": "Jenkins",
     "category": "DevOps",
-    "count": 65,
-    "region": "TR"
-  },
-  {
-    "id": 612,
-    "year": 2025,
-    "skill": "NestJS",
-    "category": "Backend",
-    "count": 62,
-    "region": "TR"
-  },
-  {
-    "id": 627,
-    "year": 2025,
-    "skill": "Ansible",
-    "category": "DevOps",
     "count": 61,
-    "region": "TR"
-  },
-  {
-    "id": 626,
-    "year": 2025,
-    "skill": "Terraform",
-    "category": "DevOps",
-    "count": 58,
-    "region": "TR"
-  },
-  {
-    "id": 641,
-    "year": 2025,
-    "skill": "OpenAI API",
-    "category": "Data",
-    "count": 57,
-    "region": "TR"
-  },
-  {
-    "id": 624,
-    "year": 2025,
-    "skill": "Azure",
-    "category": "DevOps",
-    "count": 55,
-    "region": "TR"
-  },
-  {
-    "id": 640,
-    "year": 2025,
-    "skill": "R",
-    "category": "Data",
-    "count": 55,
-    "region": "TR"
-  },
-  {
-    "id": 642,
-    "year": 2025,
-    "skill": "Selenium",
-    "category": "Test",
-    "count": 55,
-    "region": "TR"
-  },
-  {
-    "id": 616,
-    "year": 2025,
-    "skill": "Kotlin",
-    "category": "Mobile",
-    "count": 54,
-    "region": "TR"
-  },
-  {
-    "id": 598,
-    "year": 2025,
-    "skill": "Tailwind CSS",
-    "category": "Frontend",
-    "count": 52,
-    "region": "TR"
-  },
-  {
-    "id": 661,
-    "year": 2025,
-    "skill": "Figma",
-    "category": "Tools",
-    "count": 47,
-    "region": "TR"
-  },
-  {
-    "id": 638,
-    "year": 2025,
-    "skill": "PowerBI",
-    "category": "Data",
-    "count": 46,
-    "region": "TR"
-  },
-  {
-    "id": 599,
-    "year": 2025,
-    "skill": "HTML/CSS",
-    "category": "Frontend",
-    "count": 45,
     "region": "TR"
   },
   {
@@ -5212,39 +5204,15 @@
     "year": 2025,
     "skill": "Go",
     "category": "Backend",
-    "count": 44,
+    "count": 60,
     "region": "TR"
   },
   {
-    "id": 595,
+    "id": 627,
     "year": 2025,
-    "skill": "Angular",
-    "category": "Frontend",
-    "count": 43,
-    "region": "TR"
-  },
-  {
-    "id": 649,
-    "year": 2025,
-    "skill": "MongoDB",
-    "category": "Database",
-    "count": 43,
-    "region": "TR"
-  },
-  {
-    "id": 659,
-    "year": 2025,
-    "skill": "Visual Studio",
-    "category": "Tools",
-    "count": 41,
-    "region": "TR"
-  },
-  {
-    "id": 617,
-    "year": 2025,
-    "skill": "Android",
-    "category": "Mobile",
-    "count": 40,
+    "skill": "Ansible",
+    "category": "DevOps",
+    "count": 60,
     "region": "TR"
   },
   {
@@ -5252,23 +5220,87 @@
     "year": 2025,
     "skill": "Dart",
     "category": "Mobile",
+    "count": 56,
+    "region": "TR"
+  },
+  {
+    "id": 624,
+    "year": 2025,
+    "skill": "Azure",
+    "category": "DevOps",
+    "count": 56,
+    "region": "TR"
+  },
+  {
+    "id": 651,
+    "year": 2025,
+    "skill": "Redis",
+    "category": "Database",
+    "count": 54,
+    "region": "TR"
+  },
+  {
+    "id": 653,
+    "year": 2025,
+    "skill": "Cassandra",
+    "category": "Database",
+    "count": 53,
+    "region": "TR"
+  },
+  {
+    "id": 598,
+    "year": 2025,
+    "skill": "Tailwind CSS",
+    "category": "Frontend",
+    "count": 47,
+    "region": "TR"
+  },
+  {
+    "id": 608,
+    "year": 2025,
+    "skill": "Spring Boot",
+    "category": "Backend",
+    "count": 47,
+    "region": "TR"
+  },
+  {
+    "id": 655,
+    "year": 2025,
+    "skill": "VS Code",
+    "category": "Tools",
+    "count": 46,
+    "region": "TR"
+  },
+  {
+    "id": 646,
+    "year": 2025,
+    "skill": "JUnit",
+    "category": "Test",
+    "count": 45,
+    "region": "TR"
+  },
+  {
+    "id": 638,
+    "year": 2025,
+    "skill": "PowerBI",
+    "category": "Data",
     "count": 36,
     "region": "TR"
   },
   {
-    "id": 666,
+    "id": 606,
     "year": 2025,
-    "skill": "Red Hat",
-    "category": "OS",
-    "count": 35,
+    "skill": "PHP",
+    "category": "Backend",
+    "count": 31,
     "region": "TR"
   },
   {
-    "id": 657,
+    "id": 610,
     "year": 2025,
-    "skill": "Git",
-    "category": "Tools",
-    "count": 34,
+    "skill": "Django",
+    "category": "Backend",
+    "count": 31,
     "region": "TR"
   },
   {
@@ -5276,30 +5308,6 @@
     "year": 2025,
     "skill": "React Native",
     "category": "Mobile",
-    "count": 33,
-    "region": "TR"
-  },
-  {
-    "id": 629,
-    "year": 2025,
-    "skill": "GitHub Actions",
-    "category": "DevOps",
-    "count": 33,
-    "region": "TR"
-  },
-  {
-    "id": 633,
-    "year": 2025,
-    "skill": "Pandas",
-    "category": "Data",
-    "count": 31,
-    "region": "TR"
-  },
-  {
-    "id": 660,
-    "year": 2025,
-    "skill": "Postman",
-    "category": "Tools",
     "count": 30,
     "region": "TR"
   },
@@ -5308,15 +5316,7 @@
     "year": 2025,
     "skill": "Jira",
     "category": "Tools",
-    "count": 28,
-    "region": "TR"
-  },
-  {
-    "id": 620,
-    "year": 2025,
-    "skill": "Objective-C",
-    "category": "Mobile",
-    "count": 25,
+    "count": 30,
     "region": "TR"
   },
   {
@@ -5324,7 +5324,7 @@
     "year": 2025,
     "skill": "Ruby",
     "category": "Backend",
-    "count": 23,
+    "count": 18,
     "region": "TR"
   },
   {
@@ -5332,63 +5332,7 @@
     "year": 2026,
     "skill": "Java",
     "category": "Backend",
-    "count": 411,
-    "region": "TR"
-  },
-  {
-    "id": 705,
-    "year": 2026,
-    "skill": "Python",
-    "category": "Data",
-    "count": 323,
-    "region": "TR"
-  },
-  {
-    "id": 675,
-    "year": 2026,
-    "skill": "Node.js",
-    "category": "Backend",
-    "count": 293,
-    "region": "TR"
-  },
-  {
-    "id": 695,
-    "year": 2026,
-    "skill": "Docker",
-    "category": "DevOps",
-    "count": 292,
-    "region": "TR"
-  },
-  {
-    "id": 697,
-    "year": 2026,
-    "skill": "AWS",
-    "category": "DevOps",
-    "count": 201,
-    "region": "TR"
-  },
-  {
-    "id": 682,
-    "year": 2026,
-    "skill": "Spring Boot",
-    "category": "Backend",
-    "count": 190,
-    "region": "TR"
-  },
-  {
-    "id": 671,
-    "year": 2026,
-    "skill": "Next.js",
-    "category": "Frontend",
-    "count": 181,
-    "region": "TR"
-  },
-  {
-    "id": 706,
-    "year": 2026,
-    "skill": "SQL",
-    "category": "Data",
-    "count": 181,
+    "count": 331,
     "region": "TR"
   },
   {
@@ -5396,47 +5340,7 @@
     "year": 2026,
     "skill": "Python",
     "category": "Backend",
-    "count": 177,
-    "region": "TR"
-  },
-  {
-    "id": 709,
-    "year": 2026,
-    "skill": "PyTorch",
-    "category": "Data",
-    "count": 177,
-    "region": "TR"
-  },
-  {
-    "id": 724,
-    "year": 2026,
-    "skill": "MySQL",
-    "category": "Database",
-    "count": 175,
-    "region": "TR"
-  },
-  {
-    "id": 733,
-    "year": 2026,
-    "skill": "Visual Studio",
-    "category": "Tools",
-    "count": 174,
-    "region": "TR"
-  },
-  {
-    "id": 678,
-    "year": 2026,
-    "skill": "C#",
-    "category": "Backend",
-    "count": 171,
-    "region": "TR"
-  },
-  {
-    "id": 722,
-    "year": 2026,
-    "skill": "PostgreSQL",
-    "category": "Database",
-    "count": 171,
+    "count": 284,
     "region": "TR"
   },
   {
@@ -5444,7 +5348,55 @@
     "year": 2026,
     "skill": "React",
     "category": "Frontend",
-    "count": 165,
+    "count": 276,
+    "region": "TR"
+  },
+  {
+    "id": 705,
+    "year": 2026,
+    "skill": "Python",
+    "category": "Data",
+    "count": 272,
+    "region": "TR"
+  },
+  {
+    "id": 675,
+    "year": 2026,
+    "skill": "Node.js",
+    "category": "Backend",
+    "count": 216,
+    "region": "TR"
+  },
+  {
+    "id": 687,
+    "year": 2026,
+    "skill": "Flutter",
+    "category": "Mobile",
+    "count": 212,
+    "region": "TR"
+  },
+  {
+    "id": 706,
+    "year": 2026,
+    "skill": "SQL",
+    "category": "Data",
+    "count": 200,
+    "region": "TR"
+  },
+  {
+    "id": 674,
+    "year": 2026,
+    "skill": "TypeScript",
+    "category": "Frontend",
+    "count": 177,
+    "region": "TR"
+  },
+  {
+    "id": 695,
+    "year": 2026,
+    "skill": "Docker",
+    "category": "DevOps",
+    "count": 168,
     "region": "TR"
   },
   {
@@ -5456,275 +5408,35 @@
     "region": "TR"
   },
   {
-    "id": 736,
-    "year": 2026,
-    "skill": "Windows",
-    "category": "OS",
-    "count": 147,
-    "region": "TR"
-  },
-  {
-    "id": 674,
-    "year": 2026,
-    "skill": "TypeScript",
-    "category": "Frontend",
-    "count": 135,
-    "region": "TR"
-  },
-  {
-    "id": 720,
-    "year": 2026,
-    "skill": "JUnit",
-    "category": "Test",
-    "count": 135,
-    "region": "TR"
-  },
-  {
-    "id": 730,
-    "year": 2026,
-    "skill": "IntelliJ IDEA",
-    "category": "Tools",
-    "count": 135,
-    "region": "TR"
-  },
-  {
-    "id": 691,
-    "year": 2026,
-    "skill": "Android",
-    "category": "Mobile",
-    "count": 126,
-    "region": "TR"
-  },
-  {
-    "id": 717,
-    "year": 2026,
-    "skill": "Cypress",
-    "category": "Test",
-    "count": 125,
-    "region": "TR"
-  },
-  {
-    "id": 719,
-    "year": 2026,
-    "skill": "Jest",
-    "category": "Test",
-    "count": 124,
-    "region": "TR"
-  },
-  {
     "id": 696,
     "year": 2026,
     "skill": "Kubernetes",
     "category": "DevOps",
-    "count": 122,
+    "count": 163,
     "region": "TR"
   },
   {
-    "id": 680,
+    "id": 736,
     "year": 2026,
-    "skill": "PHP",
-    "category": "Backend",
-    "count": 119,
-    "region": "TR"
-  },
-  {
-    "id": 669,
-    "year": 2026,
-    "skill": "Angular",
-    "category": "Frontend",
-    "count": 117,
-    "region": "TR"
-  },
-  {
-    "id": 711,
-    "year": 2026,
-    "skill": "Hadoop",
-    "category": "Data",
-    "count": 115,
-    "region": "TR"
-  },
-  {
-    "id": 737,
-    "year": 2026,
-    "skill": "MacOS",
+    "skill": "Windows",
     "category": "OS",
-    "count": 112,
+    "count": 141,
     "region": "TR"
   },
   {
-    "id": 703,
+    "id": 722,
     "year": 2026,
-    "skill": "GitHub Actions",
-    "category": "DevOps",
-    "count": 109,
-    "region": "TR"
-  },
-  {
-    "id": 723,
-    "year": 2026,
-    "skill": "MongoDB",
+    "skill": "PostgreSQL",
     "category": "Database",
-    "count": 109,
+    "count": 137,
     "region": "TR"
   },
   {
-    "id": 727,
+    "id": 697,
     "year": 2026,
-    "skill": "Cassandra",
-    "category": "Database",
-    "count": 109,
-    "region": "TR"
-  },
-  {
-    "id": 684,
-    "year": 2026,
-    "skill": "Django",
-    "category": "Backend",
-    "count": 106,
-    "region": "TR"
-  },
-  {
-    "id": 673,
-    "year": 2026,
-    "skill": "HTML/CSS",
-    "category": "Frontend",
-    "count": 104,
-    "region": "TR"
-  },
-  {
-    "id": 707,
-    "year": 2026,
-    "skill": "Pandas",
-    "category": "Data",
-    "count": 103,
-    "region": "TR"
-  },
-  {
-    "id": 715,
-    "year": 2026,
-    "skill": "OpenAI API",
-    "category": "Data",
-    "count": 100,
-    "region": "TR"
-  },
-  {
-    "id": 718,
-    "year": 2026,
-    "skill": "Playwright",
-    "category": "Test",
-    "count": 99,
-    "region": "TR"
-  },
-  {
-    "id": 708,
-    "year": 2026,
-    "skill": "TensorFlow",
-    "category": "Data",
-    "count": 95,
-    "region": "TR"
-  },
-  {
-    "id": 734,
-    "year": 2026,
-    "skill": "Postman",
-    "category": "Tools",
-    "count": 90,
-    "region": "TR"
-  },
-  {
-    "id": 672,
-    "year": 2026,
-    "skill": "Tailwind CSS",
-    "category": "Frontend",
-    "count": 86,
-    "region": "TR"
-  },
-  {
-    "id": 721,
-    "year": 2026,
-    "skill": "Appium",
-    "category": "Test",
-    "count": 86,
-    "region": "TR"
-  },
-  {
-    "id": 729,
-    "year": 2026,
-    "skill": "VS Code",
-    "category": "Tools",
-    "count": 86,
-    "region": "TR"
-  },
-  {
-    "id": 688,
-    "year": 2026,
-    "skill": "React Native",
-    "category": "Mobile",
-    "count": 84,
-    "region": "TR"
-  },
-  {
-    "id": 679,
-    "year": 2026,
-    "skill": "Go",
-    "category": "Backend",
-    "count": 82,
-    "region": "TR"
-  },
-  {
-    "id": 716,
-    "year": 2026,
-    "skill": "Selenium",
-    "category": "Test",
-    "count": 82,
-    "region": "TR"
-  },
-  {
-    "id": 687,
-    "year": 2026,
-    "skill": "Flutter",
-    "category": "Mobile",
-    "count": 81,
-    "region": "TR"
-  },
-  {
-    "id": 692,
-    "year": 2026,
-    "skill": "iOS",
-    "category": "Mobile",
-    "count": 79,
-    "region": "TR"
-  },
-  {
-    "id": 699,
-    "year": 2026,
-    "skill": "GCP",
+    "skill": "AWS",
     "category": "DevOps",
-    "count": 75,
-    "region": "TR"
-  },
-  {
-    "id": 701,
-    "year": 2026,
-    "skill": "Ansible",
-    "category": "DevOps",
-    "count": 75,
-    "region": "TR"
-  },
-  {
-    "id": 735,
-    "year": 2026,
-    "skill": "Figma",
-    "category": "Tools",
-    "count": 75,
-    "region": "TR"
-  },
-  {
-    "id": 689,
-    "year": 2026,
-    "skill": "Swift",
-    "category": "Mobile",
-    "count": 72,
+    "count": 133,
     "region": "TR"
   },
   {
@@ -5732,7 +5444,63 @@
     "year": 2026,
     "skill": "PowerBI",
     "category": "Data",
-    "count": 70,
+    "count": 132,
+    "region": "TR"
+  },
+  {
+    "id": 729,
+    "year": 2026,
+    "skill": "VS Code",
+    "category": "Tools",
+    "count": 132,
+    "region": "TR"
+  },
+  {
+    "id": 709,
+    "year": 2026,
+    "skill": "PyTorch",
+    "category": "Data",
+    "count": 127,
+    "region": "TR"
+  },
+  {
+    "id": 727,
+    "year": 2026,
+    "skill": "Cassandra",
+    "category": "Database",
+    "count": 126,
+    "region": "TR"
+  },
+  {
+    "id": 733,
+    "year": 2026,
+    "skill": "Visual Studio",
+    "category": "Tools",
+    "count": 125,
+    "region": "TR"
+  },
+  {
+    "id": 711,
+    "year": 2026,
+    "skill": "Hadoop",
+    "category": "Data",
+    "count": 120,
+    "region": "TR"
+  },
+  {
+    "id": 689,
+    "year": 2026,
+    "skill": "Swift",
+    "category": "Mobile",
+    "count": 119,
+    "region": "TR"
+  },
+  {
+    "id": 738,
+    "year": 2026,
+    "skill": "Ubuntu",
+    "category": "OS",
+    "count": 118,
     "region": "TR"
   },
   {
@@ -5740,7 +5508,7 @@
     "year": 2026,
     "skill": "Git",
     "category": "Tools",
-    "count": 66,
+    "count": 117,
     "region": "TR"
   },
   {
@@ -5748,39 +5516,15 @@
     "year": 2026,
     "skill": "Spark",
     "category": "Data",
-    "count": 65,
+    "count": 115,
     "region": "TR"
   },
   {
-    "id": 726,
+    "id": 680,
     "year": 2026,
-    "skill": "Elasticsearch",
-    "category": "Database",
-    "count": 64,
-    "region": "TR"
-  },
-  {
-    "id": 704,
-    "year": 2026,
-    "skill": "Linux",
-    "category": "DevOps",
-    "count": 60,
-    "region": "TR"
-  },
-  {
-    "id": 725,
-    "year": 2026,
-    "skill": "Redis",
-    "category": "Database",
-    "count": 56,
-    "region": "TR"
-  },
-  {
-    "id": 690,
-    "year": 2026,
-    "skill": "Kotlin",
-    "category": "Mobile",
-    "count": 55,
+    "skill": "PHP",
+    "category": "Backend",
+    "count": 114,
     "region": "TR"
   },
   {
@@ -5788,14 +5532,246 @@
     "year": 2026,
     "skill": "Azure",
     "category": "DevOps",
+    "count": 113,
+    "region": "TR"
+  },
+  {
+    "id": 701,
+    "year": 2026,
+    "skill": "Ansible",
+    "category": "DevOps",
+    "count": 113,
+    "region": "TR"
+  },
+  {
+    "id": 668,
+    "year": 2026,
+    "skill": "Vue.js",
+    "category": "Frontend",
+    "count": 111,
+    "region": "TR"
+  },
+  {
+    "id": 725,
+    "year": 2026,
+    "skill": "Redis",
+    "category": "Database",
+    "count": 108,
+    "region": "TR"
+  },
+  {
+    "id": 693,
+    "year": 2026,
+    "skill": "Dart",
+    "category": "Mobile",
+    "count": 102,
+    "region": "TR"
+  },
+  {
+    "id": 717,
+    "year": 2026,
+    "skill": "Cypress",
+    "category": "Test",
+    "count": 97,
+    "region": "TR"
+  },
+  {
+    "id": 734,
+    "year": 2026,
+    "skill": "Postman",
+    "category": "Tools",
+    "count": 97,
+    "region": "TR"
+  },
+  {
+    "id": 673,
+    "year": 2026,
+    "skill": "HTML/CSS",
+    "category": "Frontend",
+    "count": 96,
+    "region": "TR"
+  },
+  {
+    "id": 721,
+    "year": 2026,
+    "skill": "Appium",
+    "category": "Test",
+    "count": 94,
+    "region": "TR"
+  },
+  {
+    "id": 690,
+    "year": 2026,
+    "skill": "Kotlin",
+    "category": "Mobile",
+    "count": 93,
+    "region": "TR"
+  },
+  {
+    "id": 732,
+    "year": 2026,
+    "skill": "Jira",
+    "category": "Tools",
+    "count": 91,
+    "region": "TR"
+  },
+  {
+    "id": 714,
+    "year": 2026,
+    "skill": "R",
+    "category": "Data",
+    "count": 87,
+    "region": "TR"
+  },
+  {
+    "id": 728,
+    "year": 2026,
+    "skill": "SQLite",
+    "category": "Database",
+    "count": 85,
+    "region": "TR"
+  },
+  {
+    "id": 726,
+    "year": 2026,
+    "skill": "Elasticsearch",
+    "category": "Database",
+    "count": 84,
+    "region": "TR"
+  },
+  {
+    "id": 669,
+    "year": 2026,
+    "skill": "Angular",
+    "category": "Frontend",
+    "count": 78,
+    "region": "TR"
+  },
+  {
+    "id": 699,
+    "year": 2026,
+    "skill": "GCP",
+    "category": "DevOps",
+    "count": 76,
+    "region": "TR"
+  },
+  {
+    "id": 704,
+    "year": 2026,
+    "skill": "Linux",
+    "category": "DevOps",
+    "count": 76,
+    "region": "TR"
+  },
+  {
+    "id": 713,
+    "year": 2026,
+    "skill": "Tableau",
+    "category": "Data",
+    "count": 75,
+    "region": "TR"
+  },
+  {
+    "id": 682,
+    "year": 2026,
+    "skill": "Spring Boot",
+    "category": "Backend",
+    "count": 73,
+    "region": "TR"
+  },
+  {
+    "id": 684,
+    "year": 2026,
+    "skill": "Django",
+    "category": "Backend",
+    "count": 72,
+    "region": "TR"
+  },
+  {
+    "id": 703,
+    "year": 2026,
+    "skill": "GitHub Actions",
+    "category": "DevOps",
+    "count": 71,
+    "region": "TR"
+  },
+  {
+    "id": 716,
+    "year": 2026,
+    "skill": "Selenium",
+    "category": "Test",
+    "count": 68,
+    "region": "TR"
+  },
+  {
+    "id": 679,
+    "year": 2026,
+    "skill": "Go",
+    "category": "Backend",
+    "count": 67,
+    "region": "TR"
+  },
+  {
+    "id": 730,
+    "year": 2026,
+    "skill": "IntelliJ IDEA",
+    "category": "Tools",
+    "count": 67,
+    "region": "TR"
+  },
+  {
+    "id": 681,
+    "year": 2026,
+    "skill": "Ruby",
+    "category": "Backend",
+    "count": 60,
+    "region": "TR"
+  },
+  {
+    "id": 691,
+    "year": 2026,
+    "skill": "Android",
+    "category": "Mobile",
+    "count": 60,
+    "region": "TR"
+  },
+  {
+    "id": 720,
+    "year": 2026,
+    "skill": "JUnit",
+    "category": "Test",
+    "count": 60,
+    "region": "TR"
+  },
+  {
+    "id": 707,
+    "year": 2026,
+    "skill": "Pandas",
+    "category": "Data",
+    "count": 57,
+    "region": "TR"
+  },
+  {
+    "id": 692,
+    "year": 2026,
+    "skill": "iOS",
+    "category": "Mobile",
     "count": 54,
     "region": "TR"
   },
   {
-    "id": 700,
+    "id": 718,
     "year": 2026,
-    "skill": "Terraform",
-    "category": "DevOps",
+    "skill": "Playwright",
+    "category": "Test",
+    "count": 53,
+    "region": "TR"
+  },
+  {
+    "id": 671,
+    "year": 2026,
+    "skill": "Next.js",
+    "category": "Frontend",
     "count": 52,
     "region": "TR"
   },
@@ -5808,35 +5784,67 @@
     "region": "TR"
   },
   {
-    "id": 681,
+    "id": 694,
     "year": 2026,
-    "skill": "Ruby",
-    "category": "Backend",
+    "skill": "Objective-C",
+    "category": "Mobile",
     "count": 51,
     "region": "TR"
   },
   {
-    "id": 693,
+    "id": 700,
     "year": 2026,
-    "skill": "Dart",
-    "category": "Mobile",
-    "count": 47,
+    "skill": "Terraform",
+    "category": "DevOps",
+    "count": 50,
     "region": "TR"
   },
   {
-    "id": 738,
+    "id": 715,
     "year": 2026,
-    "skill": "Ubuntu",
-    "category": "OS",
-    "count": 47,
-    "region": "TR"
-  },
-  {
-    "id": 714,
-    "year": 2026,
-    "skill": "R",
+    "skill": "OpenAI API",
     "category": "Data",
-    "count": 45,
+    "count": 50,
+    "region": "TR"
+  },
+  {
+    "id": 740,
+    "year": 2026,
+    "skill": "Red Hat",
+    "category": "OS",
+    "count": 49,
+    "region": "TR"
+  },
+  {
+    "id": 672,
+    "year": 2026,
+    "skill": "Tailwind CSS",
+    "category": "Frontend",
+    "count": 48,
+    "region": "TR"
+  },
+  {
+    "id": 737,
+    "year": 2026,
+    "skill": "MacOS",
+    "category": "OS",
+    "count": 48,
+    "region": "TR"
+  },
+  {
+    "id": 719,
+    "year": 2026,
+    "skill": "Jest",
+    "category": "Test",
+    "count": 47,
+    "region": "TR"
+  },
+  {
+    "id": 724,
+    "year": 2026,
+    "skill": "MySQL",
+    "category": "Database",
+    "count": 42,
     "region": "TR"
   },
   {
@@ -5848,59 +5856,19 @@
     "region": "TR"
   },
   {
-    "id": 740,
+    "id": 735,
     "year": 2026,
-    "skill": "Red Hat",
-    "category": "OS",
-    "count": 38,
-    "region": "TR"
-  },
-  {
-    "id": 732,
-    "year": 2026,
-    "skill": "Jira",
+    "skill": "Figma",
     "category": "Tools",
-    "count": 37,
+    "count": 41,
     "region": "TR"
   },
   {
-    "id": 685,
+    "id": 678,
     "year": 2026,
-    "skill": "FastAPI",
+    "skill": "C#",
     "category": "Backend",
-    "count": 36,
-    "region": "TR"
-  },
-  {
-    "id": 713,
-    "year": 2026,
-    "skill": "Tableau",
-    "category": "Data",
-    "count": 34,
-    "region": "TR"
-  },
-  {
-    "id": 728,
-    "year": 2026,
-    "skill": "SQLite",
-    "category": "Database",
-    "count": 33,
-    "region": "TR"
-  },
-  {
-    "id": 686,
-    "year": 2026,
-    "skill": "NestJS",
-    "category": "Backend",
-    "count": 32,
-    "region": "TR"
-  },
-  {
-    "id": 668,
-    "year": 2026,
-    "skill": "Vue.js",
-    "category": "Frontend",
-    "count": 29,
+    "count": 40,
     "region": "TR"
   },
   {
@@ -5908,15 +5876,47 @@
     "year": 2026,
     "skill": "Svelte",
     "category": "Frontend",
+    "count": 39,
+    "region": "TR"
+  },
+  {
+    "id": 686,
+    "year": 2026,
+    "skill": "NestJS",
+    "category": "Backend",
+    "count": 38,
+    "region": "TR"
+  },
+  {
+    "id": 685,
+    "year": 2026,
+    "skill": "FastAPI",
+    "category": "Backend",
+    "count": 35,
+    "region": "TR"
+  },
+  {
+    "id": 723,
+    "year": 2026,
+    "skill": "MongoDB",
+    "category": "Database",
+    "count": 33,
+    "region": "TR"
+  },
+  {
+    "id": 688,
+    "year": 2026,
+    "skill": "React Native",
+    "category": "Mobile",
     "count": 28,
     "region": "TR"
   },
   {
-    "id": 694,
+    "id": 708,
     "year": 2026,
-    "skill": "Objective-C",
-    "category": "Mobile",
-    "count": 19,
+    "skill": "TensorFlow",
+    "category": "Data",
+    "count": 28,
     "region": "TR"
   }
 ]
