@@ -52,6 +52,13 @@ const TRANSLATIONS = {
     regions: {
       global: "Global",
       tr: "Türkiye"
+    },
+    footer: {
+      aboutSource: "Veri Kaynağı Hakkında",
+      sourceDesc: "Veriler GitHub Actions ve Mock Data kullanılarak simüle edilmiştir.",
+      download: "Raporu İndir",
+      share: "Paylaş",
+      shared: "Kopyalandı!"
     }
   },
   en: {
@@ -92,6 +99,13 @@ const TRANSLATIONS = {
     regions: {
       global: "Global",
       tr: "Turkey"
+    },
+    footer: {
+      aboutSource: "About Data Source",
+      sourceDesc: "Data simulated using GitHub Actions and Mock Data.",
+      download: "Download Report",
+      share: "Share",
+      shared: "Copied!"
     }
   }
 };
@@ -121,6 +135,8 @@ const App = () => {
   const [lang, setLang] = useState("tr"); // 'tr' or 'en'
   const [isSidebarOpen, setSidebarOpen] = useState(window.innerWidth > 1024);
   const [searchTerm, setSearchTerm] = useState("");
+  const [sortBy, setSortBy] = useState("volume"); // 'volume' or 'growth'
+  const [shareText, setShareText] = useState(null); // For feedback
 
   const t = TRANSLATIONS[lang]; // Current translation object
   // Use the imported data
@@ -176,6 +192,24 @@ const App = () => {
       .map(entry => entry[0]);
   }, [filteredData, selectedCategory]);
 
+  // Calculate Fastest Rising Skill separately so we can reuse it
+  const fastestRisingSkillData = useMemo(() => {
+    const growthRates = {};
+    const data2025 = filteredData.filter(d => d.year === 2025);
+    const data2026 = filteredData.filter(d => d.year === 2026);
+
+    data2026.forEach(d26 => {
+      const d25 = data2025.find(d => d.skill === d26.skill);
+      // Threshold: Ignore very small items to avoid huge % spikes on tiny data
+      if (d25 && d25.count > 10) {
+        growthRates[d26.skill] = ((d26.count - d25.count) / d25.count) * 100;
+      }
+    });
+
+    const bestGrowth = Object.entries(growthRates).sort((a, b) => b[1] - a[1])[0];
+    return bestGrowth ? { name: bestGrowth[0], rate: bestGrowth[1] } : null;
+  }, [filteredData]);
+
   // Time Series Formatting
   const chartData = useMemo(() => {
     const years = [...new Set(data.map(d => d.year))].sort();
@@ -202,11 +236,17 @@ const App = () => {
 
   // List of skills to display (for Lines and Legend)
   const skillsToDisplay = useMemo(() => {
-    if (top10Skills) return top10Skills;
+    if (top10Skills) {
+      // If we have a fastest rising skill that ISN'T in the top 10, let's add it so the user understands why it's mentioned
+      if (fastestRisingSkillData && !top10Skills.includes(fastestRisingSkillData.name)) {
+        return [...top10Skills, fastestRisingSkillData.name];
+      }
+      return top10Skills;
+    }
     const skills = new Set();
     filteredData.forEach(d => skills.add(d.skill));
     return Array.from(skills);
-  }, [top10Skills, filteredData]);
+  }, [top10Skills, filteredData, fastestRisingSkillData]);
 
   // Skill Distribution and Percentage Calculation (Bar Chart)
   const skillStats = useMemo(() => {
@@ -242,8 +282,36 @@ const App = () => {
         value,
         percent: totalCount > 0 ? ((value / totalCount) * 100).toFixed(1) : 0
       }))
-      .sort((a, b) => b.value - a.value);
-  }, [filteredData]);
+      .sort((a, b) => {
+        if (sortBy === 'name') {
+          return a.name.localeCompare(b.name);
+        }
+        return b.value - a.value;
+      });
+  }, [filteredData, sortBy]);
+
+  const handleShare = async () => {
+    const url = window.location.href;
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: t.header.title,
+          text: t.header.subtitle,
+          url: url
+        });
+      } catch (err) {
+        console.log("Share failed", err);
+      }
+    } else {
+      try {
+        await navigator.clipboard.writeText(url);
+        setShareText(t.footer.shared);
+        setTimeout(() => setShareText(null), 2000);
+      } catch (err) {
+        console.error("Clipboard failed", err);
+      }
+    }
+  };
 
   // Statistic Calculations (Dynamic)
   const stats = useMemo(() => {
@@ -252,20 +320,10 @@ const App = () => {
 
     // 2. Fastest Rising (Growth from 2025 -> 2026)
     // Only among skills in the current filter
-    const growthRates = {};
-    const data2025 = filteredData.filter(d => d.year === 2025);
-    const data2026 = filteredData.filter(d => d.year === 2026);
 
-    data2026.forEach(d26 => {
-      const d25 = data2025.find(d => d.skill === d26.skill);
-      if (d25 && d25.count > 0) {
-        growthRates[d26.skill] = ((d26.count - d25.count) / d25.count) * 100;
-      }
-    });
 
-    const bestGrowth = Object.entries(growthRates).sort((a, b) => b[1] - a[1])[0];
-    const fastestRising = bestGrowth ? bestGrowth[0] : t.stats.analyzing;
-    const fastestRate = bestGrowth ? `+${bestGrowth[1].toFixed(1)}%` : "-";
+    const fastestRising = fastestRisingSkillData ? fastestRisingSkillData.name : t.stats.analyzing;
+    const fastestRate = fastestRisingSkillData ? `+${fastestRisingSkillData.rate.toFixed(1)}%` : "-";
 
     // 3. Yearly Growth (Total Volume)
     const count2022 = filteredData.filter(d => d.year === 2022).reduce((a, b) => a + b.count, 0);
@@ -278,7 +336,7 @@ const App = () => {
       { label: t.stats.trendVelocity, val: fastestRate, color: "from-amber-500/20 to-orange-500/20", text: "text-amber-400" }, // Instead of growth, the rate of the fastest one
       { label: t.stats.region, val: selectedRegion === "TR" ? t.regions.tr : t.regions.global, color: "from-purple-500/20 to-pink-500/20", text: "text-purple-400" }
     ];
-  }, [filteredData, selectedRegion, t]);
+  }, [filteredData, selectedRegion, t, fastestRisingSkillData]);
 
   return (
     <div className="min-h-screen bg-[#0f172a] text-slate-200 flex font-sans overflow-hidden relative">
@@ -416,7 +474,11 @@ const App = () => {
                   className="w-full bg-[#1e293b] border border-slate-700 rounded-2xl pl-12 pr-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all text-sm shadow-inner"
                 />
               </div>
-              <button className="bg-slate-800 hover:bg-slate-700 text-white p-3 rounded-2xl border border-slate-700 transition shadow-lg shrink-0">
+              <button
+                onClick={() => setSortBy(prev => prev === 'volume' ? 'name' : 'volume')}
+                className={`p-3 rounded-2xl border transition shadow-lg shrink-0 ${sortBy === 'name' ? 'bg-blue-600 text-white border-blue-500' : 'bg-slate-800 hover:bg-slate-700 text-white border-slate-700'}`}
+                title="Sırala: İsim / Hacim"
+              >
                 <Filter size={20} />
               </button>
             </div>
@@ -527,13 +589,18 @@ const App = () => {
               <Info size={24} />
             </div>
             <div>
-              <p className="text-sm font-semibold text-white">Veri Kaynağı Hakkında</p>
-              <p className="text-xs text-slate-400">Veriler GitHub Actions ve Mock Data kullanılarak simüle edilmiştir.</p>
+              <p className="text-sm font-semibold text-white">{t.footer.aboutSource}</p>
+              <p className="text-xs text-slate-400">{t.footer.sourceDesc}</p>
             </div>
           </div>
           <div className="flex gap-3">
-            <button className="px-5 py-2.5 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-sm font-bold transition border border-slate-700">Raporu İndir</button>
-            <button className="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-sm font-bold transition shadow-lg shadow-blue-500/20">Paylaş</button>
+            <button className="px-5 py-2.5 bg-slate-800 hover:bg-slate-700 text-white rounded-xl text-sm font-bold transition border border-slate-700">{t.footer.download}</button>
+            <button
+              onClick={handleShare}
+              className="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 text-white rounded-xl text-sm font-bold transition shadow-lg shadow-blue-500/20"
+            >
+              {shareText || t.footer.share}
+            </button>
           </div>
         </div>
 
